@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+  <title>Super Epic Verizon Product Recommendation Webpage</title>
+  <link
+    rel="shortcut icon"
+    href="{{ url_for('static', filename='logo.png') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body>
+  <h3>Talk to Vivian Verizon</h3>
+  <form action="/" method="post">
+    <input type="text" name="user-prompt" placeholder="Type here..." required />
+    <input type="submit" value="Generate" />
+  </form>
+  {% if result %}
+  <div class="result">{{ result }}</div>
+  {% endif %}
+</body>
