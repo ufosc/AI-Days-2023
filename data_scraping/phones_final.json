@@ -19,7 +19,9 @@
         "camera": "12 MP",
         "storage": "64GB, 256GB, or 512GB",
         "operating_system": "iOS 13",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-11-pro-max-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-11-pro-max-certified-pre-owned\/",
+        "price": 489.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 11 Pro Max (Certified Pre-Owned)",
@@ -41,7 +43,9 @@
         "camera": "12 MP",
         "storage": "64GB, 256GB, or 512GB",
         "operating_system": "iOS 13",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-12-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-12-certified-pre-owned\/",
+        "price": 584.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 12 (Certified Pre-Owned)",
@@ -63,7 +67,9 @@
         "camera": "Dual 12MP camera system: Ultra Wide and Wide",
         "storage": "64GB, 128GB or 256GB (Subject to availability)",
         "operating_system": "iOS 14",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-12-mini-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-12-mini-certified-pre-owned\/",
+        "price": 324.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 12 mini (Certified Pre-Owned)",
@@ -85,7 +91,9 @@
         "camera": "Dual 12MP camera system: Ultra Wide and Wide",
         "storage": "64GB, 128GB or 256GB (Subject to availability)",
         "operating_system": "iOS 14",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-12-pro-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-12-pro-certified-pre-owned\/",
+        "price": 298.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 12 Pro (Certified Pre-Owned)",
@@ -107,7 +115,9 @@
         "camera": "Pro 12MP camera system: Ultra Wide, Wide, and Telephoto",
         "storage": "128GB, 256GB or 512GB (Subject to availability)",
         "operating_system": "iOS 14",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-12-pro-max-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-12-pro-max-certified-pre-owned\/",
+        "price": 494.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 12 Pro Max (Certified Pre-Owned)",
@@ -129,7 +139,9 @@
         "camera": "Pro 12MP camera system: Ultra Wide, Wide, and Telephoto",
         "storage": "128GB, 256GB or 512GB (Subject to availability)",
         "operating_system": "iOS 14",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-12\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-12\/",
+        "price": 699.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 12",
@@ -151,7 +163,9 @@
         "camera": "Dual 12MP camera system: Ultra Wide and Wide",
         "storage": "64GB, 128GB or 256GB (Subject to availability)",
         "operating_system": "iOS 14",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13-certified-pre-owned\/",
+        "price": 599.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 13 (Certified Pre-Owned)",
@@ -173,7 +187,9 @@
         "camera": "Dual 12MP camera system: Wide and Ultra Wide Cameras",
         "storage": "128GB, 256GB, or 512GB (Subject to availability)",
         "operating_system": "Apple iOS",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13-mini-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13-mini-certified-pre-owned\/",
+        "price": 484.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 13 mini",
@@ -195,7 +211,9 @@
         "camera": "Dual 12MP camera system: Wide and Ultra Wide Cameras",
         "storage": "128GB, 256GB, or 512GB (Subject to availability)",
         "operating_system": "Apple iOS",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13-mini\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13-mini\/",
+        "price": 599.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 13 Pro (Certified Pre-Owned)",
@@ -217,7 +235,9 @@
         "camera": "Pro 12MP system: Ultra Wide, Wide, and Telephoto",
         "storage": "128GB, 256GB, 512GB, 1TB (Subject to availability)",
         "operating_system": "Apple iOS",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13-pro-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13-pro-certified-pre-owned\/",
+        "price": 754.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 13 Pro Max (Certified Pre-Owned)",
@@ -239,7 +259,9 @@
         "camera": "12MP",
         "storage": "128GB, 256GB, 512GB, 1TB (Subject to availability)",
         "operating_system": "Apple iOS",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13-pro-max-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13-pro-max-certified-pre-owned\/",
+        "price": 864.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 13",
@@ -261,7 +283,9 @@
         "camera": "Dual 12MP camera system: Wide and Ultra Wide Cameras",
         "storage": "128GB, 256GB, or 512GB (Subject to availability)",
         "operating_system": "Apple iOS",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13\/",
+        "price": 629.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 14 (Certified Pre-Owned)",
@@ -283,7 +307,9 @@
         "camera": "12MP Main: 26 mm, \u0192\/1.5 aperture, sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
         "storage": "128GB, 256GB, or 512GB (Subject to availability)",
         "operating_system": "Apple iOS",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-certified-pre-owned\/",
+        "price": 664.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 14 Plus (Certified Pre-Owned)",
@@ -305,7 +331,9 @@
         "camera": "12MP Main: 26 mm, \u0192\/1.5 aperture, sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
         "storage": "128GB, 256GB, or 512GB (Subject to availability)",
         "operating_system": "Apple iOS",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-plus-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-plus-certified-pre-owned\/",
+        "price": 854.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 14 Plus",
@@ -327,7 +355,9 @@
         "camera": "12MP Main: 26 mm, \u0192\/1.5 aperture, sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
         "storage": "128GB, 256GB, or 512GB (Subject to availability)",
         "operating_system": "Apple iOS",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-plus\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-plus\/",
+        "price": 829.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 14 Pro (Certified Pre-Owned)",
@@ -349,7 +379,9 @@
         "camera": "48MP",
         "storage": "128GB, 256GB, 512GB, 1TB (Subject to availability)",
         "operating_system": "Apple iOS",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-pro-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-pro-certified-pre-owned\/",
+        "price": 1329.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 14 Pro Max",
@@ -371,7 +403,9 @@
         "camera": "Main: 24 mm, \u0192\/1.78 aperture, second-generation sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
         "storage": "128GB, 256GB, 512GB, 1TB (Subject to availability)",
         "operating_system": "Apple iOS",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-pro-max\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-pro-max\/",
+        "price": 999.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 14 Pro",
@@ -393,7 +427,9 @@
         "camera": "48MP",
         "storage": "128GB, 256GB, 512GB, 1TB (Subject to availability)",
         "operating_system": "Apple iOS",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-pro\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-pro\/",
+        "price": 899.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 14",
@@ -415,7 +451,9 @@
         "camera": "12MP Main: 26 mm, \u0192\/1.5 aperture, sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
         "storage": "128GB, 256GB, or 512GB (Subject to availability)",
         "operating_system": "Apple iOS",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14\/",
+        "price": 729.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 15 Plus",
@@ -437,7 +475,9 @@
         "camera": "12MP with \u0192\/1.9 aperture TrueDepth front camera",
         "storage": "128 GB, 256GB, 512GB (Subject to availability)",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-15-plus\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-15-plus\/",
+        "price": 929.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 15 Pro Max",
@@ -459,7 +499,9 @@
         "camera": "12MP Ultra Wide: 13 mm, \u0192\/2.2 aperture and 120\u00b0 field of view, 100% Focus Pixels",
         "storage": "256GB, 512GB or 1TB (Subject to availability)",
         "operating_system": "Apple iOS",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-15-pro-max\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-15-pro-max\/",
+        "price": 1199.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 15 Pro",
@@ -481,7 +523,9 @@
         "camera": "12MP with \u0192\/1.9 aperture TrueDepth front camera",
         "storage": "128GB, 256GB, 512GB, 1TB (Subject to availability)",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-15-pro\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-15-pro\/",
+        "price": 999.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone 15",
@@ -503,7 +547,9 @@
         "camera": "12MP with \u0192\/1.9 aperture TrueDepth front camera",
         "storage": "128 GB, 256GB, 512GB (Subject to availability)",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-15\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-15\/",
+        "price": 829.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone SE (3rd Gen)",
@@ -525,7 +571,9 @@
         "camera": "Portrait mode with advanced bokeh and Depth Control | Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High-Key Mono)",
         "storage": "64GB | 128GB | 256GB",
         "operating_system": "iOS 15",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-se-2022\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-se-2022\/",
+        "price": 429.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone SE (3rd Gen) (Certified Pre-Owned)",
@@ -547,7 +595,9 @@
         "camera": "Portrait mode with advanced bokeh and Depth Control | Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High-Key Mono)",
         "storage": "64GB | 128GB | 256GB",
         "operating_system": "iOS 15",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-se-3rd-gen-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-se-3rd-gen-certified-pre-owned\/",
+        "price": 408.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone SE 2020 (Certified Pre-Owned)",
@@ -569,7 +619,9 @@
         "camera": "12 MP",
         "storage": "64GB, 128GB or 256GB (Subject to availability)",
         "operating_system": "Apple iOS 13",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-se-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-se-certified-pre-owned\/",
+        "price": 175.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone XR (Certified Pre-Owned)",
@@ -591,7 +643,9 @@
         "camera": "12 MP",
         "storage": "64GB, 128GB or 256GB (subject to availability)",
         "operating_system": "Apple iOS 12",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-xr-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-xr-certified-pre-owned\/",
+        "price": 198.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone XS (Certified Pre-Owned)",
@@ -613,7 +667,9 @@
         "camera": "12 MP",
         "storage": null,
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-xs-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-xs-certified-pre-owned\/",
+        "price": 334.99,
+        "brand": "Apple"
     },
     {
         "name": "Apple iPhone XS Max (Certified Pre-Owned)",
@@ -635,7 +691,9 @@
         "camera": null,
         "storage": "64 GB, 256 GB or 512 GB (Subject to availability)",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-xs-max-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-xs-max-certified-pre-owned\/",
+        "price": 433.99,
+        "brand": "Apple"
     },
     {
         "name": "Google Pixel 6 Pro",
@@ -655,7 +713,9 @@
         "camera": "11.1 MP",
         "storage": "12 GB LPDDR5 RAM | 128 GB \/ 256 GB \/ 512 GB",
         "operating_system": "Android 12",
-        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-6-pro\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-6-pro\/",
+        "price": 999.99,
+        "brand": "Google"
     },
     {
         "name": "Google Pixel 6",
@@ -673,7 +733,9 @@
         "camera": "50 MP Octa PD Quad Bayer wide | 12 MP ultrawide",
         "storage": "8 GB RAM | 128 GB \/ 256 GB",
         "operating_system": "Android 12",
-        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-6\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-6\/",
+        "price": 799.99,
+        "brand": "Google"
     },
     {
         "name": "Google Pixel 6a",
@@ -695,7 +757,9 @@
         "camera": "8 MP",
         "storage": "6 GB LPDDR5 RAM | 128 GB storage UFS 3.1 storage",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-6a\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-6a\/",
+        "price": 399.99,
+        "brand": "Google"
     },
     {
         "name": "Google Pixel 7 Pro",
@@ -717,7 +781,9 @@
         "camera": "10.8 MP",
         "storage": "12 GB LPDDR5 RAM 128 GB \/ 256 GB \/ 512 GB UFS 3.1 storage",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-7-pro\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-7-pro\/",
+        "price": 1099.99,
+        "brand": "Google"
     },
     {
         "name": "Google Pixel 7",
@@ -739,7 +805,9 @@
         "camera": "10.8 MP",
         "storage": "8 GB LPDDR5 RAM | 128 GB \/ 256 GB UFS 3.1 storage",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-7\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-7\/",
+        "price": 699.99,
+        "brand": "Google"
     },
     {
         "name": "Google Pixel 7a",
@@ -761,7 +829,9 @@
         "camera": "Photo Unblur | Magic Eraser | Night Sight | Long Exposure | Real Tone\u2122 | Face Unblur | Panorama | Manual white balancing| Locked Folder | Top Shot | Portrait Mode | Portrait Light | Super Res Zoom | Motion Auto Focus| Frequent Faces",
         "storage": "8 GB LPDDR5 RAM | 128 GB UFS 3.1 storage",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-7a\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-7a\/",
+        "price": 549.99,
+        "brand": "Google"
     },
     {
         "name": "Google Pixel 8 Pro",
@@ -783,7 +853,9 @@
         "camera": "Pro controls, High-res images, Ultra HDR, Magic Editor, Best Take, Macro Focus, Magic Eraser, Photo Unblur, Motion Mode, Real Tone, Face Unblur, Panorama, Manual white balancing, Locked Folder, Night Sight, Astrophotography, Top Shot, Portrait Mode",
         "storage": "12 GB LPDDR5X RAM",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-8-pro\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-8-pro\/",
+        "price": 999.99,
+        "brand": "Google"
     },
     {
         "name": "Google Pixel 8",
@@ -805,7 +877,9 @@
         "camera": "Ultra HDR, Magic Editor, Best Take, Macro Focus, Magic Eraser, Photo Unblur, Motion Mode, Real Tone, Face Unblur, Panorama, Manual white balancing, Locked Folder, Night Sight, Astrophotography, Top Shot, Portrait Mode",
         "storage": "8 GB LPDDR5X RAM | 128 GB \/ 256 GB UFS 3.1 storage",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-8\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-8\/",
+        "price": 799.99,
+        "brand": "Google"
     },
     {
         "name": "Google Pixel Fold",
@@ -823,7 +897,9 @@
         "camera": "Rear Camera Selfie | Magic Eraser | Photo Unblur | Long Exposure | Real Tone\u2122 |Face Unblur | Panorama |Manual white balancing | Locked Folder | Night Sight | Top Shot | Portrait Mode | Portrait Light Super Res Zoom | Motion autofocus | Frequent Faces",
         "storage": "12 LPDDR5 GB RAM | 256 & 512 GB UFS 3.1 storage",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-fold\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-fold\/",
+        "price": 1799.99,
+        "brand": "Google"
     },
     {
         "name": "Kyocera DuraForce PRO 3",
@@ -841,7 +917,9 @@
         "camera": "8MP with Facial Recognition",
         "storage": "128GB ROM | 6GB RAM",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/kyocera-duraforce-pro-3\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/kyocera-duraforce-pro-3\/",
+        "price": 899.99,
+        "brand": "Kyocera"
     },
     {
         "name": "Kyocera DuraForce Ultra 5G UW",
@@ -859,7 +937,9 @@
         "camera": "24MP with Super Night Vision + 16MP ultra-wide view",
         "storage": "128GB (ROM) + 6GB (RAM)",
         "operating_system": "Android 10",
-        "url": "https:\/\/www.verizon.com\/smartphones\/kyocera-duraforce-ultra-5g-uw\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/kyocera-duraforce-ultra-5g-uw\/",
+        "price": 899.99,
+        "brand": "Kyocera"
     },
     {
         "name": "Kyocera DuraSport 5G UW",
@@ -877,7 +957,9 @@
         "camera": "48MP with Super Night Vision + 16MP ultra-wide view",
         "storage": "64GB (ROM) + 4GB (RAM)",
         "operating_system": "Android 11",
-        "url": "https:\/\/www.verizon.com\/smartphones\/kyocera-durasport-5g-uw\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/kyocera-durasport-5g-uw\/",
+        "price": 579.99,
+        "brand": "Kyocera"
     },
     {
         "name": "Motorola edge - 2022",
@@ -895,7 +977,9 @@
         "camera": "32MP selfie camera with Quad Pixel Technology | Dual Capture | Spot Color | Night Vision | Portrait | Live Filter",
         "storage": null,
         "operating_system": "Android\u2122 12",
-        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-edge-2022\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-edge-2022\/",
+        "price": 659.99,
+        "brand": "Motorola"
     },
     {
         "name": "Motorola edge 5G UW",
@@ -913,7 +997,9 @@
         "camera": "32 MP hi-res selfie camera (with Quad Pixel technology)",
         "storage": "6GB RAM | 128GB or 256GB Storage",
         "operating_system": "Android\u2122 11",
-        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-edge-5g-uw\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-edge-5g-uw\/",
+        "price": 549.99,
+        "brand": "Motorola"
     },
     {
         "name": "Motorola edge+ 5G UW",
@@ -933,7 +1019,9 @@
         "camera": "50 MP high-res main camera system | 50 MP Ultra-wide Angle w\/ Macro Vision (+2 MP Depth Camera)",
         "storage": "128GB | 256 GB",
         "operating_system": "Android\u2122 12",
-        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-edge-plus-5g-uw\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-edge-plus-5g-uw\/",
+        "price": 849.99,
+        "brand": "Motorola"
     },
     {
         "name": "Motorola edge+ (Certified Pre-Owned)",
@@ -951,7 +1039,9 @@
         "camera": "108MP Quad Pixel Triple Camera system with Hi-Res Optical Zoom",
         "storage": "12GB LPDDR5 RAM + 256GB UFS 3.0 with Turbo Write*",
         "operating_system": "Android 10 with easy access to the Google apps you use most",
-        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-edge-plus-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-edge-plus-certified-pre-owned\/",
+        "price": 397.99,
+        "brand": "Motorola"
     },
     {
         "name": "Motorola edge+",
@@ -971,7 +1061,9 @@
         "camera": "108MP Quad Pixel Triple Camera system with Hi-Res Optical Zoom",
         "storage": "12GB LPDDR5 RAM + 256GB UFS 3.0 with Turbo Write*",
         "operating_system": "Android 10 with easy access to the Google apps you use most",
-        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-edge-plus\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-edge-plus\/",
+        "price": 869.99,
+        "brand": "Motorola"
     },
     {
         "name": "Motorola moto g power (2022)",
@@ -989,7 +1081,9 @@
         "camera": "Front: 8MP camera | Rear: 50MP",
         "storage": "4GB RAM \/ 64GB",
         "operating_system": "Android\u2122 11",
-        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-moto-g-power-2022\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-moto-g-power-2022\/",
+        "price": 249.99,
+        "brand": "Motorola"
     },
     {
         "name": "Motorola moto g pure",
@@ -1007,7 +1101,9 @@
         "camera": "13 MP camera system (2 MP depth sensor)",
         "storage": "3GB RAM \/ 32GB Storage",
         "operating_system": "Android 11.0",
-        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-moto-g-pure\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-moto-g-pure\/",
+        "price": 149.99,
+        "brand": "Motorola"
     },
     {
         "name": "Motorola moto g stylus 5G",
@@ -1025,7 +1121,9 @@
         "camera": "50MP (f\/1.9, 0.64\u00b5m) | Quad Pixel technology | OIS | 8MP Ultra-wide angle (118-degree FOV) + Macro Vision | 2MP Depth Sensor (f\/2.4, 1.75\u00b5m)",
         "storage": "4GB RAM | 128GB Storage",
         "operating_system": "Android\u2122 12",
-        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-moto-g-stylus-5g\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-moto-g-stylus-5g\/",
+        "price": 399.99,
+        "brand": "Motorola"
     },
     {
         "name": "Motorola one 5G UW ace",
@@ -1043,7 +1141,9 @@
         "camera": "16MP | Quad Pixel technology",
         "storage": "4GB (RAM) + 128GB Flash built-in storage | up to 1TB microSD card expandable",
         "operating_system": "Android\u2122 11",
-        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-one-5g-uw-ace\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/motorola-one-5g-uw-ace\/",
+        "price": 299.99,
+        "brand": "Motorola"
     },
     {
         "name": "Nokia 2 V Tella",
@@ -1061,7 +1161,9 @@
         "camera": "5 MP",
         "storage": "2GB (RAM) + 16GB (ROM)",
         "operating_system": "Android 10",
-        "url": "https:\/\/www.verizon.com\/smartphones\/nokia-2-v-tella\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/nokia-2-v-tella\/",
+        "price": 168.0,
+        "brand": "Nokia"
     },
     {
         "name": "Nokia 8 V 5G UW",
@@ -1079,7 +1181,9 @@
         "camera": "24MP",
         "storage": "6GB (RAM) + 64GB (ROM)",
         "operating_system": "Android 10",
-        "url": "https:\/\/www.verizon.com\/smartphones\/nokia-8v-5g-uw\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/nokia-8v-5g-uw\/",
+        "price": 699.99,
+        "brand": "Nokia"
     },
     {
         "name": "Samsung Galaxy A03s",
@@ -1097,7 +1201,9 @@
         "camera": "13MP AF F2.2 + Flash|Macro 2MP F2.4|Depth 2MP F2.4|Portrait, Hyperlapse",
         "storage": "32GB + 3GB LPDDR3 RAM",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a03s\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a03s\/",
+        "price": 159.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy A14 5G",
@@ -1115,7 +1221,9 @@
         "camera": "(Main) 50MP AF F1.8 + (Macro) 2MP F2.4 + (Depth) 2MP F2.4 + Flash",
         "storage": "64GB + 4GB LPDDR4 RAM",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a14-5g\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a14-5g\/",
+        "price": 199.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy A23 5G UW",
@@ -1133,7 +1241,9 @@
         "camera": "(Main) 50MP AF F1.8 + (UltraWide) 5MP F2.2 + (Macro) 2MP F2.4 + (Depth) 2MP F2.4 + Flash",
         "storage": "64GB + 4GB LPDDR4X RAM",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a23-5g-uw\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a23-5g-uw\/",
+        "price": 349.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy A42 5G",
@@ -1151,7 +1261,9 @@
         "camera": "Main 48MP F1.8 + Flash Ultrawide 8MP F2.2 Depth 2MP F2.4 Single Take, Fun Mode, Portrait, Night Mode. Hyperlapse",
         "storage": "4GB (RAM) + 128GB (ROM)",
         "operating_system": "Android 11.0",
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a42-5g\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a42-5g\/",
+        "price": 359.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy A53 5G UW",
@@ -1169,7 +1281,9 @@
         "camera": "32MP (F2.2)",
         "storage": "6GB + 128GB",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a53-5g-uw\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a53-5g-uw\/",
+        "price": 499.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy A54 5G",
@@ -1187,7 +1301,9 @@
         "camera": "32MP (F2.2)",
         "storage": "6GB+128GB",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a54-5g\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a54-5g\/",
+        "price": 499.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy Note20 5G (Certified Pre-Owned)",
@@ -1207,7 +1323,9 @@
         "camera": "12 MP Wide",
         "storage": "128GB + 8GB RAM LPDDR5",
         "operating_system": "Android 10 (Q OS)",
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-note-20-5g-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-note-20-5g-certified-pre-owned\/",
+        "price": 664.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy Note20 Ultra 5G (Certified Pre-Owned)",
@@ -1229,7 +1347,9 @@
         "camera": "108MP",
         "storage": "128GB\/512GB + 12GB RAM LPDDR5",
         "operating_system": "Android 10 (Q OS)",
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-note-20-ultra-5g-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-note-20-ultra-5g-certified-pre-owned\/",
+        "price": 709.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S20 5G UW (Certified Pre-Owned)",
@@ -1251,7 +1371,9 @@
         "camera": "12 MP Wide",
         "storage": "8GB LPDDR5 RAM + 128GB UFS 3.0",
         "operating_system": "Android 10 (Q OS)",
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s20-5g-uw-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s20-5g-uw-certified-pre-owned\/",
+        "price": 749.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S20 FE 5G UW (Certified Pre-Owned)",
@@ -1273,7 +1395,9 @@
         "camera": "32 MP",
         "storage": "6GB LPDDR5 \/ 128GB",
         "operating_system": "Android Q (10.0)",
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s20-fe-5g-uw-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s20-fe-5g-uw-certified-pre-owned\/",
+        "price": 376.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S20 FE 5G UW",
@@ -1291,7 +1415,9 @@
         "camera": "32 MP",
         "storage": "6GB LPDDR5 \/ 128GB",
         "operating_system": "Android Q (10.0)",
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s20-fe-5g-uw\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s20-fe-5g-uw\/",
+        "price": 599.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S20 Ultra 5G (Certified Pre-Owned)",
@@ -1313,7 +1439,9 @@
         "camera": null,
         "storage": null,
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s20-ultra-5g-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s20-ultra-5g-certified-pre-owned\/",
+        "price": 659.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S21 5G (Certified Pre-Owned)",
@@ -1335,7 +1463,9 @@
         "camera": "12 MP Wide",
         "storage": "128GB\/256GB (ROM) + 8GB (RAM)",
         "operating_system": "Android 11 (R OS)",
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s21-5g-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s21-5g-certified-pre-owned\/",
+        "price": 474.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S21 FE 5G (Certified Pre-Owned)",
@@ -1357,7 +1487,9 @@
         "camera": "12MP Wide",
         "storage": "128GB + 6GB | 256GB + 8GB",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s21-fe-5g-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s21-fe-5g-certified-pre-owned\/",
+        "price": 419.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S21 FE 5G",
@@ -1377,7 +1509,9 @@
         "camera": "12MP Wide",
         "storage": "128GB + 6GB | 256GB + 8GB",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s21-fe-5g\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s21-fe-5g\/",
+        "price": 599.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S21+ 5G (Certified Pre-Owned)",
@@ -1399,7 +1533,9 @@
         "camera": "12 MP Wide",
         "storage": "128GB (ROM) + 8GB (RAM)",
         "operating_system": "Android 11 (R OS)",
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s21-plus-5g-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s21-plus-5g-certified-pre-owned\/",
+        "price": 669.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S21 Ultra 5G (Certified Pre-Owned)",
@@ -1421,7 +1557,9 @@
         "camera": "108MP Wide",
         "storage": "128GB\/256GB (ROM) + 12GB (RAM), 512GB (ROM) + 16GB (RAM)",
         "operating_system": "Android 11 (R OS)",
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s21-ultra-5g-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s21-ultra-5g-certified-pre-owned\/",
+        "price": 784.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S22 (Certified Pre-Owned)",
@@ -1443,7 +1581,9 @@
         "camera": "10MP 3x OIS AF F2.4 (Tele)",
         "storage": "128GB\/256GB (ROM) + 8GB (RAM)",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s22-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s22-certified-pre-owned\/",
+        "price": 534.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S22+ (Certified Pre-Owned)",
@@ -1465,7 +1605,9 @@
         "camera": "50MP OIS AF F1.8 (Wide); 10MP 3x OIS AF F2.4 (Tele); 12MP FF F2.2 (UltraWide): Flash: Y (Portrait mode, Space Zoom, Single Take, Night mode, Director's view)",
         "storage": "128GB\/256GB (ROM) + 8GB (RAM)",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s22-plus-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s22-plus-certified-pre-owned\/",
+        "price": 704.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S22+",
@@ -1487,7 +1629,9 @@
         "camera": "50MP OIS AF F1.8 (Wide); 10MP 3x OIS AF F2.4 (Tele); 12MP FF F2.2 (UltraWide): Flash: Y (Portrait mode, Space Zoom, Single Take, Night mode, Director's view)",
         "storage": "128GB\/256GB (ROM) + 8GB (RAM)",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s22-plus\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s22-plus\/",
+        "price": 999.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S22 Ultra",
@@ -1509,7 +1653,9 @@
         "camera": "108MP OIS AF, F1.8 (Wide) | 10MP 3x OIS AF, F2.4 (Tele) | 10MP 10x OIS AF F4.9 (Tele) | 12MP AF F2.2 (UltraWide) \\ Range Sensor \/ Flash: Y (Portrait mode \/ Space Zoom \/ Single Take \/ Night mode \/ Director's view)",
         "storage": "128GB (ROM) + 8GB (RAM) | 256GB\/512GB (ROM) + 12GB (RAM)",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s22-ultra\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s22-ultra\/",
+        "price": 1299.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S22",
@@ -1531,7 +1677,9 @@
         "camera": "10MP 3x OIS AF F2.4 (Tele)",
         "storage": "128GB\/256GB (ROM) + 8GB (RAM)",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s22\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s22\/",
+        "price": 699.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S23 (Certified Pre-Owned)",
@@ -1553,7 +1701,9 @@
         "camera": "Portrait mode, Portrait Video, 30x Space Zoom, Single Take, Night mode, Director\u2019s view, Pro mode, Pro Video mode",
         "storage": "8GB+128GB | 8GB+256GB",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s23-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s23-certified-pre-owned\/",
+        "price": 724.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S23+",
@@ -1575,7 +1725,9 @@
         "camera": "Portrait mode, Portrait Video, 30x Space Zoom, Single Take, Night mode, Director\u2019s view, Pro mode, Pro Video mode",
         "storage": "8GB+256GB | 8GB+512GB",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s23-plus\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s23-plus\/",
+        "price": 999.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S23 Ultra",
@@ -1597,7 +1749,9 @@
         "camera": "Portrait mode, Portrait Video, 100x Space Zoom, Single Take, Night mode, Director\u2019s view, Pro mode, Pro Video mode",
         "storage": "8GB+256GB | 12GB+512GB",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s23-ultra\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s23-ultra\/",
+        "price": 1199.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy S23",
@@ -1619,7 +1773,9 @@
         "camera": "Portrait mode, Portrait Video, 30x Space Zoom, Single Take, Night mode, Director\u2019s view, Pro mode, Pro Video mode",
         "storage": "8GB+128GB | 8GB+256GB",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s23\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s23\/",
+        "price": 799.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy Z Flip3 5G",
@@ -1641,7 +1797,9 @@
         "camera": "(Wide) 12MP OIS AF F1.8; (Ultrawide) 12MP FF F2.2; + Flash",
         "storage": "128\/256GB ROM + 8GB LPDDR5 RAM",
         "operating_system": "Android 11.0; One UI 3.1.1",
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-flip3-5g\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-flip3-5g\/",
+        "price": 999.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy Z Flip4",
@@ -1663,7 +1821,9 @@
         "camera": "12MP OIS AF F1.8 (Wide) | 12MP FF F2.2 (Ultrawide) + Flash",
         "storage": "128\/256GB ROM + 8GB LPDDR5 RAM",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-flip4\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-flip4\/",
+        "price": 999.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy Z Flip5",
@@ -1685,7 +1845,9 @@
         "camera": "4K Video Recording | Dual Preview | Flex Mode | Director\u2019s View | Single Take | Auto Framing | Hyperlapse",
         "storage": "256\/512GB ROM + 8GB LPDDR5X RAM",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-flip5\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-flip5\/",
+        "price": 999.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy Z Fold3 5G",
@@ -1707,7 +1869,9 @@
         "camera": "(Wide) 12MP OIS AF F1.8 | (Tele x2.0) 12MP OIS AF F2.4 | (Ultrawide) 12MP FF F2.2 | + Flash",
         "storage": "256\/512GB ROM + 12GB LPDDR5 RAM",
         "operating_system": "Android 11.0 | One UI 3.1.1",
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-fold3-5g\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-fold3-5g\/",
+        "price": 1799.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy Z Fold4",
@@ -1729,7 +1893,9 @@
         "camera": "(Wide) 50MP OIS AF F1.8 | (Tele 3X) 10MP OIS AF F2.4 | (Ultrawide) 12MP FF F2.2 + Flash",
         "storage": "256\/512GB ROM + 12GB LPDDR5 RAM",
         "operating_system": "Android 12.0 | One UI 4.1.1",
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-fold4\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-fold4\/",
+        "price": 1799.99,
+        "brand": "Samsung"
     },
     {
         "name": "Samsung Galaxy Z Fold5",
@@ -1751,7 +1917,9 @@
         "camera": "8K Video Recording | Dual Preview, Flex Mode | Director\u2019s View | Single Take | Auto Framing | Hyperlapse",
         "storage": "256\/512GB ROM + 12GB LPDDR5X RAM",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-fold5\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-fold5\/",
+        "price": 1799.99,
+        "brand": "Samsung"
     },
     {
         "name": "Sonim XP8",
@@ -1769,7 +1937,9 @@
         "camera": "8 MP",
         "storage": "4GB RAM\/64GB ROM",
         "operating_system": null,
-        "url": "https:\/\/www.verizon.com\/smartphones\/sonim-xp8\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/sonim-xp8\/",
+        "price": 648.0,
+        "brand": "Sonim"
     },
     {
         "name": "TCL 10 5G UW",
@@ -1787,7 +1957,9 @@
         "camera": "48MP main + 8MP super wide angle + 5MP macro with dual LED flash",
         "storage": "128GB (ROM) + 6GB (RAM)",
         "operating_system": "Android 10.0",
-        "url": "https:\/\/www.verizon.com\/smartphones\/tcl-10-5g-uw\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/tcl-10-5g-uw\/",
+        "price": 399.99,
+        "brand": "TCL"
     },
     {
         "name": "TCL 30 V 5G",
@@ -1805,7 +1977,9 @@
         "camera": "50MP (Main), 5MP (Super Wide), 2MP (Macro) with LED Flash & Modes: Auto, Video, Filters, Portrait, AI Color, Pro",
         "storage": "4GB RAM | 128GB Storage",
         "operating_system": "Android 11",
-        "url": "https:\/\/www.verizon.com\/smartphones\/tcl-30-v-5g\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/tcl-30-v-5g\/",
+        "price": 299.99,
+        "brand": "TCL"
     },
     {
         "name": "Apple iPhone 11 Pro (Certified Pre-Owned)",
@@ -1827,6 +2001,8 @@
         "camera": "12 MP",
         "storage": "64GB, 256GB, or 512GB",
         "operating_system": "iOS 13",
-        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-11-pro-certified-pre-owned\/"
+        "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-11-pro-certified-pre-owned\/",
+        "price": 489.99,
+        "brand": "Apple"
     }
 ]
