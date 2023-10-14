@@ -9,18 +9,19 @@ import { Row, Col, Container, Card } from 'react-bootstrap';
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <header class="header">
         <PageHeader></PageHeader>
       </header>
-      <Container>
-        <Row style={{ display: 'flex', flexDirection: 'row', height: '100vh' }}>
-          <Col md={5} style={{maxHeight: "80%"}} >
+      <div className="hard">
+      <Container fluid style={{border: 5}}>
+        <Row style={{ display: 'flex', flexDirection: 'row', height: '80vh' }}>
+          <Col md={4} style={{maxHeight: "80%", justifyContent: 'center'}} >
             <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
               <Row style={{ flex: 2, alignItems: 'center', justifyContent: 'center'}}>
                 <Salesperson />
               </Row>
-              <Row style={{ flex: 1, justifyContent: 'center', margin:0}}>
+              <Row style={{ flex: 1, justifyContent: 'center', margin:0, padding: 0, block:0}}>
                 <FavBox />
               </Row>
             </div>
@@ -30,6 +31,7 @@ function App() {
           </Col>
         </Row>
       </Container>
+      </div>
       <footer className='footer'>
         <PageFooter></PageFooter>
       </footer>
