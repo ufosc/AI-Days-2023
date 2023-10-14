@@ -1,6 +1,6 @@
 [
     {
-        "name": "Apple iPhone 11 Pro (Certified Pre-Owned)",
+        "name": "Apple iPhone 11 Pro",
         "colors": [
             "Silver",
             "Gray",
@@ -17,14 +17,19 @@
         "height": "5.67 in",
         "battery": "16 hrs.",
         "camera": "12 MP",
-        "storage": "64GB, 256GB, or 512GB",
+        "storage": [
+            64,
+            256,
+            512
+        ],
         "operating_system": "iOS 13",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-11-pro-max-certified-pre-owned\/",
         "price": 489.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
-        "name": "Apple iPhone 11 Pro Max (Certified Pre-Owned)",
+        "name": "Apple iPhone 11 Pro Max",
         "colors": [
             "Space Gray",
             "Silver",
@@ -41,14 +46,19 @@
         "height": "6.22 in",
         "battery": null,
         "camera": "12 MP",
-        "storage": "64GB, 256GB, or 512GB",
+        "storage": [
+            64,
+            256,
+            512
+        ],
         "operating_system": "iOS 13",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-12-certified-pre-owned\/",
         "price": 584.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
-        "name": "Apple iPhone 12 (Certified Pre-Owned)",
+        "name": "Apple iPhone 12",
         "colors": [
             "Green",
             "Blue",
@@ -65,14 +75,19 @@
         "height": "5.78 in",
         "battery": "65 hrs.",
         "camera": "Dual 12MP camera system: Ultra Wide and Wide",
-        "storage": "64GB, 128GB or 256GB (Subject to availability)",
+        "storage": [
+            64,
+            128,
+            256
+        ],
         "operating_system": "iOS 14",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-12-mini-certified-pre-owned\/",
         "price": 324.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
-        "name": "Apple iPhone 12 mini (Certified Pre-Owned)",
+        "name": "Apple iPhone 12 mini",
         "colors": [
             "Purple",
             "Black",
@@ -89,14 +104,19 @@
         "height": "5.18 in",
         "battery": "50 hrs.",
         "camera": "Dual 12MP camera system: Ultra Wide and Wide",
-        "storage": "64GB, 128GB or 256GB (Subject to availability)",
+        "storage": [
+            64,
+            128,
+            256
+        ],
         "operating_system": "iOS 14",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-12-pro-certified-pre-owned\/",
         "price": 298.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
-        "name": "Apple iPhone 12 Pro (Certified Pre-Owned)",
+        "name": "Apple iPhone 12 Pro",
         "colors": [
             "Blue",
             "Graphite",
@@ -113,14 +133,19 @@
         "height": "5.78 in",
         "battery": "65 hrs.",
         "camera": "Pro 12MP camera system: Ultra Wide, Wide, and Telephoto",
-        "storage": "128GB, 256GB or 512GB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512
+        ],
         "operating_system": "iOS 14",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-12-pro-max-certified-pre-owned\/",
         "price": 494.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
-        "name": "Apple iPhone 12 Pro Max (Certified Pre-Owned)",
+        "name": "Apple iPhone 12 Pro Max",
         "colors": [
             "Pacific Blue",
             "Silver",
@@ -137,11 +162,16 @@
         "height": "6.44 in",
         "battery": "80 hrs.",
         "camera": "Pro 12MP camera system: Ultra Wide, Wide, and Telephoto",
-        "storage": "128GB, 256GB or 512GB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512
+        ],
         "operating_system": "iOS 14",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-12\/",
         "price": 699.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
         "name": "Apple iPhone 12",
@@ -161,14 +191,19 @@
         "height": "5.78 in",
         "battery": "65 hrs.",
         "camera": "Dual 12MP camera system: Ultra Wide and Wide",
-        "storage": "64GB, 128GB or 256GB (Subject to availability)",
+        "storage": [
+            64,
+            128,
+            256
+        ],
         "operating_system": "iOS 14",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13-certified-pre-owned\/",
         "price": 599.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": false
     },
     {
-        "name": "Apple iPhone 13 (Certified Pre-Owned)",
+        "name": "Apple iPhone 13",
         "colors": [
             "Midnight",
             "Pink",
@@ -185,11 +220,16 @@
         "height": "5.78 in.",
         "battery": "Video playback: Up to 17 hrs; Streamed: Up to 13 hrs; Audio playback: Up to 75 hrs.",
         "camera": "Dual 12MP camera system: Wide and Ultra Wide Cameras",
-        "storage": "128GB, 256GB, or 512GB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512
+        ],
         "operating_system": "Apple iOS",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13-mini-certified-pre-owned\/",
         "price": 484.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
         "name": "Apple iPhone 13 mini",
@@ -209,14 +249,19 @@
         "height": "5.18 in.",
         "battery": "Video playback: Up to 17 hours; Video playback (streamed): Up to 13 hours; Audio playback: Up to 55 hours",
         "camera": "Dual 12MP camera system: Wide and Ultra Wide Cameras",
-        "storage": "128GB, 256GB, or 512GB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512
+        ],
         "operating_system": "Apple iOS",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13-mini\/",
         "price": 599.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": false
     },
     {
-        "name": "Apple iPhone 13 Pro (Certified Pre-Owned)",
+        "name": "Apple iPhone 13 Pro",
         "colors": [
             "Alpine Green",
             "Sierra Blue",
@@ -233,14 +278,20 @@
         "height": "5.78 in.",
         "battery": "Video playback: 22 hrs.; Video playback (streamed): 20 hrs.; Audio playback: 75 hrs.",
         "camera": "Pro 12MP system: Ultra Wide, Wide, and Telephoto",
-        "storage": "128GB, 256GB, 512GB, 1TB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512,
+            1000
+        ],
         "operating_system": "Apple iOS",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13-pro-certified-pre-owned\/",
         "price": 754.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
-        "name": "Apple iPhone 13 Pro Max (Certified Pre-Owned)",
+        "name": "Apple iPhone 13 Pro Max",
         "colors": [
             "Sierra Blue",
             "Graphite",
@@ -257,11 +308,17 @@
         "height": "6.33 in.",
         "battery": "Video playback: up to 28 hrs. | Video playback (streamed): up to 25 hrs. | 95 hours audio playback",
         "camera": "12MP",
-        "storage": "128GB, 256GB, 512GB, 1TB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512,
+            1000
+        ],
         "operating_system": "Apple iOS",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13-pro-max-certified-pre-owned\/",
         "price": 864.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
         "name": "Apple iPhone 13",
@@ -281,14 +338,19 @@
         "height": "5.78 in.",
         "battery": "Video playback: Up to 17 hrs; Streamed: Up to 13 hrs; Audio playback: Up to 75 hrs.",
         "camera": "Dual 12MP camera system: Wide and Ultra Wide Cameras",
-        "storage": "128GB, 256GB, or 512GB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512
+        ],
         "operating_system": "Apple iOS",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-13\/",
         "price": 629.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": false
     },
     {
-        "name": "Apple iPhone 14 (Certified Pre-Owned)",
+        "name": "Apple iPhone 14",
         "colors": [
             "Yellow",
             "Blue  ",
@@ -305,14 +367,19 @@
         "height": "5.78 in.",
         "battery": "Audio playback: Up to 80 hrs.",
         "camera": "12MP Main: 26 mm, \u0192\/1.5 aperture, sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
-        "storage": "128GB, 256GB, or 512GB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512
+        ],
         "operating_system": "Apple iOS",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-certified-pre-owned\/",
         "price": 664.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
-        "name": "Apple iPhone 14 Plus (Certified Pre-Owned)",
+        "name": "Apple iPhone 14 Plus",
         "colors": [
             "Purple",
             "Blue",
@@ -329,11 +396,16 @@
         "height": "6.33 in.",
         "battery": "Streamed: Up to 20 hrs; Audio playback: Up to 100 hrs.",
         "camera": "12MP Main: 26 mm, \u0192\/1.5 aperture, sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
-        "storage": "128GB, 256GB, or 512GB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512
+        ],
         "operating_system": "Apple iOS",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-plus-certified-pre-owned\/",
         "price": 854.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
         "name": "Apple iPhone 14 Plus",
@@ -353,14 +425,19 @@
         "height": "6.33 in.",
         "battery": "Streamed: Up to 20 hrs; Audio playback: Up to 100 hrs.",
         "camera": "12MP Main: 26 mm, \u0192\/1.5 aperture, sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
-        "storage": "128GB, 256GB, or 512GB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512
+        ],
         "operating_system": "Apple iOS",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-plus\/",
         "price": 829.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": false
     },
     {
-        "name": "Apple iPhone 14 Pro (Certified Pre-Owned)",
+        "name": "Apple iPhone 14 Pro",
         "colors": [
             "Deep Purple",
             "Gold",
@@ -377,11 +454,17 @@
         "height": "5.81 in.",
         "battery": "Streamed: Up to 20 hrs; Audio playback: Up to 75 hrs.",
         "camera": "48MP",
-        "storage": "128GB, 256GB, 512GB, 1TB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512,
+            1000
+        ],
         "operating_system": "Apple iOS",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-pro-certified-pre-owned\/",
         "price": 1329.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
         "name": "Apple iPhone 14 Pro Max",
@@ -401,11 +484,17 @@
         "height": "6.33 in.",
         "battery": "Audio playback: Up to 95 hours",
         "camera": "Main: 24 mm, \u0192\/1.78 aperture, second-generation sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
-        "storage": "128GB, 256GB, 512GB, 1TB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512,
+            1000
+        ],
         "operating_system": "Apple iOS",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-pro-max\/",
         "price": 999.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": false
     },
     {
         "name": "Apple iPhone 14 Pro",
@@ -425,11 +514,17 @@
         "height": "5.81 in.",
         "battery": "Streamed: Up to 20 hrs; Audio playback: Up to 75 hrs.",
         "camera": "48MP",
-        "storage": "128GB, 256GB, 512GB, 1TB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512,
+            1000
+        ],
         "operating_system": "Apple iOS",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14-pro\/",
         "price": 899.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": false
     },
     {
         "name": "Apple iPhone 14",
@@ -449,11 +544,16 @@
         "height": "5.78 in.",
         "battery": "Audio playback: Up to 80 hrs.",
         "camera": "12MP Main: 26 mm, \u0192\/1.5 aperture, sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
-        "storage": "128GB, 256GB, or 512GB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512
+        ],
         "operating_system": "Apple iOS",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-14\/",
         "price": 729.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": false
     },
     {
         "name": "Apple iPhone 15 Plus",
@@ -473,11 +573,16 @@
         "height": "6.33 in",
         "battery": "Audio playback: Up to 100 hrs",
         "camera": "12MP with \u0192\/1.9 aperture TrueDepth front camera",
-        "storage": "128 GB, 256GB, 512GB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-15-plus\/",
         "price": 929.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": false
     },
     {
         "name": "Apple iPhone 15 Pro Max",
@@ -497,11 +602,16 @@
         "height": "6.29 in.",
         "battery": "Audio playback: Up to 95 hrs",
         "camera": "12MP Ultra Wide: 13 mm, \u0192\/2.2 aperture and 120\u00b0 field of view, 100% Focus Pixels",
-        "storage": "256GB, 512GB or 1TB (Subject to availability)",
+        "storage": [
+            256,
+            512,
+            1000
+        ],
         "operating_system": "Apple iOS",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-15-pro-max\/",
         "price": 1199.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": false
     },
     {
         "name": "Apple iPhone 15 Pro",
@@ -521,11 +631,17 @@
         "height": "5.77 in",
         "battery": "Audio playback: Up to 75 hrs",
         "camera": "12MP with \u0192\/1.9 aperture TrueDepth front camera",
-        "storage": "128GB, 256GB, 512GB, 1TB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512,
+            1000
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-15-pro\/",
         "price": 999.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": false
     },
     {
         "name": "Apple iPhone 15",
@@ -545,11 +661,16 @@
         "height": "5.81 in",
         "battery": "Audio playback: Up to 80 hrs",
         "camera": "12MP with \u0192\/1.9 aperture TrueDepth front camera",
-        "storage": "128 GB, 256GB, 512GB (Subject to availability)",
+        "storage": [
+            128,
+            256,
+            512
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-15\/",
         "price": 829.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": false
     },
     {
         "name": "Apple iPhone SE (3rd Gen)",
@@ -569,14 +690,19 @@
         "height": "5.45 in",
         "battery": "Up to 15 hours",
         "camera": "Portrait mode with advanced bokeh and Depth Control | Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High-Key Mono)",
-        "storage": "64GB | 128GB | 256GB",
+        "storage": [
+            64,
+            128,
+            256
+        ],
         "operating_system": "iOS 15",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-se-2022\/",
         "price": 429.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": false
     },
     {
-        "name": "Apple iPhone SE (3rd Gen) (Certified Pre-Owned)",
+        "name": "Apple iPhone SE (3rd Gen)",
         "colors": [
             "Starlight",
             "(PRODUCT)RED",
@@ -593,14 +719,19 @@
         "height": "5.45 in",
         "battery": "Up to 15 hours",
         "camera": "Portrait mode with advanced bokeh and Depth Control | Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High-Key Mono)",
-        "storage": "64GB | 128GB | 256GB",
+        "storage": [
+            64,
+            128,
+            256
+        ],
         "operating_system": "iOS 15",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-se-3rd-gen-certified-pre-owned\/",
         "price": 408.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
-        "name": "Apple iPhone SE 2020 (Certified Pre-Owned)",
+        "name": "Apple iPhone SE 2020",
         "colors": [
             "Black",
             "(PRODUCT)RED",
@@ -617,14 +748,19 @@
         "height": "5.45 in",
         "battery": "Up to 13 hrs.",
         "camera": "12 MP",
-        "storage": "64GB, 128GB or 256GB (Subject to availability)",
+        "storage": [
+            64,
+            128,
+            256
+        ],
         "operating_system": "Apple iOS 13",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-se-certified-pre-owned\/",
         "price": 175.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
-        "name": "Apple iPhone XR (Certified Pre-Owned)",
+        "name": "Apple iPhone XR",
         "colors": [
             "(PRODUCT)RED",
             "Blue",
@@ -641,14 +777,19 @@
         "height": "5.94 in",
         "battery": "25 hrs.",
         "camera": "12 MP",
-        "storage": "64GB, 128GB or 256GB (subject to availability)",
+        "storage": [
+            64,
+            128,
+            256
+        ],
         "operating_system": "Apple iOS 12",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-xr-certified-pre-owned\/",
         "price": 198.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
-        "name": "Apple iPhone XS (Certified Pre-Owned)",
+        "name": "Apple iPhone XS",
         "colors": [
             "Space Gray",
             "Gold",
@@ -669,10 +810,11 @@
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-xs-certified-pre-owned\/",
         "price": 334.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
-        "name": "Apple iPhone XS Max (Certified Pre-Owned)",
+        "name": "Apple iPhone XS Max",
         "colors": [
             "Space Gray",
             "Silver",
@@ -689,11 +831,16 @@
         "height": null,
         "battery": "Up to 13 hrs.",
         "camera": null,
-        "storage": "64 GB, 256 GB or 512 GB (Subject to availability)",
+        "storage": [
+            64,
+            256,
+            512
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-xs-max-certified-pre-owned\/",
         "price": 433.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     },
     {
         "name": "Google Pixel 6 Pro",
@@ -711,11 +858,16 @@
         "height": "6.5 in.",
         "battery": "25.68 hrs.",
         "camera": "11.1 MP",
-        "storage": "12 GB LPDDR5 RAM | 128 GB \/ 256 GB \/ 512 GB",
+        "storage": [
+            128,
+            256,
+            512
+        ],
         "operating_system": "Android 12",
         "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-6-pro\/",
         "price": 999.99,
-        "brand": "Google"
+        "brand": "Google",
+        "used": false
     },
     {
         "name": "Google Pixel 6",
@@ -731,11 +883,15 @@
         "height": "6.2 in.",
         "battery": "25.26 hrs.",
         "camera": "50 MP Octa PD Quad Bayer wide | 12 MP ultrawide",
-        "storage": "8 GB RAM | 128 GB \/ 256 GB",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": "Android 12",
         "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-6\/",
         "price": 799.99,
-        "brand": "Google"
+        "brand": "Google",
+        "used": false
     },
     {
         "name": "Google Pixel 6a",
@@ -755,11 +911,14 @@
         "height": "6.0 in",
         "battery": "24 Hrs",
         "camera": "8 MP",
-        "storage": "6 GB LPDDR5 RAM | 128 GB storage UFS 3.1 storage",
+        "storage": [
+            128
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-6a\/",
         "price": 399.99,
-        "brand": "Google"
+        "brand": "Google",
+        "used": false
     },
     {
         "name": "Google Pixel 7 Pro",
@@ -779,11 +938,16 @@
         "height": "6.4 in",
         "battery": "27.77 Hrs",
         "camera": "10.8 MP",
-        "storage": "12 GB LPDDR5 RAM 128 GB \/ 256 GB \/ 512 GB UFS 3.1 storage",
+        "storage": [
+            128,
+            256,
+            512
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-7-pro\/",
         "price": 1099.99,
-        "brand": "Google"
+        "brand": "Google",
+        "used": false
     },
     {
         "name": "Google Pixel 7",
@@ -803,11 +967,15 @@
         "height": "6.1 in",
         "battery": "26.87 Hrs",
         "camera": "10.8 MP",
-        "storage": "8 GB LPDDR5 RAM | 128 GB \/ 256 GB UFS 3.1 storage",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-7\/",
         "price": 699.99,
-        "brand": "Google"
+        "brand": "Google",
+        "used": false
     },
     {
         "name": "Google Pixel 7a",
@@ -827,11 +995,14 @@
         "height": "6.0 in",
         "battery": "27.1 hr",
         "camera": "Photo Unblur | Magic Eraser | Night Sight | Long Exposure | Real Tone\u2122 | Face Unblur | Panorama | Manual white balancing| Locked Folder | Top Shot | Portrait Mode | Portrait Light | Super Res Zoom | Motion Auto Focus| Frequent Faces",
-        "storage": "8 GB LPDDR5 RAM | 128 GB UFS 3.1 storage",
+        "storage": [
+            128
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-7a\/",
         "price": 549.99,
-        "brand": "Google"
+        "brand": "Google",
+        "used": false
     },
     {
         "name": "Google Pixel 8 Pro",
@@ -851,11 +1022,12 @@
         "height": "6.4 in",
         "battery": "4G usage 27.38 hours",
         "camera": "Pro controls, High-res images, Ultra HDR, Magic Editor, Best Take, Macro Focus, Magic Eraser, Photo Unblur, Motion Mode, Real Tone, Face Unblur, Panorama, Manual white balancing, Locked Folder, Night Sight, Astrophotography, Top Shot, Portrait Mode",
-        "storage": "12 GB LPDDR5X RAM",
+        "storage": null,
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-8-pro\/",
         "price": 999.99,
-        "brand": "Google"
+        "brand": "Google",
+        "used": false
     },
     {
         "name": "Google Pixel 8",
@@ -875,11 +1047,15 @@
         "height": "5.9 in",
         "battery": "4G usage 26.80 hrs",
         "camera": "Ultra HDR, Magic Editor, Best Take, Macro Focus, Magic Eraser, Photo Unblur, Motion Mode, Real Tone, Face Unblur, Panorama, Manual white balancing, Locked Folder, Night Sight, Astrophotography, Top Shot, Portrait Mode",
-        "storage": "8 GB LPDDR5X RAM | 128 GB \/ 256 GB UFS 3.1 storage",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-8\/",
         "price": 799.99,
-        "brand": "Google"
+        "brand": "Google",
+        "used": false
     },
     {
         "name": "Google Pixel Fold",
@@ -895,11 +1071,15 @@
         "height": "Folded 5.5 in | Unfolded 5.5 in",
         "battery": "29.26 hours",
         "camera": "Rear Camera Selfie | Magic Eraser | Photo Unblur | Long Exposure | Real Tone\u2122 |Face Unblur | Panorama |Manual white balancing | Locked Folder | Night Sight | Top Shot | Portrait Mode | Portrait Light Super Res Zoom | Motion autofocus | Frequent Faces",
-        "storage": "12 LPDDR5 GB RAM | 256 & 512 GB UFS 3.1 storage",
+        "storage": [
+            256,
+            512
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/google-pixel-fold\/",
         "price": 1799.99,
-        "brand": "Google"
+        "brand": "Google",
+        "used": false
     },
     {
         "name": "Kyocera DuraForce PRO 3",
@@ -915,11 +1095,14 @@
         "height": "6.06 in",
         "battery": "Up to 27 hours",
         "camera": "8MP with Facial Recognition",
-        "storage": "128GB ROM | 6GB RAM",
+        "storage": [
+            128
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/kyocera-duraforce-pro-3\/",
         "price": 899.99,
-        "brand": "Kyocera"
+        "brand": "Kyocera",
+        "used": false
     },
     {
         "name": "Kyocera DuraForce Ultra 5G UW",
@@ -935,11 +1118,14 @@
         "height": "6.50 in",
         "battery": "4G: 27 hrs. \/ 5G: 15 hrs. (estimated)",
         "camera": "24MP with Super Night Vision + 16MP ultra-wide view",
-        "storage": "128GB (ROM) + 6GB (RAM)",
+        "storage": [
+            128
+        ],
         "operating_system": "Android 10",
         "url": "https:\/\/www.verizon.com\/smartphones\/kyocera-duraforce-ultra-5g-uw\/",
         "price": 899.99,
-        "brand": "Kyocera"
+        "brand": "Kyocera",
+        "used": false
     },
     {
         "name": "Kyocera DuraSport 5G UW",
@@ -955,11 +1141,14 @@
         "height": "6.09 in.",
         "battery": "26.3 hours",
         "camera": "48MP with Super Night Vision + 16MP ultra-wide view",
-        "storage": "64GB (ROM) + 4GB (RAM)",
+        "storage": [
+            64
+        ],
         "operating_system": "Android 11",
         "url": "https:\/\/www.verizon.com\/smartphones\/kyocera-durasport-5g-uw\/",
         "price": 579.99,
-        "brand": "Kyocera"
+        "brand": "Kyocera",
+        "used": false
     },
     {
         "name": "Motorola edge - 2022",
@@ -979,7 +1168,8 @@
         "operating_system": "Android\u2122 12",
         "url": "https:\/\/www.verizon.com\/smartphones\/motorola-edge-2022\/",
         "price": 659.99,
-        "brand": "Motorola"
+        "brand": "Motorola",
+        "used": false
     },
     {
         "name": "Motorola edge 5G UW",
@@ -995,11 +1185,15 @@
         "height": "6.65 in",
         "battery": "2 days",
         "camera": "32 MP hi-res selfie camera (with Quad Pixel technology)",
-        "storage": "6GB RAM | 128GB or 256GB Storage",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": "Android\u2122 11",
         "url": "https:\/\/www.verizon.com\/smartphones\/motorola-edge-5g-uw\/",
         "price": 549.99,
-        "brand": "Motorola"
+        "brand": "Motorola",
+        "used": false
     },
     {
         "name": "Motorola edge+ 5G UW",
@@ -1017,14 +1211,18 @@
         "height": "6.42 in",
         "battery": "41 hrs",
         "camera": "50 MP high-res main camera system | 50 MP Ultra-wide Angle w\/ Macro Vision (+2 MP Depth Camera)",
-        "storage": "128GB | 256 GB",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": "Android\u2122 12",
         "url": "https:\/\/www.verizon.com\/smartphones\/motorola-edge-plus-5g-uw\/",
         "price": 849.99,
-        "brand": "Motorola"
+        "brand": "Motorola",
+        "used": false
     },
     {
-        "name": "Motorola edge+ (Certified Pre-Owned)",
+        "name": "Motorola edge+",
         "colors": [
             "Thunder Grey"
         ],
@@ -1037,11 +1235,14 @@
         "height": "6.34 in",
         "battery": "52 hrs",
         "camera": "108MP Quad Pixel Triple Camera system with Hi-Res Optical Zoom",
-        "storage": "12GB LPDDR5 RAM + 256GB UFS 3.0 with Turbo Write*",
+        "storage": [
+            256
+        ],
         "operating_system": "Android 10 with easy access to the Google apps you use most",
         "url": "https:\/\/www.verizon.com\/smartphones\/motorola-edge-plus-certified-pre-owned\/",
         "price": 397.99,
-        "brand": "Motorola"
+        "brand": "Motorola",
+        "used": true
     },
     {
         "name": "Motorola edge+",
@@ -1059,11 +1260,14 @@
         "height": "6.34 in",
         "battery": "52 hrs",
         "camera": "108MP Quad Pixel Triple Camera system with Hi-Res Optical Zoom",
-        "storage": "12GB LPDDR5 RAM + 256GB UFS 3.0 with Turbo Write*",
+        "storage": [
+            256
+        ],
         "operating_system": "Android 10 with easy access to the Google apps you use most",
         "url": "https:\/\/www.verizon.com\/smartphones\/motorola-edge-plus\/",
         "price": 869.99,
-        "brand": "Motorola"
+        "brand": "Motorola",
+        "used": false
     },
     {
         "name": "Motorola moto g power (2022)",
@@ -1079,11 +1283,14 @@
         "height": "6.58 in",
         "battery": "Up to 72 hrs",
         "camera": "Front: 8MP camera | Rear: 50MP",
-        "storage": "4GB RAM \/ 64GB",
+        "storage": [
+            64
+        ],
         "operating_system": "Android\u2122 11",
         "url": "https:\/\/www.verizon.com\/smartphones\/motorola-moto-g-power-2022\/",
         "price": 249.99,
-        "brand": "Motorola"
+        "brand": "Motorola",
+        "used": false
     },
     {
         "name": "Motorola moto g pure",
@@ -1099,11 +1306,14 @@
         "height": "6.59 in.",
         "battery": "46 hrs.",
         "camera": "13 MP camera system (2 MP depth sensor)",
-        "storage": "3GB RAM \/ 32GB Storage",
+        "storage": [
+            32
+        ],
         "operating_system": "Android 11.0",
         "url": "https:\/\/www.verizon.com\/smartphones\/motorola-moto-g-pure\/",
         "price": 149.99,
-        "brand": "Motorola"
+        "brand": "Motorola",
+        "used": false
     },
     {
         "name": "Motorola moto g stylus 5G",
@@ -1119,11 +1329,14 @@
         "height": "6.65 in",
         "battery": "Up to 52 hrs",
         "camera": "50MP (f\/1.9, 0.64\u00b5m) | Quad Pixel technology | OIS | 8MP Ultra-wide angle (118-degree FOV) + Macro Vision | 2MP Depth Sensor (f\/2.4, 1.75\u00b5m)",
-        "storage": "4GB RAM | 128GB Storage",
+        "storage": [
+            128
+        ],
         "operating_system": "Android\u2122 12",
         "url": "https:\/\/www.verizon.com\/smartphones\/motorola-moto-g-stylus-5g\/",
         "price": 399.99,
-        "brand": "Motorola"
+        "brand": "Motorola",
+        "used": false
     },
     {
         "name": "Motorola one 5G UW ace",
@@ -1139,11 +1352,14 @@
         "height": "6.54 in",
         "battery": "2 days",
         "camera": "16MP | Quad Pixel technology",
-        "storage": "4GB (RAM) + 128GB Flash built-in storage | up to 1TB microSD card expandable",
+        "storage": [
+            128
+        ],
         "operating_system": "Android\u2122 11",
         "url": "https:\/\/www.verizon.com\/smartphones\/motorola-one-5g-uw-ace\/",
         "price": 299.99,
-        "brand": "Motorola"
+        "brand": "Motorola",
+        "used": false
     },
     {
         "name": "Nokia 2 V Tella",
@@ -1159,11 +1375,14 @@
         "height": "2.82 in",
         "battery": "48 hrs.",
         "camera": "5 MP",
-        "storage": "2GB (RAM) + 16GB (ROM)",
+        "storage": [
+            16
+        ],
         "operating_system": "Android 10",
         "url": "https:\/\/www.verizon.com\/smartphones\/nokia-2-v-tella\/",
         "price": 168.0,
-        "brand": "Nokia"
+        "brand": "Nokia",
+        "used": false
     },
     {
         "name": "Nokia 8 V 5G UW",
@@ -1179,11 +1398,14 @@
         "height": "6.76 in",
         "battery": "48 hrs.",
         "camera": "24MP",
-        "storage": "6GB (RAM) + 64GB (ROM)",
+        "storage": [
+            64
+        ],
         "operating_system": "Android 10",
         "url": "https:\/\/www.verizon.com\/smartphones\/nokia-8v-5g-uw\/",
         "price": 699.99,
-        "brand": "Nokia"
+        "brand": "Nokia",
+        "used": false
     },
     {
         "name": "Samsung Galaxy A03s",
@@ -1199,11 +1421,14 @@
         "height": "6.53 in",
         "battery": "Up to 41 hrs",
         "camera": "13MP AF F2.2 + Flash|Macro 2MP F2.4|Depth 2MP F2.4|Portrait, Hyperlapse",
-        "storage": "32GB + 3GB LPDDR3 RAM",
+        "storage": [
+            32
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a03s\/",
         "price": 159.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Samsung Galaxy A14 5G",
@@ -1219,11 +1444,14 @@
         "height": "6.60 in",
         "battery": "31 hours",
         "camera": "(Main) 50MP AF F1.8 + (Macro) 2MP F2.4 + (Depth) 2MP F2.4 + Flash",
-        "storage": "64GB + 4GB LPDDR4 RAM",
+        "storage": [
+            64
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a14-5g\/",
         "price": 199.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Samsung Galaxy A23 5G UW",
@@ -1239,11 +1467,14 @@
         "height": "6.51 in",
         "battery": "Up to 32 hrs",
         "camera": "(Main) 50MP AF F1.8 + (UltraWide) 5MP F2.2 + (Macro) 2MP F2.4 + (Depth) 2MP F2.4 + Flash",
-        "storage": "64GB + 4GB LPDDR4X RAM",
+        "storage": [
+            64
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a23-5g-uw\/",
         "price": 349.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Samsung Galaxy A42 5G",
@@ -1259,11 +1490,14 @@
         "height": "6.47 in",
         "battery": null,
         "camera": "Main 48MP F1.8 + Flash Ultrawide 8MP F2.2 Depth 2MP F2.4 Single Take, Fun Mode, Portrait, Night Mode. Hyperlapse",
-        "storage": "4GB (RAM) + 128GB (ROM)",
+        "storage": [
+            128
+        ],
         "operating_system": "Android 11.0",
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a42-5g\/",
         "price": 359.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Samsung Galaxy A53 5G UW",
@@ -1279,11 +1513,14 @@
         "height": "6.28 in",
         "battery": "27.68hrs: 4G | Up to 19.75hrs: 5G",
         "camera": "32MP (F2.2)",
-        "storage": "6GB + 128GB",
+        "storage": [
+            128
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a53-5g-uw\/",
         "price": 499.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Samsung Galaxy A54 5G",
@@ -1299,14 +1536,17 @@
         "height": "6.22 in",
         "battery": "4G: Up to 28.29h | 5G: Up to 20.9h",
         "camera": "32MP (F2.2)",
-        "storage": "6GB+128GB",
+        "storage": [
+            128
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-a54-5g\/",
         "price": 499.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
-        "name": "Samsung Galaxy Note20 5G (Certified Pre-Owned)",
+        "name": "Samsung Galaxy Note20 5G",
         "colors": [
             "Mystic Green",
             "Mystic Gray"
@@ -1321,14 +1561,17 @@
         "height": "6.36 in",
         "battery": "26 hrs.",
         "camera": "12 MP Wide",
-        "storage": "128GB + 8GB RAM LPDDR5",
+        "storage": [
+            128
+        ],
         "operating_system": "Android 10 (Q OS)",
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-note-20-5g-certified-pre-owned\/",
         "price": 664.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": true
     },
     {
-        "name": "Samsung Galaxy Note20 Ultra 5G (Certified Pre-Owned)",
+        "name": "Samsung Galaxy Note20 Ultra 5G",
         "colors": [
             "Mystic Black",
             "Mystic Bronze",
@@ -1345,14 +1588,18 @@
         "height": "6.49 in",
         "battery": "25 hrs.",
         "camera": "108MP",
-        "storage": "128GB\/512GB + 12GB RAM LPDDR5",
+        "storage": [
+            128,
+            512
+        ],
         "operating_system": "Android 10 (Q OS)",
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-note-20-ultra-5g-certified-pre-owned\/",
         "price": 709.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": true
     },
     {
-        "name": "Samsung Galaxy S20 5G UW (Certified Pre-Owned)",
+        "name": "Samsung Galaxy S20 5G UW",
         "colors": [
             "Cloud Pink",
             "Cloud White (Verizon Exclusive)",
@@ -1369,14 +1616,17 @@
         "height": "5.97 in",
         "battery": "25 hrs.",
         "camera": "12 MP Wide",
-        "storage": "8GB LPDDR5 RAM + 128GB UFS 3.0",
+        "storage": [
+            128
+        ],
         "operating_system": "Android 10 (Q OS)",
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s20-5g-uw-certified-pre-owned\/",
         "price": 749.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": true
     },
     {
-        "name": "Samsung Galaxy S20 FE 5G UW (Certified Pre-Owned)",
+        "name": "Samsung Galaxy S20 FE 5G UW",
         "colors": [
             "Cloud Navy",
             "Cloud Red",
@@ -1393,11 +1643,14 @@
         "height": "6.29 in",
         "battery": "32 hrs.",
         "camera": "32 MP",
-        "storage": "6GB LPDDR5 \/ 128GB",
+        "storage": [
+            128
+        ],
         "operating_system": "Android Q (10.0)",
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s20-fe-5g-uw-certified-pre-owned\/",
         "price": 376.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": true
     },
     {
         "name": "Samsung Galaxy S20 FE 5G UW",
@@ -1413,14 +1666,17 @@
         "height": "6.29 in",
         "battery": "32 hrs.",
         "camera": "32 MP",
-        "storage": "6GB LPDDR5 \/ 128GB",
+        "storage": [
+            128
+        ],
         "operating_system": "Android Q (10.0)",
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s20-fe-5g-uw\/",
         "price": 599.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
-        "name": "Samsung Galaxy S20 Ultra 5G (Certified Pre-Owned)",
+        "name": "Samsung Galaxy S20 Ultra 5G",
         "colors": [
             "Cosmic Black",
             "Cosmic Gray",
@@ -1441,10 +1697,11 @@
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s20-ultra-5g-certified-pre-owned\/",
         "price": 659.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": true
     },
     {
-        "name": "Samsung Galaxy S21 5G (Certified Pre-Owned)",
+        "name": "Samsung Galaxy S21 5G",
         "colors": [
             "Phantom White",
             "Phantom Violet",
@@ -1461,14 +1718,18 @@
         "height": "5.97 in",
         "battery": "24.89 hrs.",
         "camera": "12 MP Wide",
-        "storage": "128GB\/256GB (ROM) + 8GB (RAM)",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": "Android 11 (R OS)",
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s21-5g-certified-pre-owned\/",
         "price": 474.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": true
     },
     {
-        "name": "Samsung Galaxy S21 FE 5G (Certified Pre-Owned)",
+        "name": "Samsung Galaxy S21 FE 5G",
         "colors": [
             "White",
             "Lavender",
@@ -1485,11 +1746,15 @@
         "height": "6.13 in",
         "battery": "4G: Up to 23.38 hrs | 5G: Up to 16.9 hrs",
         "camera": "12MP Wide",
-        "storage": "128GB + 6GB | 256GB + 8GB",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s21-fe-5g-certified-pre-owned\/",
         "price": 419.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": true
     },
     {
         "name": "Samsung Galaxy S21 FE 5G",
@@ -1507,14 +1772,18 @@
         "height": "6.13 in",
         "battery": "4G: Up to 23.38 hrs | 5G: Up to 16.9 hrs",
         "camera": "12MP Wide",
-        "storage": "128GB + 6GB | 256GB + 8GB",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s21-fe-5g\/",
         "price": 599.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
-        "name": "Samsung Galaxy S21+ 5G (Certified Pre-Owned)",
+        "name": "Samsung Galaxy S21+ 5G",
         "colors": [
             "Phantom Silver",
             "Phantom Black",
@@ -1531,14 +1800,17 @@
         "height": "6.36 in",
         "battery": "28.71 hrs",
         "camera": "12 MP Wide",
-        "storage": "128GB (ROM) + 8GB (RAM)",
+        "storage": [
+            128
+        ],
         "operating_system": "Android 11 (R OS)",
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s21-plus-5g-certified-pre-owned\/",
         "price": 669.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": true
     },
     {
-        "name": "Samsung Galaxy S21 Ultra 5G (Certified Pre-Owned)",
+        "name": "Samsung Galaxy S21 Ultra 5G",
         "colors": [
             "Phantom Black",
             "Phantom Silver",
@@ -1555,14 +1827,19 @@
         "height": "6.5 in",
         "battery": "27.69 hrs",
         "camera": "108MP Wide",
-        "storage": "128GB\/256GB (ROM) + 12GB (RAM), 512GB (ROM) + 16GB (RAM)",
+        "storage": [
+            128,
+            256,
+            512
+        ],
         "operating_system": "Android 11 (R OS)",
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s21-ultra-5g-certified-pre-owned\/",
         "price": 784.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": true
     },
     {
-        "name": "Samsung Galaxy S22 (Certified Pre-Owned)",
+        "name": "Samsung Galaxy S22",
         "colors": [
             "Bora Purple",
             "Phantom White",
@@ -1579,14 +1856,18 @@
         "height": "5.75 in",
         "battery": "21.86 hrs: 4G | Up to 15.53 hrs: 5G",
         "camera": "10MP 3x OIS AF F2.4 (Tele)",
-        "storage": "128GB\/256GB (ROM) + 8GB (RAM)",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s22-certified-pre-owned\/",
         "price": 534.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": true
     },
     {
-        "name": "Samsung Galaxy S22+ (Certified Pre-Owned)",
+        "name": "Samsung Galaxy S22+",
         "colors": [
             "Phantom White",
             "Green",
@@ -1603,11 +1884,15 @@
         "height": "6.2 in",
         "battery": "4G: Up to 25.74 hrs | 5G: Up to 17.91 hrs",
         "camera": "50MP OIS AF F1.8 (Wide); 10MP 3x OIS AF F2.4 (Tele); 12MP FF F2.2 (UltraWide): Flash: Y (Portrait mode, Space Zoom, Single Take, Night mode, Director's view)",
-        "storage": "128GB\/256GB (ROM) + 8GB (RAM)",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s22-plus-certified-pre-owned\/",
         "price": 704.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": true
     },
     {
         "name": "Samsung Galaxy S22+",
@@ -1627,11 +1912,15 @@
         "height": "6.2 in",
         "battery": "4G: Up to 25.74 hrs | 5G: Up to 17.91 hrs",
         "camera": "50MP OIS AF F1.8 (Wide); 10MP 3x OIS AF F2.4 (Tele); 12MP FF F2.2 (UltraWide): Flash: Y (Portrait mode, Space Zoom, Single Take, Night mode, Director's view)",
-        "storage": "128GB\/256GB (ROM) + 8GB (RAM)",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s22-plus\/",
         "price": 999.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Samsung Galaxy S22 Ultra",
@@ -1651,11 +1940,15 @@
         "height": "6.43 inches",
         "battery": "4G: Up to 26.4 hrs | 5G: Up to 19.2 hrs",
         "camera": "108MP OIS AF, F1.8 (Wide) | 10MP 3x OIS AF, F2.4 (Tele) | 10MP 10x OIS AF F4.9 (Tele) | 12MP AF F2.2 (UltraWide) \\ Range Sensor \/ Flash: Y (Portrait mode \/ Space Zoom \/ Single Take \/ Night mode \/ Director's view)",
-        "storage": "128GB (ROM) + 8GB (RAM) | 256GB\/512GB (ROM) + 12GB (RAM)",
+        "storage": [
+            128256,
+            512
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s22-ultra\/",
         "price": 1299.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Samsung Galaxy S22",
@@ -1675,14 +1968,18 @@
         "height": "5.75 in",
         "battery": "21.86 hrs: 4G | Up to 15.53 hrs: 5G",
         "camera": "10MP 3x OIS AF F2.4 (Tele)",
-        "storage": "128GB\/256GB (ROM) + 8GB (RAM)",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s22\/",
         "price": 699.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
-        "name": "Samsung Galaxy S23 (Certified Pre-Owned)",
+        "name": "Samsung Galaxy S23",
         "colors": [
             "Phantom Black",
             "Cream",
@@ -1699,11 +1996,15 @@
         "height": "5.75 in",
         "battery": "4G: Up to 23.69h | 5G: Up to 18.25h",
         "camera": "Portrait mode, Portrait Video, 30x Space Zoom, Single Take, Night mode, Director\u2019s view, Pro mode, Pro Video mode",
-        "storage": "8GB+128GB | 8GB+256GB",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s23-certified-pre-owned\/",
         "price": 724.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": true
     },
     {
         "name": "Samsung Galaxy S23+",
@@ -1723,11 +2024,15 @@
         "height": "6.21 in",
         "battery": "4G: Up to 27.61h | 5G: Up to 21.83h",
         "camera": "Portrait mode, Portrait Video, 30x Space Zoom, Single Take, Night mode, Director\u2019s view, Pro mode, Pro Video mode",
-        "storage": "8GB+256GB | 8GB+512GB",
+        "storage": [
+            256,
+            512
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s23-plus\/",
         "price": 999.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Samsung Galaxy S23 Ultra",
@@ -1747,11 +2052,15 @@
         "height": "6.43 inches",
         "battery": "4G: Up to 28.251h | 5G: Up to 22.42h",
         "camera": "Portrait mode, Portrait Video, 100x Space Zoom, Single Take, Night mode, Director\u2019s view, Pro mode, Pro Video mode",
-        "storage": "8GB+256GB | 12GB+512GB",
+        "storage": [
+            256,
+            512
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s23-ultra\/",
         "price": 1199.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Samsung Galaxy S23",
@@ -1771,11 +2080,15 @@
         "height": "5.75 in",
         "battery": "4G: Up to 23.69h | 5G: Up to 18.25h",
         "camera": "Portrait mode, Portrait Video, 30x Space Zoom, Single Take, Night mode, Director\u2019s view, Pro mode, Pro Video mode",
-        "storage": "8GB+128GB | 8GB+256GB",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-s23\/",
         "price": 799.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Samsung Galaxy Z Flip3 5G",
@@ -1795,11 +2108,15 @@
         "height": "Folded: 3.40 in. | Unfolded 6.54 in.",
         "battery": null,
         "camera": "(Wide) 12MP OIS AF F1.8; (Ultrawide) 12MP FF F2.2; + Flash",
-        "storage": "128\/256GB ROM + 8GB LPDDR5 RAM",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": "Android 11.0; One UI 3.1.1",
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-flip3-5g\/",
         "price": 999.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Samsung Galaxy Z Flip4",
@@ -1819,11 +2136,15 @@
         "height": "Folded: 3.34 in. | Unfolded: 6.50 in.",
         "battery": "21 hrs",
         "camera": "12MP OIS AF F1.8 (Wide) | 12MP FF F2.2 (Ultrawide) + Flash",
-        "storage": "128\/256GB ROM + 8GB LPDDR5 RAM",
+        "storage": [
+            128,
+            256
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-flip4\/",
         "price": 999.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Samsung Galaxy Z Flip5",
@@ -1843,11 +2164,15 @@
         "height": "Folded: 3.35 in | Unfolded: 6.50 in",
         "battery": "22 hours",
         "camera": "4K Video Recording | Dual Preview | Flex Mode | Director\u2019s View | Single Take | Auto Framing | Hyperlapse",
-        "storage": "256\/512GB ROM + 8GB LPDDR5X RAM",
+        "storage": [
+            256,
+            512
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-flip5\/",
         "price": 999.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Samsung Galaxy Z Fold3 5G",
@@ -1867,11 +2192,15 @@
         "height": "6.23 in.",
         "battery": "Folded: 26 hrs.; Unfolded: 21 hrs.",
         "camera": "(Wide) 12MP OIS AF F1.8 | (Tele x2.0) 12MP OIS AF F2.4 | (Ultrawide) 12MP FF F2.2 | + Flash",
-        "storage": "256\/512GB ROM + 12GB LPDDR5 RAM",
+        "storage": [
+            256,
+            512
+        ],
         "operating_system": "Android 11.0 | One UI 3.1.1",
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-fold3-5g\/",
         "price": 1799.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Samsung Galaxy Z Fold4",
@@ -1891,11 +2220,15 @@
         "height": "6.11 in",
         "battery": "Folded: 26 hrs. | Unfolded: 22 hrs.",
         "camera": "(Wide) 50MP OIS AF F1.8 | (Tele 3X) 10MP OIS AF F2.4 | (Ultrawide) 12MP FF F2.2 + Flash",
-        "storage": "256\/512GB ROM + 12GB LPDDR5 RAM",
+        "storage": [
+            256,
+            512
+        ],
         "operating_system": "Android 12.0 | One UI 4.1.1",
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-fold4\/",
         "price": 1799.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Samsung Galaxy Z Fold5",
@@ -1915,11 +2248,15 @@
         "height": "6.10 in",
         "battery": "Folded: 26 hours | Unfolded: 23 hours",
         "camera": "8K Video Recording | Dual Preview, Flex Mode | Director\u2019s View | Single Take | Auto Framing | Hyperlapse",
-        "storage": "256\/512GB ROM + 12GB LPDDR5X RAM",
+        "storage": [
+            256,
+            512
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/samsung-galaxy-z-fold5\/",
         "price": 1799.99,
-        "brand": "Samsung"
+        "brand": "Samsung",
+        "used": false
     },
     {
         "name": "Sonim XP8",
@@ -1935,11 +2272,14 @@
         "height": "5.95 in",
         "battery": "44 hrs.",
         "camera": "8 MP",
-        "storage": "4GB RAM\/64GB ROM",
+        "storage": [
+            64
+        ],
         "operating_system": null,
         "url": "https:\/\/www.verizon.com\/smartphones\/sonim-xp8\/",
         "price": 648.0,
-        "brand": "Sonim"
+        "brand": "Sonim",
+        "used": false
     },
     {
         "name": "TCL 10 5G UW",
@@ -1955,11 +2295,14 @@
         "height": "6.44 in",
         "battery": "29 hrs.",
         "camera": "48MP main + 8MP super wide angle + 5MP macro with dual LED flash",
-        "storage": "128GB (ROM) + 6GB (RAM)",
+        "storage": [
+            128
+        ],
         "operating_system": "Android 10.0",
         "url": "https:\/\/www.verizon.com\/smartphones\/tcl-10-5g-uw\/",
         "price": 399.99,
-        "brand": "TCL"
+        "brand": "TCL",
+        "used": false
     },
     {
         "name": "TCL 30 V 5G",
@@ -1975,14 +2318,17 @@
         "height": null,
         "battery": "24 Hours",
         "camera": "50MP (Main), 5MP (Super Wide), 2MP (Macro) with LED Flash & Modes: Auto, Video, Filters, Portrait, AI Color, Pro",
-        "storage": "4GB RAM | 128GB Storage",
+        "storage": [
+            128
+        ],
         "operating_system": "Android 11",
         "url": "https:\/\/www.verizon.com\/smartphones\/tcl-30-v-5g\/",
         "price": 299.99,
-        "brand": "TCL"
+        "brand": "TCL",
+        "used": false
     },
     {
-        "name": "Apple iPhone 11 Pro (Certified Pre-Owned)",
+        "name": "Apple iPhone 11 Pro",
         "colors": [
             "Silver",
             "Gray",
@@ -1999,10 +2345,15 @@
         "height": "5.67 in",
         "battery": "16 hrs.",
         "camera": "12 MP",
-        "storage": "64GB, 256GB, or 512GB",
+        "storage": [
+            64,
+            256,
+            512
+        ],
         "operating_system": "iOS 13",
         "url": "https:\/\/www.verizon.com\/smartphones\/apple-iphone-11-pro-certified-pre-owned\/",
         "price": 489.99,
-        "brand": "Apple"
+        "brand": "Apple",
+        "used": true
     }
 ]
