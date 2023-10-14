@@ -17,10 +17,10 @@
         "height": "5.67 in",
         "battery": "16 hrs.",
         "camera": {
+            "general": "12 MP",
             "front": null,
             "rear": null,
             "video": null,
-            "general": "12 MP",
             "modes": null
         },
         "storage": [
@@ -54,10 +54,10 @@
         "height": "6.22 in",
         "battery": null,
         "camera": {
+            "general": "Dual 12MP camera system: Ultra Wide and Wide",
             "front": "12MP",
             "rear": null,
             "video": null,
-            "general": "Dual 12MP camera system: Ultra Wide and Wide",
             "modes": null
         },
         "storage": [
@@ -91,10 +91,10 @@
         "height": "5.78 in",
         "battery": "65 hrs.",
         "camera": {
+            "general": "Dual 12MP camera system: Ultra Wide and Wide",
             "front": "12MP",
             "rear": null,
             "video": null,
-            "general": "Dual 12MP camera system: Ultra Wide and Wide",
             "modes": null
         },
         "storage": [
@@ -128,10 +128,10 @@
         "height": "5.18 in",
         "battery": "50 hrs.",
         "camera": {
+            "general": "Pro 12MP camera system: Ultra Wide, Wide, and Telephoto",
             "front": "12MP",
             "rear": null,
             "video": null,
-            "general": "Pro 12MP camera system: Ultra Wide, Wide, and Telephoto",
             "modes": null
         },
         "storage": [
@@ -165,10 +165,10 @@
         "height": "5.78 in",
         "battery": "65 hrs.",
         "camera": {
+            "general": "Pro 12MP camera system: Ultra Wide, Wide, and Telephoto",
             "front": "12MP",
             "rear": null,
             "video": null,
-            "general": "Pro 12MP camera system: Ultra Wide, Wide, and Telephoto",
             "modes": null
         },
         "storage": [
@@ -202,10 +202,10 @@
         "height": "6.44 in",
         "battery": "80 hrs.",
         "camera": {
+            "general": "Dual 12MP camera system: Ultra Wide and Wide",
             "front": "12MP",
             "rear": null,
             "video": null,
-            "general": "Dual 12MP camera system: Ultra Wide and Wide",
             "modes": null
         },
         "storage": [
@@ -239,10 +239,10 @@
         "height": "5.78 in",
         "battery": "65 hrs.",
         "camera": {
+            "general": "Dual 12MP camera system: Wide and Ultra Wide Cameras",
             "front": null,
             "rear": null,
             "video": null,
-            "general": "Dual 12MP camera system: Wide and Ultra Wide Cameras",
             "modes": null
         },
         "storage": [
@@ -307,10 +307,10 @@
         "height": "5.18 in.",
         "battery": "Video playback: Up to 17 hours; Video playback (streamed): Up to 13 hours; Audio playback: Up to 55 hours",
         "camera": {
+            "general": "Dual 12MP camera system: Wide and Ultra Wide Cameras",
             "front": null,
             "rear": null,
             "video": null,
-            "general": "Dual 12MP camera system: Wide and Ultra Wide Cameras",
             "modes": null
         },
         "storage": [
@@ -344,10 +344,10 @@
         "height": "5.78 in.",
         "battery": "Video playback: 22 hrs.; Video playback (streamed): 20 hrs.; Audio playback: 75 hrs.",
         "camera": {
+            "general": "Pro 12MP system: Ultra Wide, Wide, and Telephoto",
             "front": "12MP",
             "rear": null,
             "video": null,
-            "general": "Pro 12MP system: Ultra Wide, Wide, and Telephoto",
             "modes": null
         },
         "storage": [
@@ -383,9 +383,9 @@
         "battery": "Video playback: up to 28 hrs. | Video playback (streamed): up to 25 hrs. | 95 hours audio playback",
         "camera": {
             "front": "12MP",
+            "general": null,
             "rear": null,
             "video": null,
-            "general": null,
             "modes": null
         },
         "storage": [
@@ -420,10 +420,10 @@
         "height": "5.78 in.",
         "battery": "Video playback: Up to 17 hrs; Streamed: Up to 13 hrs; Audio playback: Up to 75 hrs.",
         "camera": {
-            "front": null,
-            "rear": "Dual 12MP camera system: Wide and Ultra Wide Cameras camera",
-            "video": null,
             "general": "Dual 12MP camera system: Wide and Ultra Wide Cameras",
+            "rear": "Dual 12MP camera system: Wide and Ultra Wide Cameras camera",
+            "front": null,
+            "video": null,
             "modes": null
         },
         "storage": [
@@ -457,10 +457,10 @@
         "height": "5.78 in.",
         "battery": "Audio playback: Up to 80 hrs.",
         "camera": {
-            "front": null,
             "rear": "12MP Main: 26 mm, \u0192\/1.5 aperture, sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
-            "video": null,
+            "front": null,
             "general": null,
+            "video": null,
             "modes": null
         },
         "storage": [
@@ -494,10 +494,10 @@
         "height": "6.33 in.",
         "battery": "Streamed: Up to 20 hrs; Audio playback: Up to 100 hrs.",
         "camera": {
-            "front": null,
             "rear": "12MP Main: 26 mm, \u0192\/1.5 aperture, sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
-            "video": null,
+            "front": null,
             "general": null,
+            "video": null,
             "modes": null
         },
         "storage": [
@@ -531,10 +531,10 @@
         "height": "6.33 in.",
         "battery": "Streamed: Up to 20 hrs; Audio playback: Up to 100 hrs.",
         "camera": {
-            "front": null,
             "rear": "12MP Main: 26 mm, \u0192\/1.5 aperture, sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
-            "video": null,
+            "front": null,
             "general": null,
+            "video": null,
             "modes": null
         },
         "storage": [
@@ -568,10 +568,10 @@
         "height": "5.81 in.",
         "battery": "Streamed: Up to 20 hrs; Audio playback: Up to 75 hrs.",
         "camera": {
-            "front": null,
+            "general": "48MP ",
             "rear": "Main: 24 mm, \u0192\/1.78 aperture, second-generation sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
+            "front": null,
             "video": null,
-            "general": "48MP",
             "modes": null
         },
         "storage": [
@@ -606,10 +606,10 @@
         "height": "6.33 in.",
         "battery": "Audio playback: Up to 95 hours",
         "camera": {
-            "front": null,
+            "general": "48MP",
             "rear": "Main: 24 mm, \u0192\/1.78 aperture, second-generation sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
+            "front": null,
             "video": null,
-            "general": null,
             "modes": null
         },
         "storage": [
@@ -644,10 +644,10 @@
         "height": "5.81 in.",
         "battery": "Streamed: Up to 20 hrs; Audio playback: Up to 75 hrs.",
         "camera": {
-            "front": null,
+            "general": "48MP ",
             "rear": "Main: 24 mm, \u0192\/1.78 aperture, second-generation sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
+            "front": null,
             "video": null,
-            "general": "48MP",
             "modes": null
         },
         "storage": [
@@ -682,10 +682,10 @@
         "height": "5.78 in.",
         "battery": "Audio playback: Up to 80 hrs.",
         "camera": {
-            "front": null,
             "rear": "12MP Main: 26 mm, \u0192\/1.5 aperture, sensor-shift optical image stabilization, seven-element lens, 100% Focus Pixels",
-            "video": null,
+            "front": null,
             "general": null,
+            "video": null,
             "modes": null
         },
         "storage": [
@@ -721,8 +721,8 @@
         "camera": {
             "front": "12MP with \u0192\/1.9 aperture TrueDepth front camera",
             "rear": "48MP Main: 26 mm, \u0192\/1.6 aperture, sensor\u2011shift optical image stabilization, 100% Focus Pixels, support for super-high-resolution photos (24MP and 48MP)",
-            "video": null,
             "general": null,
+            "video": null,
             "modes": null
         },
         "storage": [
@@ -758,8 +758,8 @@
         "camera": {
             "front": "12MP with \u0192\/1.9 aperture TrueDepth front camera",
             "rear": "12MP Ultra Wide: 13 mm, \u0192\/2.2 aperture and 120\u00b0 field of view, 100% Focus Pixels",
-            "video": null,
             "general": null,
+            "video": null,
             "modes": null
         },
         "storage": [
@@ -795,8 +795,8 @@
         "camera": {
             "front": "12MP with \u0192\/1.9 aperture TrueDepth front camera",
             "rear": "48MP Main: 24 mm, \u0192\/1.78 aperture, second\u2011generation sensor\u2011shift optical image stabilization, 100% Focus Pixels, support for super\u2011high\u2011resolution photos (24MP and 48MP)",
-            "video": null,
             "general": null,
+            "video": null,
             "modes": null
         },
         "storage": [
@@ -833,8 +833,8 @@
         "camera": {
             "front": "12MP with \u0192\/1.9 aperture TrueDepth front camera",
             "rear": "48MP Main: 26 mm, \u0192\/1.6 aperture, sensor\u2011shift optical image stabilization, 100% Focus Pixels, support for super-high-resolution photos (24MP and 48MP)",
-            "video": null,
             "general": null,
+            "video": null,
             "modes": null
         },
         "storage": [
@@ -870,8 +870,8 @@
         "camera": {
             "front": "Portrait mode with advanced bokeh and Depth Control | Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High-Key Mono)",
             "rear": "12MP Wide camera | \u0192\/1.8 aperture | Digital zoom up to 5x | Portrait mode with advanced bokeh and Depth Control",
-            "video": null,
             "general": null,
+            "video": null,
             "modes": null
         },
         "storage": [
@@ -907,8 +907,8 @@
         "camera": {
             "front": "Portrait mode with advanced bokeh and Depth Control | Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High-Key Mono)",
             "rear": "12MP Wide camera | \u0192\/1.8 aperture | Digital zoom up to 5x | Portrait mode with advanced bokeh and Depth Control",
-            "video": null,
             "general": null,
+            "video": null,
             "modes": null
         },
         "storage": [
@@ -942,10 +942,10 @@
         "height": "5.45 in",
         "battery": "Up to 13 hrs.",
         "camera": {
+            "general": "12 MP",
             "front": null,
             "rear": null,
             "video": null,
-            "general": "12 MP",
             "modes": null
         },
         "storage": [
@@ -979,10 +979,10 @@
         "height": "5.94 in",
         "battery": "25 hrs.",
         "camera": {
+            "general": "12 MP",
             "front": null,
             "rear": null,
             "video": null,
-            "general": "12 MP",
             "modes": null
         },
         "storage": [
@@ -1016,10 +1016,10 @@
         "height": "5.65 in",
         "battery": "12 hrs.",
         "camera": {
+            "general": "12 MP",
             "front": null,
             "rear": null,
             "video": null,
-            "general": "12 MP",
             "modes": null
         },
         "storage": null,
@@ -1050,9 +1050,9 @@
         "battery": "Up to 13 hrs.",
         "camera": {
             "front": null,
+            "general": null,
             "rear": null,
             "video": null,
-            "general": null,
             "modes": null
         },
         "storage": [
@@ -1085,8 +1085,8 @@
         "battery": "25.68 hrs.",
         "camera": {
             "front": "11.1 MP",
-            "rear": "50 MP Octa PD Quad Bayer wide | 12 MP ultrawide | 48 MP telephoto",
-            "video": null,
+            "rear": "50 MP Octa PD Quad Bayer wide | 12 MP ultrawide  | 48 MP telephoto ",
+            "video": "4K video recording at 30 FPS, 60 FPS | 1080p video recording at 30 FPS, 60 FPS",
             "general": null,
             "modes": null
         },
@@ -1119,7 +1119,7 @@
         "camera": {
             "front": "8 MP | 1.12 \u00b5m pixel width | \u0192\/2.0 aperture | Fixed focus | 84\u00b0 wide field of view",
             "rear": "50 MP Octa PD Quad Bayer wide | 12 MP ultrawide",
-            "video": null,
+            "video": "Rear: 4K video recording at 30 FPS, 60 FPS; 1080p video recording at 30 FPS, 60 FPS | Front: 1080p video recording at 30 FPS",
             "general": null,
             "modes": null
         },
@@ -1155,7 +1155,7 @@
         "camera": {
             "front": "8 MP",
             "rear": "12.2 MP dual pixel wide camera | 12 MP ultrawide camera",
-            "video": null,
+            "video": "Rear Camera: 4K video recording at 30 FPS, 60 FPS | 1080p video recording at 30 FPS, 60 FPS | Front camera: 1080p video recording at 30 FPS",
             "general": null,
             "modes": null
         },
@@ -1189,8 +1189,8 @@
         "battery": "27.77 Hrs",
         "camera": {
             "front": "10.8 MP",
-            "rear": "50 MP Octa PD Quad Bayer wide camera | 12 MP ultrawide | 48 MP telephoto",
-            "video": null,
+            "rear": "50 MP Octa PD Quad Bayer wide camera | 12 MP ultrawide  | 48 MP telephoto ",
+            "video": "Rear camera: 4K video recording at 30 FPS, 60 FPS,  1080p video recording at 30 FPS, 60 FPS | Front camera: 4K video recording at 30 FPS, 60 FPS",
             "general": null,
             "modes": null
         },
@@ -1227,7 +1227,7 @@
         "camera": {
             "front": "10.8 MP",
             "rear": "50 MP Octa PD Quad Bayer wide camera | 12 MP ultrawide",
-            "video": null,
+            "video": "Rear camera: 4K video recording at 30 FPS, 60 FPS,  1080p video recording at 30 FPS, 60 FPS | Front camera: 4K video recording at 30 FPS, 60 FPS",
             "general": null,
             "modes": null
         },
@@ -1261,11 +1261,11 @@
         "height": "6.0 in",
         "battery": "27.1 hr",
         "camera": {
+            "modes": "Photo Unblur | Magic Eraser | Night Sight | Long Exposure | Real Tone\u2122 | Face Unblur | Panorama | Manual white balancing| Locked Folder | Top Shot | Portrait Mode | Portrait Light | Super Res Zoom | Motion Auto Focus| Frequent Faces",
             "front": "13 MP",
             "rear": "64 MP Quad PD Quad Bayer wide camera | 13 MP ultrawide",
-            "video": null,
-            "general": null,
-            "modes": "Photo Unblur | Magic Eraser | Night Sight | Long Exposure | Real Tone\u2122 | Face Unblur | Panorama | Manual white balancing| Locked Folder | Top Shot | Portrait Mode | Portrait Light | Super Res Zoom | Motion Auto Focus| Frequent Faces"
+            "video": "Rear camera: 4K video recording at 30 FPS, 60 FPS, 1080p video recording at 30 FPS, 60 FPS\nFront camera:  4K video recording at 30 FPS, 1080p video recording at 30 FPS",
+            "general": null
         },
         "storage": [
             128
@@ -1296,11 +1296,11 @@
         "height": "6.4 in",
         "battery": "4G usage 27.38 hours",
         "camera": {
-            "front": "10.5 MP Dual PD selfie camera | 1.22 \u00b5m pixel width | \u0192\/2.2 aperture Autofocus | 95\u00b0 ultrawide field of view",
+            "modes": "Pro controls, High-res images, Ultra HDR, Magic Editor, Best Take, Macro Focus, Magic Eraser, Photo Unblur, Motion Mode, Real Tone, Face Unblur, Panorama, Manual white balancing, Locked Folder, Night Sight, Astrophotography, Top Shot, Portrait Mode",
+            "front": "10.5 MP Dual PD selfie camera | 1.22 \u00b5m pixel width | \u0192\/2.2 aperture\nAutofocus | 95\u00b0 ultrawide field of view",
             "rear": "50 MP Octa PD wide camera | 48 MP Quad PD ultrawide camera with autofocus | 48 MP Quad PD telephoto camera",
-            "video": null,
-            "general": null,
-            "modes": "Pro controls, High-res images, Ultra HDR, Magic Editor, Best Take, Macro Focus, Magic Eraser, Photo Unblur, Motion Mode, Real Tone, Face Unblur, Panorama, Manual white balancing, Locked Folder, Night Sight, Astrophotography, Top Shot, Portrait Mode"
+            "video": "Rear camera: 4K video recording at 24 FPS, 30 FPS, 60 FPS, 1080p video recording at 24 FPS, 30 FPS, 60 FPS | Front camera: 4K video recording at 24 FPS, 30 FPS, 60 FPS",
+            "general": null
         },
         "storage": null,
         "operating_system": null,
@@ -1329,11 +1329,11 @@
         "height": "5.9 in",
         "battery": "4G usage 26.80 hrs",
         "camera": {
-            "front": "10.5 MP Dual PD selfie camera | 1.22 \u03bcm pixel width | \u0192\/2.2 aperture Autofocus | 95\u00b0 ultrawide field of view",
+            "modes": "Ultra HDR, Magic Editor, Best Take, Macro Focus, Magic Eraser, Photo Unblur, Motion Mode, Real Tone, Face Unblur, Panorama, Manual white balancing, Locked Folder, Night Sight, Astrophotography, Top Shot, Portrait Mode",
+            "front": "10.5 MP Dual PD selfie camera | 1.22 \u03bcm pixel width | \u0192\/2.2 aperture\nAutofocus | 95\u00b0 ultrawide field of view",
             "rear": "12 MP ultrawide camera with autofocus | 1.25 \u03bcm pixel width | \u0192\/2.2 aperture | 125.8\u00b0 field of view",
-            "video": null,
-            "general": null,
-            "modes": "Ultra HDR, Magic Editor, Best Take, Macro Focus, Magic Eraser, Photo Unblur, Motion Mode, Real Tone, Face Unblur, Panorama, Manual white balancing, Locked Folder, Night Sight, Astrophotography, Top Shot, Portrait Mode"
+            "video": "Rear camera: 4K video recording at 24 FPS, 30 FPS, 60 FPS, 1080p video recording at 24 FPS, 30 | Front camera: 4K video recording at 24 FPS, 30 FPS, 60 FPS",
+            "general": null
         },
         "storage": [
             128,
@@ -1361,11 +1361,11 @@
         "height": "Folded 5.5 in | Unfolded 5.5 in",
         "battery": "29.26 hours",
         "camera": {
+            "modes": "Rear Camera Selfie | Magic Eraser | Photo Unblur | Long Exposure | Real Tone\u2122 |Face Unblur | Panorama  |Manual white balancing | Locked Folder | Night Sight | Top Shot | Portrait Mode | Portrait Light Super Res Zoom | Motion autofocus | Frequent Faces",
             "front": "9.5 MP Dual PD",
             "rear": "48 MP Quad PD with OIS + CLAF | 10.8 MP dual PD telephoto camera",
-            "video": null,
-            "general": null,
-            "modes": "Rear Camera Selfie | Magic Eraser | Photo Unblur | Long Exposure | Real Tone\u2122 |Face Unblur | Panorama |Manual white balancing | Locked Folder | Night Sight | Top Shot | Portrait Mode | Portrait Light Super Res Zoom | Motion autofocus | Frequent Faces"
+            "video": "Rear camera:  4K video recording at 30 FPS, 60 FPS, 1080p video recording at 30 FPS, 60 FPS\nFront camera: Outer front: 4K 30 \/ 60 FPS & 1080p 30 \/ 60 FPS\nInner front:  1080p 30 FPS",
+            "general": null
         },
         "storage": [
             256,
@@ -1393,11 +1393,11 @@
         "height": "6.06 in",
         "battery": "Up to 27 hours",
         "camera": {
+            "modes": "Dual LED Flash, Night, Portrait, Macro, Loupe, Pro photo, Panorama, Slow motion, Time lapse, Pro video, Action Overlay, Multi camera mode, Underwater mode \u2013 capture photos and record videos",
             "front": "8MP with Facial Recognition",
             "rear": "64MP | 16MP, Ultra-Wide View | Scratch-resistant camera lens | 2MP Macro",
-            "video": null,
-            "general": null,
-            "modes": null
+            "video": "4K video enabled",
+            "general": null
         },
         "storage": [
             128
@@ -1424,10 +1424,10 @@
         "height": "6.50 in",
         "battery": "4G: 27 hrs. \/ 5G: 15 hrs. (estimated)",
         "camera": {
+            "general": "24MP with Super Night Vision + 16MP ultra-wide view",
             "front": "8MP with Facial Recognition",
             "rear": null,
             "video": null,
-            "general": "24MP with Super Night Vision + 16MP ultra-wide view",
             "modes": null
         },
         "storage": [
@@ -1455,10 +1455,10 @@
         "height": "6.09 in.",
         "battery": "26.3 hours",
         "camera": {
-            "front": "8MP with Facial Recognition",
-            "rear": null,
-            "video": null,
             "general": "48MP with Super Night Vision + 16MP ultra-wide view",
+            "front": "8MP with Facial Recognition",
+            "video": "1080P HD Video enabled",
+            "rear": null,
             "modes": null
         },
         "storage": [
@@ -1486,9 +1486,9 @@
         "height": "6.3 in",
         "battery": "2 days",
         "camera": {
-            "front": "32MP selfie camera with Quad Pixel Technology | Dual Capture | Spot Color | Night Vision | Portrait | Live Filter",
-            "rear": "50MP | Quad Pixel Technology | Optical Image Stabilization (OIS) | Omni PDAF| Cutout | Panorama | AR Stickers | Pro Mode (w\/ Long Exposure) | Depth Sensor",
-            "video": null,
+            "front": "32MP  selfie camera with Quad Pixel Technology | Dual Capture | Spot Color | Night Vision | Portrait | Live Filter",
+            "rear": "50MP | Quad Pixel Technology | Optical Image Stabilization (OIS) | Omni PDAF| Cutout |  Panorama | AR Stickers |  Pro Mode (w\/ Long Exposure) |  Depth Sensor",
+            "video": "Rear main camera:  4K (30fps) | UHD (30\/60fps) | FHD (30\/60fps) | Slow motion FHD (120fps); Rear ultra-wide angle camera: FHD (30fps); Rear macro camera: FHD (30\/60fps) | UHD (30fps)",
             "general": null,
             "modes": null
         },
@@ -1517,7 +1517,7 @@
         "camera": {
             "front": "32 MP hi-res selfie camera (with Quad Pixel technology)",
             "rear": "108 MP ultra high-res camera system (+8 MP Ultra-Wide Angle w\/ Macro Vision; 2 MP Depth Camera)",
-            "video": null,
+            "video": "4K UHD (30fps), FHD (60\/30fps)",
             "general": null,
             "modes": null
         },
@@ -1551,7 +1551,7 @@
         "camera": {
             "front": "60 MP hi-res selfie camera | Quad Pixel Technology",
             "rear": "50 MP high-res main camera system | 50 MP Ultra-wide Angle w\/ Macro Vision (+2 MP Depth Camera)",
-            "video": null,
+            "video": "8K UHD (24fps), 4K UHD (30fps), FHD (60\/30fps) | Slow motion FHD (960\/240\/120fps) | Rear Ultra-wide:4K UHD (60\/30fps) or FHD (30fps)",
             "general": null,
             "modes": null
         },
@@ -1581,10 +1581,10 @@
         "height": "6.34 in",
         "battery": "52 hrs",
         "camera": {
+            "general": "108MP Quad Pixel Triple Camera system with Hi-Res Optical Zoom",
             "front": "25MP sensor (f\/2.0, 0.9\u00b5m) | Quad Pixel technology for 1.8um",
             "rear": null,
             "video": null,
-            "general": "108MP Quad Pixel Triple Camera system with Hi-Res Optical Zoom",
             "modes": null
         },
         "storage": [
@@ -1614,10 +1614,10 @@
         "height": "6.34 in",
         "battery": "52 hrs",
         "camera": {
+            "general": "108MP Quad Pixel Triple Camera system with Hi-Res Optical Zoom",
             "front": "25MP sensor (f\/2.0, 0.9\u00b5m) | Quad Pixel technology for 1.8um",
             "rear": null,
             "video": null,
-            "general": "108MP Quad Pixel Triple Camera system with Hi-Res Optical Zoom",
             "modes": null
         },
         "storage": [
@@ -1645,10 +1645,10 @@
         "height": "6.58 in",
         "battery": "Up to 72 hrs",
         "camera": {
+            "general": "Front: 8MP camera | Rear: 50MP",
+            "video": "Main: FHD (30fps)",
             "front": null,
             "rear": null,
-            "video": null,
-            "general": "Front: 8MP camera | Rear: 50MP",
             "modes": null
         },
         "storage": [
@@ -1676,10 +1676,10 @@
         "height": "6.59 in.",
         "battery": "46 hrs.",
         "camera": {
-            "front": "5 MP",
-            "rear": null,
-            "video": null,
             "general": "13 MP camera system (2 MP depth sensor)",
+            "front": "5 MP",
+            "video": "Main: FHD (30fps)",
+            "rear": null,
             "modes": null
         },
         "storage": [
@@ -1707,10 +1707,10 @@
         "height": "6.65 in",
         "battery": "Up to 52 hrs",
         "camera": {
-            "front": "16MP f\/2.2 aperture |1.0\u00b5m pixel size | Quad Pixel technology",
-            "rear": null,
-            "video": null,
             "general": "50MP (f\/1.9, 0.64\u00b5m) | Quad Pixel technology | OIS | 8MP Ultra-wide angle (118-degree FOV) + Macro Vision | 2MP Depth Sensor (f\/2.4, 1.75\u00b5m)",
+            "front": "16MP f\/2.2 aperture |1.0\u00b5m pixel size | Quad Pixel technology",
+            "video": "Rear main camera: FHD (60\/30fps) | Rear macro camera: HD (30fps) | Macro video, Slow motion video, Timelapse video with hyperlapse stabilization, Spot color video, Electronic Image Stabilization (EIS)",
+            "rear": null,
             "modes": null
         },
         "storage": [
@@ -1740,8 +1740,8 @@
         "camera": {
             "front": "16MP | Quad Pixel technology",
             "rear": "48MP | Ultra-Wide Angle: 8MP | Macro Vision: 2MP | AI & Quad Pixel technology",
-            "video": null,
             "general": null,
+            "video": null,
             "modes": null
         },
         "storage": [
@@ -1770,9 +1770,9 @@
         "battery": "48 hrs.",
         "camera": {
             "front": "5 MP",
+            "general": null,
             "rear": null,
             "video": null,
-            "general": null,
             "modes": null
         },
         "storage": [
@@ -1801,9 +1801,9 @@
         "battery": "48 hrs.",
         "camera": {
             "front": "24MP",
+            "general": null,
             "rear": null,
             "video": null,
-            "general": null,
             "modes": null
         },
         "storage": [
@@ -1831,10 +1831,10 @@
         "height": "6.53 in",
         "battery": "Up to 41 hrs",
         "camera": {
-            "front": "5MP FF F2.2",
-            "rear": null,
-            "video": null,
             "general": "13MP AF F2.2 + Flash|Macro 2MP F2.4|Depth 2MP F2.4|Portrait, Hyperlapse",
+            "front": "5MP FF F2.2",
+            "video": "Front : 2592 x 1944 @ 30fps|Back : 4208 x 3120 @ 30fps",
+            "rear": null,
             "modes": null
         },
         "storage": [
@@ -1864,7 +1864,7 @@
         "camera": {
             "front": "13MP FF F2.0",
             "rear": "(Main) 50MP AF F1.8 + (Macro) 2MP F2.4 + (Depth) 2MP F2.4 + Flash",
-            "video": null,
+            "video": "Front : 1920 x 1080 @ 30fps | Back : 1920 x 1080 @ 30fps",
             "general": null,
             "modes": null
         },
@@ -1895,7 +1895,7 @@
         "camera": {
             "front": "8MP FF F2.0",
             "rear": "(Main) 50MP AF F1.8 + (UltraWide) 5MP F2.2 + (Macro) 2MP F2.4 + (Depth) 2MP F2.4 + Flash",
-            "video": null,
+            "video": "Front: 1920 x 1080 @ 30fps| Back: 1920 x 1080 @ 30fps",
             "general": null,
             "modes": null
         },
@@ -1924,10 +1924,10 @@
         "height": "6.47 in",
         "battery": null,
         "camera": {
-            "front": "13MP F2.2",
-            "rear": null,
-            "video": null,
             "general": "Main 48MP F1.8 + Flash Ultrawide 8MP F2.2 Depth 2MP F2.4 Single Take, Fun Mode, Portrait, Night Mode. Hyperlapse",
+            "front": "13MP F2.2",
+            "video": "4K(3840 x 2160) @ 30fps Super Steady Video",
+            "rear": null,
             "modes": null
         },
         "storage": [
@@ -1957,7 +1957,7 @@
         "camera": {
             "front": "32MP (F2.2)",
             "rear": "Main: 64MP (F1.8) | Flash: Yes | Ultra-Wide: 12MP (F2.2) | Depth: 5MP (F2.4) | Macro : 5MP (F2.4) | OIS support, Single Take, Portrait mode, Night mode, Fun mode",
-            "video": null,
+            "video": "Rear: 4K | Front: 4K",
             "general": null,
             "modes": null
         },
@@ -1986,11 +1986,11 @@
         "height": "6.22 in",
         "battery": "4G: Up to 28.29h | 5G: Up to 20.9h",
         "camera": {
+            "modes": "OIS support, Single Take, Portrait mode, Night mode, Fun mode",
             "front": "32MP (F2.2)",
             "rear": "Main: 50MP (F1.8) | UW: 12MP (F2.2) | Macro : 5MP (F2.4) Flash (Y)",
-            "video": null,
-            "general": null,
-            "modes": null
+            "video": "Rear: 4K | Front: 4K",
+            "general": null
         },
         "storage": [
             128
@@ -2019,10 +2019,10 @@
         "height": "6.36 in",
         "battery": "26 hrs.",
         "camera": {
+            "general": "12 MP Wide",
             "front": "10 MP",
             "rear": null,
             "video": null,
-            "general": "12 MP Wide",
             "modes": null
         },
         "storage": [
@@ -2054,10 +2054,10 @@
         "height": "6.49 in",
         "battery": "25 hrs.",
         "camera": {
+            "general": "108MP",
             "front": "10 MP",
             "rear": null,
             "video": null,
-            "general": "108MP",
             "modes": null
         },
         "storage": [
@@ -2090,10 +2090,10 @@
         "height": "5.97 in",
         "battery": "25 hrs.",
         "camera": {
+            "general": "12 MP Wide",
             "front": "10MP AF F2.2",
             "rear": null,
             "video": null,
-            "general": "12 MP Wide",
             "modes": null
         },
         "storage": [
@@ -2126,9 +2126,9 @@
         "battery": "32 hrs.",
         "camera": {
             "front": "32 MP",
+            "general": null,
             "rear": null,
             "video": null,
-            "general": null,
             "modes": null
         },
         "storage": [
@@ -2157,9 +2157,9 @@
         "battery": "32 hrs.",
         "camera": {
             "front": "32 MP",
+            "general": null,
             "rear": null,
             "video": null,
-            "general": null,
             "modes": null
         },
         "storage": [
@@ -2192,9 +2192,9 @@
         "battery": null,
         "camera": {
             "front": null,
+            "general": null,
             "rear": null,
             "video": null,
-            "general": null,
             "modes": null
         },
         "storage": null,
@@ -2224,10 +2224,10 @@
         "height": "5.97 in",
         "battery": "24.89 hrs.",
         "camera": {
-            "front": "10 MP AF",
-            "rear": "12 MP OIS AF F1.8 (Wide-angle Camera) | Telephoto Camera: 64 MP OIS AF F2.0 | Ultra Wide Camera: 12 MP FF F2.2 | Flash- Y",
-            "video": null,
             "general": "12 MP Wide",
+            "front": "10 MP AF",
+            "rear": "12 MP OIS AF F1.8 (Wide-angle Camera)  | Telephoto Camera: 64 MP OIS AF F2.0 | Ultra Wide Camera: 12 MP FF F2.2 | Flash- Y ",
+            "video": null,
             "modes": null
         },
         "storage": [
@@ -2260,10 +2260,10 @@
         "height": "6.13 in",
         "battery": "4G: Up to 23.38 hrs | 5G: Up to 16.9 hrs",
         "camera": {
-            "front": "32MP FF F2.2",
-            "rear": "Wide: 12MP OIS AF F1.8 | Tele:8MP 3x AF F2.4 | Ultra Wide:12MP FF F2.2 | Flash: Yes | Portrait mode, Space Zoom, Single Take, Night mode, Dual recording",
-            "video": null,
             "general": "12MP Wide",
+            "front": "32MP FF F2.2",
+            "rear": "Wide: 12MP OIS AF F1.8 | Tele:8MP 3x AF F2.4 | Ultra Wide:12MP FF F2.2 | Flash: Yes | Portrait mode, Space Zoom, Single Take,  Night mode, Dual recording",
+            "video": "4K",
             "modes": null
         },
         "storage": [
@@ -2294,10 +2294,10 @@
         "height": "6.13 in",
         "battery": "4G: Up to 23.38 hrs | 5G: Up to 16.9 hrs",
         "camera": {
-            "front": "32MP FF F2.2",
-            "rear": "Wide: 12MP OIS AF F1.8 | Tele:8MP 3x AF F2.4 | Ultra Wide:12MP FF F2.2 | Flash: Yes | Portrait mode, Space Zoom, Single Take, Night mode, Dual recording",
-            "video": null,
             "general": "12MP Wide",
+            "front": "32MP FF F2.2",
+            "rear": "Wide: 12MP OIS AF F1.8 | Tele:8MP 3x AF F2.4 | Ultra Wide:12MP FF F2.2 | Flash: Yes | Portrait mode, Space Zoom, Single Take,  Night mode, Dual recording",
+            "video": "4K",
             "modes": null
         },
         "storage": [
@@ -2330,10 +2330,10 @@
         "height": "6.36 in",
         "battery": "28.71 hrs",
         "camera": {
-            "front": "10 MP",
-            "rear": "12 MP OIS AF F1.8 (Wide-angle Camera) | Telephoto Camera: 64 MP OIS AF F2.0 | Ultra Wide Camera: 12 MP FF F2.2 | Flash- Y",
-            "video": null,
             "general": "12 MP Wide",
+            "front": "10 MP",
+            "rear": "12 MP OIS AF F1.8 (Wide-angle Camera)  | Telephoto Camera: 64 MP OIS AF F2.0 | Ultra Wide Camera: 12 MP FF F2.2 | Flash- Y ",
+            "video": null,
             "modes": null
         },
         "storage": [
@@ -2365,10 +2365,10 @@
         "height": "6.5 in",
         "battery": "27.69 hrs",
         "camera": {
-            "front": "40MP AF",
-            "rear": "108MP OIS AF F1.8 (Wide) | (Tele x10) 10MP OIS AF F4.9 | (Tele x3) 10MP OIS AF F2.4 | (Ultra Wide)12MP AF F2.2 | Range sensor | Flash- Y",
-            "video": null,
             "general": "108MP Wide",
+            "front": "40MP AF",
+            "rear": "108MP OIS AF F1.8  (Wide) | (Tele x10) 10MP OIS AF F4.9 | (Tele x3) 10MP OIS AF F2.4 | (Ultra Wide)12MP AF F2.2 | Range sensor | Flash- Y ",
+            "video": null,
             "modes": null
         },
         "storage": [
@@ -2402,10 +2402,10 @@
         "height": "5.75 in",
         "battery": "21.86 hrs: 4G | Up to 15.53 hrs: 5G",
         "camera": {
+            "general": "10MP 3x OIS AF F2.4 (Tele) ",
             "front": "10MP AF F2.2",
+            "video": "Front: 4K | Back: 4K and 8K",
             "rear": null,
-            "video": null,
-            "general": "10MP 3x OIS AF F2.4 (Tele)",
             "modes": null
         },
         "storage": [
@@ -2438,10 +2438,10 @@
         "height": "6.2 in",
         "battery": "4G: Up to 25.74 hrs | 5G: Up to 17.91 hrs",
         "camera": {
-            "front": "40MP FF F2.2",
-            "rear": null,
-            "video": null,
             "general": "50MP OIS AF F1.8 (Wide); 10MP 3x OIS AF F2.4 (Tele); 12MP FF F2.2 (UltraWide): Flash: Y (Portrait mode, Space Zoom, Single Take, Night mode, Director's view)",
+            "front": "40MP FF F2.2",
+            "video": "Front: 4K | Back: 4K and 8K",
+            "rear": null,
             "modes": null
         },
         "storage": [
@@ -2474,10 +2474,10 @@
         "height": "6.2 in",
         "battery": "4G: Up to 25.74 hrs | 5G: Up to 17.91 hrs",
         "camera": {
-            "front": "40MP FF F2.2",
-            "rear": null,
-            "video": null,
             "general": "50MP OIS AF F1.8 (Wide); 10MP 3x OIS AF F2.4 (Tele); 12MP FF F2.2 (UltraWide): Flash: Y (Portrait mode, Space Zoom, Single Take, Night mode, Director's view)",
+            "front": "40MP FF F2.2",
+            "video": "Front: 4K | Back: 4K and 8K",
+            "rear": null,
             "modes": null
         },
         "storage": [
@@ -2510,10 +2510,10 @@
         "height": "6.43 inches",
         "battery": "4G: Up to 26.4 hrs | 5G: Up to 19.2 hrs",
         "camera": {
-            "front": "40MP AF F2.2",
-            "rear": null,
-            "video": null,
             "general": "108MP OIS AF, F1.8 (Wide) | 10MP 3x OIS AF, F2.4 (Tele) | 10MP 10x OIS AF F4.9 (Tele) | 12MP AF F2.2 (UltraWide) \\ Range Sensor \/ Flash: Y (Portrait mode \/ Space Zoom \/ Single Take \/ Night mode \/ Director's view)",
+            "front": "40MP AF F2.2",
+            "video": "Front: 4K | Back: 4K and 8K",
+            "rear": null,
             "modes": null
         },
         "storage": [
@@ -2546,10 +2546,10 @@
         "height": "5.75 in",
         "battery": "21.86 hrs: 4G | Up to 15.53 hrs: 5G",
         "camera": {
+            "general": "10MP 3x OIS AF F2.4 (Tele) ",
             "front": "10MP FF F2.2",
+            "video": "Front: 4K | Back: 4K and 8K",
             "rear": null,
-            "video": null,
-            "general": "10MP 3x OIS AF F2.4 (Tele)",
             "modes": null
         },
         "storage": [
@@ -2582,11 +2582,11 @@
         "height": "5.75 in",
         "battery": "4G: Up to 23.69h | 5G: Up to 18.25h",
         "camera": {
+            "modes": "Portrait mode, Portrait Video, 30x Space Zoom, Single Take,  Night mode, Director\u2019s view, Pro mode, Pro Video mode",
             "front": "12MP AF F2.2",
             "rear": "(Wide)50MP OIS AF F1.8 | (Tele) 10M 3x OIS AF F2.4 | (UltraWide) 12MP FF F2.2, Flash (Y)",
-            "video": null,
-            "general": null,
-            "modes": "Portrait mode, Portrait Video, 30x Space Zoom, Single Take, Night mode, Director\u2019s view, Pro mode, Pro Video mode"
+            "video": "Front : 4K | Back: 4K and 8K",
+            "general": null
         },
         "storage": [
             128,
@@ -2618,11 +2618,11 @@
         "height": "6.21 in",
         "battery": "4G: Up to 27.61h | 5G: Up to 21.83h",
         "camera": {
-            "front": "12MP AF  F2.2",
+            "modes": "Portrait mode, Portrait Video, 30x Space Zoom, Single Take,  Night mode, Director\u2019s view, Pro mode, Pro Video mode",
+            "front": "12MP AF\u00a0 F2.2",
             "rear": "(Wide)50MP OIS AF F1.8 | (Tele) 10M 3x OIS AF F2.4 | (UltraWide) 12MP FF F2.2, Flash (Y)",
-            "video": null,
-            "general": null,
-            "modes": "Portrait mode, Portrait Video, 30x Space Zoom, Single Take, Night mode, Director\u2019s view, Pro mode, Pro Video mode"
+            "video": "Front : 4K | Back: 4K and 8K",
+            "general": null
         },
         "storage": [
             256,
@@ -2654,11 +2654,11 @@
         "height": "6.43 inches",
         "battery": "4G: Up to 28.251h | 5G: Up to 22.42h",
         "camera": {
+            "modes": "Portrait mode, Portrait Video, 100x Space Zoom, Single Take,  Night mode, Director\u2019s view, Pro mode, Pro Video mode",
             "front": "12MP AF F2.2",
-            "rear": "(Wide)200MP OIS AF, F1.7, (Tele) 10M 3x OIS AF, F2.4, (Tele) 10M 10x OIS AF, F4.9, (UltraWide)12MP AF, F2.2, LAF, Flash (Y), 100x Space Zoom",
-            "video": null,
-            "general": null,
-            "modes": "Portrait mode, Portrait Video, 100x Space Zoom, Single Take, Night mode, Director\u2019s view, Pro mode, Pro Video mode"
+            "rear": "(Wide)200MP OIS AF, F1.7, (Tele) 10M 3x OIS AF,  F2.4, (Tele) 10M 10x OIS AF, F4.9, (UltraWide)12MP AF, F2.2, LAF, Flash (Y), 100x Space Zoom",
+            "video": "Front : 4K | Back: 4K and 8K",
+            "general": null
         },
         "storage": [
             256,
@@ -2690,11 +2690,11 @@
         "height": "5.75 in",
         "battery": "4G: Up to 23.69h | 5G: Up to 18.25h",
         "camera": {
+            "modes": "Portrait mode, Portrait Video, 30x Space Zoom, Single Take,  Night mode, Director\u2019s view, Pro mode, Pro Video mode",
             "front": "12MP AF F2.2",
             "rear": "(Wide)50MP OIS AF F1.8 | (Tele) 10M 3x OIS AF F2.4 | (UltraWide) 12MP FF F2.2, Flash (Y)",
-            "video": null,
-            "general": null,
-            "modes": "Portrait mode, Portrait Video, 30x Space Zoom, Single Take, Night mode, Director\u2019s view, Pro mode, Pro Video mode"
+            "video": "Front : 4K | Back: 4K and 8K",
+            "general": null
         },
         "storage": [
             128,
@@ -2726,10 +2726,10 @@
         "height": "Folded: 3.40 in. | Unfolded 6.54 in.",
         "battery": null,
         "camera": {
+            "general": "(Wide) 12MP OIS AF F1.8; (Ultrawide) 12MP FF F2.2; + Flash",
             "front": "10MP FF F2.4",
             "rear": "Wide 12MP OIS AF F1.8 | UltraWide 12MP AF F2.2",
-            "video": null,
-            "general": "(Wide) 12MP OIS AF F1.8; (Ultrawide) 12MP FF F2.2; + Flash",
+            "video": "4K Video Recording, Dual Preview, Flex Mode, Directors View, Single Take, Auto Framing, Hyperlapse",
             "modes": null
         },
         "storage": [
@@ -2762,10 +2762,10 @@
         "height": "Folded: 3.34 in. | Unfolded: 6.50 in.",
         "battery": "21 hrs",
         "camera": {
+            "general": "12MP OIS AF F1.8 (Wide) | 12MP FF F2.2 (Ultrawide) + Flash",
             "front": "10MP FF F2.4",
             "rear": "12MP Ultra Wide Camera | 12MP Wide-angle Camera",
-            "video": null,
-            "general": "12MP OIS AF F1.8 (Wide) | 12MP FF F2.2 (Ultrawide) + Flash",
+            "video": "4K Video Recording, Dual Preview, Flex Mode, Director's View, Single Take, Auto Framing, Hyperlapse",
             "modes": null
         },
         "storage": [
@@ -2798,11 +2798,11 @@
         "height": "Folded: 3.35 in | Unfolded: 6.50 in",
         "battery": "22 hours",
         "camera": {
+            "modes": "4K Video Recording | Dual Preview | Flex Mode | Director\u2019s View | Single Take | Auto Framing | Hyperlapse",
             "front": "10MP FF F2.2",
             "rear": "(Wide) 12MP OIS AF F1.8 | (Ultrawide) 12MP FF F2.2 + Flash",
-            "video": null,
-            "general": null,
-            "modes": "4K Video Recording | Dual Preview | Flex Mode | Director\u2019s View | Single Take | Auto Framing | Hyperlapse"
+            "video": "Front : 4K(3840 x 2160) @ 60fps | Back : 4K(3840 x 2160) @ 60fps",
+            "general": null
         },
         "storage": [
             256,
@@ -2834,10 +2834,10 @@
         "height": "6.23 in.",
         "battery": "Folded: 26 hrs.; Unfolded: 21 hrs.",
         "camera": {
+            "general": "(Wide) 12MP OIS AF F1.8 | (Tele x2.0) 12MP OIS AF F2.4 | (Ultrawide) 12MP FF F2.2 | + Flash",
             "front": "Main: 4MP F1.8 (Under Display Camera) | Cover: 10MP F2.2",
             "rear": "12MP OIS Wide (F1.8) | 12MP OIS Tele (x2.0) (F2.5) | 12MP Ultrawide (F2.2)",
-            "video": null,
-            "general": "(Wide) 12MP OIS AF F1.8 | (Tele x2.0) 12MP OIS AF F2.4 | (Ultrawide) 12MP FF F2.2 | + Flash",
+            "video": "4K Video Recording, Dual Preview, Flex Mode, Director's View, Single Take, Auto Framing, Hyperlapse",
             "modes": null
         },
         "storage": [
@@ -2870,10 +2870,10 @@
         "height": "6.11 in",
         "battery": "Folded: 26 hrs. | Unfolded: 22 hrs.",
         "camera": {
+            "general": "(Wide) 50MP OIS AF F1.8 | (Tele 3X) 10MP OIS AF F2.4 | (Ultrawide) 12MP FF F2.2 + Flash",
             "front": "Main: 4MP F1.8 (Under Display Camera) | Cover: 10MP F2.2",
             "rear": "50MP Wide 2PD OIS (F1.8) | 12MP Ultra-Wide (F2.2) | 10MP Tele OIS (F2.4) | 3x Optical Zoom \/ 30x Digital",
-            "video": null,
-            "general": "(Wide) 50MP OIS AF F1.8 | (Tele 3X) 10MP OIS AF F2.4 | (Ultrawide) 12MP FF F2.2 + Flash",
+            "video": "8K Video Recording, Dual Preview, Flex Mode, Director\u2019s View, Single Take, Auto Framing, Hyperlapse",
             "modes": null
         },
         "storage": [
@@ -2906,11 +2906,11 @@
         "height": "6.10 in",
         "battery": "Folded: 26 hours | Unfolded: 23 hours",
         "camera": {
+            "modes": "8K Video Recording | Dual Preview, Flex Mode | Director\u2019s View | Single Take | Auto Framing | Hyperlapse",
             "front": "Main: 4MP FF F1.8 (Under Display Camera) | Cover: 10MP FF F2.2",
             "rear": "(Wide) 50MP OIS AF F1.8 | (Tele 3X) 10MP OIS AF F2.4 | (Ultrawide) 12MP FF F2.2 + Flash",
-            "video": null,
-            "general": null,
-            "modes": "8K Video Recording | Dual Preview, Flex Mode | Director\u2019s View | Single Take | Auto Framing | Hyperlapse"
+            "video": "Front : 4K(3840 x 2160) @ 60fps | Back\u00a0 : 4K(3840 x 2160) @ 60fps ,8K(7680 x 4320) @ 24fps",
+            "general": null
         },
         "storage": [
             256,
@@ -2938,10 +2938,10 @@
         "height": "5.95 in",
         "battery": "44 hrs.",
         "camera": {
+            "general": "8 MP",
             "front": null,
             "rear": null,
             "video": null,
-            "general": "8 MP",
             "modes": null
         },
         "storage": [
@@ -2969,10 +2969,10 @@
         "height": "6.44 in",
         "battery": "29 hrs.",
         "camera": {
+            "general": "48MP main + 8MP super wide angle + 5MP macro with dual LED flash",
             "front": "16 MP",
             "rear": null,
             "video": null,
-            "general": "48MP main + 8MP super wide angle + 5MP macro with dual LED flash",
             "modes": null
         },
         "storage": [
@@ -3002,7 +3002,7 @@
         "camera": {
             "front": "16MP with LCD Flash & Modes: Auto, Video, Filters, Portrait & AI Color.",
             "rear": "50MP (Main), 5MP (Super Wide), 2MP (Macro) with LED Flash & Modes: Auto, Video, Filters, Portrait, AI Color, Pro",
-            "video": null,
+            "video": "1080p,  30fps capture",
             "general": null,
             "modes": null
         },
@@ -3035,10 +3035,10 @@
         "height": "5.67 in",
         "battery": "16 hrs.",
         "camera": {
+            "general": "12 MP",
             "front": null,
             "rear": null,
             "video": null,
-            "general": "12 MP",
             "modes": null
         },
         "storage": [
