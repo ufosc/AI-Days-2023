@@ -1,10 +1,10 @@
 .App {
   background-color: #000000;
-  background: linear-gradient(#ffffff, #000000);
 }
 
 .hard{
   background: linear-gradient(#ffffff, #000000);
+  margin-bottom: 3rem;
 }
 .App-header {
   background-color: #282c34;

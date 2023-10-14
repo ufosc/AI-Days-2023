@@ -11,29 +11,29 @@ function App() {
   return (
     <div className="App">
       <header class="header">
-        <PageHeader></PageHeader>
+        <PageHeader />
       </header>
       <div className="hard">
-      <Container fluid style={{border: 5}}>
-        <Row style={{ display: 'flex', flexDirection: 'row', height: '80vh' }}>
-          <Col md={4} style={{maxHeight: "80%", justifyContent: 'center'}} >
-            <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
-              <Row style={{ flex: 2, alignItems: 'center', justifyContent: 'center'}}>
-                <Salesperson />
-              </Row>
-              <Row style={{ flex: 1, justifyContent: 'center', margin:0, padding: 0, block:0}}>
-                <FavBox />
-              </Row>
-            </div>
-          </Col>
-          <Col md={7} style={{ display: 'flex', alignItems: 'center' }}>
-            <Window />
-          </Col>
-        </Row>
-      </Container>
+        <Container fluid>
+          <Row style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', }}>
+            <Col md={4} style={{ maxHeight: "80%", justifyContent: 'center' }} >
+              <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                <Row style={{ flex: 2, alignItems: 'center', justifyContent: 'center' }}>
+                  <Salesperson />
+                </Row>
+                <Row style={{ flex: 1, justifyContent: 'center', margin: 0, padding: 0, block: 0 }}>
+                  <FavBox />
+                </Row>
+              </div>
+            </Col>
+            <Col md={7} style={{ display: 'flex', alignItems: 'center' }}>
+              <Window />
+            </Col>
+          </Row>
+        </Container>
       </div>
       <footer className='footer'>
-        <PageFooter></PageFooter>
+        <PageFooter />
       </footer>
     </div>
   );
