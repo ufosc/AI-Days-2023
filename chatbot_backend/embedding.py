@@ -46,47 +46,6 @@ def create_embeddings(database: list[str], model: str) -> (KDTree, np.ndarray):
     # Build the KDTree
     knn_tree = KDTree(vector_database)
     return knn_tree, vector_database
-
-def search(phone_spec: str, k=1, cutoff=0.5):
-    """Find the closest phone spec in the database to the given phone spec.
-
-    Parameters
-    ----------
-    phone_spec : str
-        A JSON string representing a PhoneSpec with the following schema:
-        
-        {
-            id: string,
-            name: string,
-            color: string,
-            battery: string | null,
-            camera: {
-                general: string | null,
-                video: string | null,
-                modes: string | null,
-                front: string | null,
-                rear: string | null
-            },
-            storage: number | null,
-            price: number | null,
-            brand: string,
-            used: boolean,
-            screen_size: number | null,
-            description: string | null,
-        }
-    k : int, optional
-        The number of closest phone specs to return, by default 1
-    cutoff : float, optional
-        The minimum cosine distance to consider, by default 0.5
-
-    Returns
-    -------
-    list[int]
-        A list of indices of the closest phone specs to the given phone spec. 
-    """
-    phone_spec_vec = openai.Embedding.create(phone_spec)
-    distances, indices = __KNN_TREE.query([phone_spec_vec,], k=k)
-    return [i if d > cutoff else None for i, d in zip(indices, distances)]
          
 def spec_from_idx(phone_id: int):
     return __DATABASE[phone_id]
