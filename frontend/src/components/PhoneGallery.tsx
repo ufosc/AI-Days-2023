@@ -16,9 +16,9 @@ export default function PhoneGallery({
         <div
             style={{
                 display: 'flex',
-                gap: 10,
+                gap: 15,
                 overflow: 'scroll',
-                justifyContent: 'center',
+                justifyContent: 'left',
             }}
         >
             {phones.map((phone) => (

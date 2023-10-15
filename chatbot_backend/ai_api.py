@@ -2,7 +2,7 @@ import json
 import openai
 from globals import EMBEDDING_MODEL, KNN_TREE, COMPRESSED_DATABASE
 
-AI_API_FUNCTIONS = [
+AI_API_FUNCTIONS = [ 
     # {
     #     "name": "get_available_models",
     #     "description": "Get a list of all the available phone models",
@@ -14,7 +14,7 @@ AI_API_FUNCTIONS = [
     # },
     {
         "name": "search",
-        "description": "Find the k nearest PhoneSpecs in the database for each of the given PhoneSpecs.",
+        "description": "Find phones that match the targets provided in the phone_specs argument and optionally renders them for the user.",
         "parameters": {
             "type": "object",
             "properties": {
@@ -22,6 +22,7 @@ AI_API_FUNCTIONS = [
                     "type": "array",
                     "items": {
                         "type": "object",
+                        "description": "The specifications of a phone available to purchase.",
                         "properties": {
                             "name": {"type": "string"},
                             "color": {"type": ["string", "null"]},
@@ -33,11 +34,11 @@ AI_API_FUNCTIONS = [
                         },
                         "required": ["name"]
                     },
-                    "description": "An array of objects representing PhoneSpecs for each of which k neighbors will be found."
+                    "description": """An array of objects representing PhoneSpecs for each of which k neighbors will be found."""
                 },
                 "k": {
                     "type": "integer",
-                    "description": "The number of neighbors PhoneSpecs to return for each PhoneSpec.",
+                    "description": "The number of relevant PhoneSpecs to return for each input target.",
                     "default": 1
                 },
                 "display": {
@@ -48,10 +49,8 @@ AI_API_FUNCTIONS = [
             },
             "required": ["phone_specs"]
         }
-    }
-
+    },
 ]
-
 
 def get_available_models():
     """Get a list of all the available phone models.
@@ -65,10 +64,9 @@ def get_available_models():
     list[str]
         A list of strings of the available phone models. 
     """
-
+    
     res = list(set(phone['name'] for phone in COMPRESSED_DATABASE))
     return res
-
 
 def search(phone_specs: str, k=1, display: bool = True):
     print("PhoneSpec", phone_specs)
@@ -99,13 +97,9 @@ def search(phone_specs: str, k=1, display: bool = True):
     np.ndarray[int]
         An n x k array containing indices of the closest PhoneSpecs to the each input PhoneSpec.
     """
-    print("k",k)
-    phone_spec_embedding = openai.Embedding.create(input=[str(phone_spec) for phone_spec in phone_specs],
-                                                   model=EMBEDDING_MODEL)
-    distances, indices = KNN_TREE.query([embedding_obj["embedding"] for embedding_obj in phone_spec_embedding['data']],
-                                        k=k)
+    print("k", k)
+    phone_spec_embedding = openai.Embedding.create(input=[str(phone_spec) for phone_spec in phone_specs], model=EMBEDDING_MODEL)
+    distances, indices = KNN_TREE.query([embedding_obj["embedding"] for embedding_obj in phone_spec_embedding['data']], k=k)
     return distances, indices
 
-
-# AI_API_AVAILABLE_FUNCTIONS = {"get_available_models": get_available_models, "search": search}
 AI_API_AVAILABLE_FUNCTIONS = {"search": search}

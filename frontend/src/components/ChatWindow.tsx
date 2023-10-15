@@ -17,13 +17,12 @@ export default function ChatWindow({
     addFavorite,
 }: Props) {
     return (
-        <div style={{ minWidth: '100%' }}>
+        <div style={{ width: '100%', height: '100%'}}>
             <Window>
                 <div
                     style={{
                         margin: '10px',
-                        maxHeight: '50vh',
-                        height: '50vh',
+                        height: '100%',                        
                     }}
                 >
                     <ChatLog

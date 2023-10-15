@@ -5,8 +5,8 @@ function PageHeader() {
     return (
         <div
             style={{
-                display: 'flex',
                 background: 'black',
+                margin: '0 0 5vh 0'
             }}
         >
             <Image

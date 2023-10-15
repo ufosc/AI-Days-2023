@@ -38,9 +38,9 @@ function Salesperson() {
             >
                 <Image
                     src={myImage}
-                    width={350}
-                    height={350}
-                    style={{ border: 'solid', borderRadius: 10, margin: 10 }}
+                    width={'100%'}
+                    height={'auto'}
+                    style={{ borderRadius: 5, margin: '10px 0 0 0' }}
                 ></Image>
             </div>
         </div>

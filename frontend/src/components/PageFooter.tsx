@@ -5,7 +5,6 @@ function PageFooter() {
     return (
         <div
             style={{
-                display: 'flex',
                 background: 'black',
             }}
         >

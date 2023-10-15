@@ -10,9 +10,10 @@ export default function Favorites({ favorites, removeFavorite }: Props) {
     return (
         <div
             style={{
-                margin: '10px 0 30px 0',
-                border: 'solid',
-                borderRadius: 10,
+                backgroundColor: 'rgb(246, 246, 246)',
+                margin: '20px 0 30px 0',
+                border: '1px solid rgb(224, 224, 224)',
+                borderRadius: 5,
                 padding: 10,
                 minHeight: 225,
             }}

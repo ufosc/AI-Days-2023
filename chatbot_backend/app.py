@@ -37,8 +37,7 @@ INITIAL_PROMPT = [
             Vivian is dedicated to assisting you with purchasing a phone and tries her best to support you in buying products
             without the need to go to a physical store.
             
-             Refer to the below list and use the provided search function.
-
+            Do not make staments that are not supported by the search function or this list.
             DO NOT FORGET THE FOLLOWING LIST!!!
             Verizon has/offers the following phones (listed as a collapsed list):
             iPhone 13 (, Pro, Pro Max)
@@ -81,68 +80,73 @@ INITIAL_PROMPT = [
 def chat():
     prompt = request.json["msg"]
 
-    messages = session.get('messages', INITIAL_PROMPT)
-    messages.append({"role": "user", "content": prompt})
-    messages += INSTRUCTIONS
+    for _ in range(3):
+        messages = session.get('messages', INITIAL_PROMPT)
+        messages.append({"role": "user", "content": prompt})
+        messages += INSTRUCTIONS
 
-    response = openai.ChatCompletion.create(
-        model=globals.GPT,
-        messages=messages,
-        functions=ai_api.AI_API_FUNCTIONS,
-        # temperature=0.6,
-    )
+        response = openai.ChatCompletion.create(
+            model=globals.GPT,
+            messages=messages,
+            functions=ai_api.AI_API_FUNCTIONS,
+            # temperature=0.6,
+        )
 
-    try:
-        response_message = response["choices"][0]["message"]
-        phone_ids = []
+        try:
+            response_message = response["choices"][0]["message"]
+            phone_ids = []
 
-        # If the response contains a function call, call the function
-        if response_message.get("function_call"):
-            available_functions = ai_api.AI_API_AVAILABLE_FUNCTIONS
-            function_name = response_message["function_call"]["name"]
-            function_to_call = available_functions[function_name]
-            function_args = json.loads(
-                response_message["function_call"]["arguments"])
-            function_response = function_to_call(**function_args)
-            print(function_name, function_response)
+            # If the response contains a function call, call the function
+            if response_message.get("function_call"):
+                available_functions = ai_api.AI_API_AVAILABLE_FUNCTIONS
+                function_name = response_message["function_call"]["name"]
+                function_to_call = available_functions[function_name]
+                function_args = json.loads(
+                    response_message["function_call"]["arguments"])
+                function_response = function_to_call(**function_args)
+                print(function_name, function_response)
 
-            # Handle the search function id lookup
-            if function_name == "search":
-                distances, indices = function_response
-                if "display" in function_args and function_args["display"] == True:
-                    phone_ids.extend(indices.flatten().tolist())
+                # Handle the search function id lookup
+                if function_name == "search":
+                    distances, indices = function_response
+                    if "display" not in function_args or function_args["display"] == True:
+                        phone_ids.extend(indices.flatten().tolist())
 
-                function_response = indices.tolist()
-                for i in range(len(indices)):
-                    for j in range(len(indices[i])):
-                        function_response[i][j] = globals.COMPRESSED_DATABASE[indices[i][j]]
+                    function_response = indices.tolist()
+                    for i in range(len(indices)):
+                        for j in range(len(indices[i])):
+                            function_response[i][j] = globals.COMPRESSED_DATABASE[indices[i][j]]
 
-                function_response = json.dumps(function_response)
+                    function_response = json.dumps(function_response)
 
-            # Build new messages
-            messages = session.get('messages', INITIAL_PROMPT)
-            messages.append({"role": "function", "name": function_name, "content": str(function_response)})
-            messages.append({"role": "user", "content": prompt})
-            messages += INSTRUCTIONS
-            response = openai.ChatCompletion.create(
-                model=globals.GPT,
-                messages=messages,
-            )
+                # Build new messages
+                messages = session.get('messages', INITIAL_PROMPT)
+                messages.append({"role": "function", "name": function_name, "content": str(function_response)})
+                messages.append({"role": "user", "content": prompt})
+                messages += INSTRUCTIONS
+                response = openai.ChatCompletion.create(
+                    model=globals.GPT,
+                    messages=messages,
+                )
+            
+            resp_object = json.loads(response["choices"][0]["message"]["content"])
+            message = resp_object['message']
+            history = resp_object['history']
+
+            session['messages'] = [
+                {"role": "system", "content": history},
+                {"role": "user", "content": prompt},
+                {"role": "assistant", "content": message}
+            ]
+
+            print("Session Messages:", session['messages'])
+
+            session.modified = True
+            return {'role': 'assistant', 'content': message, 'phone_ids': phone_ids}
+        except json.JSONDecodeError as e:
+            print("JSONDecodeError", e)
         
-        resp_object = json.loads(response["choices"][0]["message"]["content"])
-        message = resp_object['message']
-        history = resp_object['history']
-
-        session['messages'] = [
-            {"role": "system", "content": history},
-            {"role": "user", "content": prompt},
-            {"role": "assistant", "content": message}
-        ]
-
-        session.modified = True
-        return {'role': 'assistant', 'content': message, 'phone_ids': phone_ids}
-    except json.JSONDecodeError as e:
-        return "Invalid Response from OpenAI", 500
+    return {'role': 'assistant', 'content': "Sorry, I didn't understand that. Please try again.", 'phone_ids': []}
 
 
 @app.route("/chat", methods=("DELETE",))
