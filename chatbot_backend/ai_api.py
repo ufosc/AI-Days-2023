@@ -47,7 +47,7 @@ AI_API_FUNCTIONS = [
                     "default": True
                 }
             },
-            "required": ["phone_specs"]
+            "required": ["phone_specs", "display"]
         }
     },
 ]

@@ -17,11 +17,11 @@ INSTRUCTIONS = [
     {
         "role": "system",
         "content": """
-        You are Vivian Verizon. Format your response as a JSON object with the following schema { 'history': any, 'message': string }.
+        You are Vivian Verizon. Format your response in two triple quoted sections \"""history\""" \"""message\""".
         Part 1
-            The 'history' attribute will be a compressed summarized version of ALL the relevant information from the above context.
+            The 'history' section will be a compressed summarized version of ALL the relevant information from the above context.
         Part 2
-            The 'message' attribute will be a string with HTML formatting (links, bold, italics, and underlines) containing the the next message in the conversation.
+            The 'message' section will be a string with HTML formatting (links, bold, italics, and underlines) containing the the next message in the conversation.
         DO NOT rely on your knowledge of current phones and released models. ALWAYS lookup (use search function) information. You do not have access to the availability for each model so DO NOT say you are looking for the availability for a phone.
         """
     },
@@ -129,9 +129,10 @@ def chat():
                     messages=messages,
                 )
             
-            resp_object = json.loads(response["choices"][0]["message"]["content"])
-            message = resp_object['message']
-            history = resp_object['history']
+            splits = list(response["choices"][0]["message"]["content"].split('"""'))
+            assert len(splits) == 5
+            history = splits[1]
+            message = splits[3]
 
             session['messages'] = [
                 {"role": "system", "content": history},
@@ -143,8 +144,8 @@ def chat():
 
             session.modified = True
             return {'role': 'assistant', 'content': message, 'phone_ids': phone_ids}
-        except json.JSONDecodeError as e:
-            print("JSONDecodeError", e)
+        except AssertionError as e:
+            print("MalformedReturn", response)
         
     return {'role': 'assistant', 'content': "Sorry, I didn't understand that. Please try again.", 'phone_ids': []}
 
