@@ -74,11 +74,13 @@ def chat():
 
             # Handle the search function id lookup
             if function_name == "search":
-                phone_jsons = []
-                phone_ids.extend(function_response.flatten())
-                for idx in phone_ids:
-                    phone_jsons.append(globals.COMPRESSED_DATABASE[idx])
-                function_response = json.dumps(phone_jsons)
+                if "display" in function_args and function_args["display"] == True:
+                    phone_ids.extend(function_response.flatten())
+                    
+                for i, neighbors_idx in enumerate(function_response):
+                    function_response[i, :] = map(lambda idx: globals.COMPRESSED_DATABASE[idx], neighbors_idx)
+
+                function_response = json.dumps(function_response.tolist())
 
             # Build new messages
             messages = session.get('messages', INITIAL_PROMPT)
@@ -86,7 +88,7 @@ def chat():
             messages.append({"role": "user", "content": prompt})
             messages += INSTRUCTIONS
             response = openai.ChatCompletion.create(
-                model="gpt-4",
+                model="gpt-3.5",
                 messages=messages,
             )
         
