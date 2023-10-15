@@ -1,6 +1,7 @@
 import numpy as np
 import openai
 import json
+import pickle
 import tiktoken 
 from sklearn.neighbors import KDTree
 from sklearn.preprocessing import normalize
@@ -11,10 +12,10 @@ EMBEDDING_SIZE = 1536
 MAX_TOKENS = 8192
 TOKENIZER = tiktoken.get_encoding("cl100k_base")
 
-# Build the databases
-__DATABASE = json.load(open("static/phones_all_data.json"))
+# Load the KDTree 
+__KNN_TREE = pickle.load(open("kdtree.pkl", "rb"))
 
-def create_embeddings(database: list[str], model: str) -> (KDTree, np.ndarray):
+def create_embeddings(database: list[str], model: str) -> tuple[KDTree, np.ndarray]:
     """Create KDTree for all the phone specs in the database.
     """
     # Allocate space for embeddings
@@ -31,13 +32,13 @@ def create_embeddings(database: list[str], model: str) -> (KDTree, np.ndarray):
         
         # If we've reached the maximum number of tokens, create an embedding for the current slice
         if current_token_total > MAX_TOKENS:
-            phone_spec_embedding = openai.Embedding.create(input=database[last_slice:i], model=model)
+            phone_spec_embedding = openai.Embedding.create(input=database[last_slice:i], model=MODEL)
             vector_database[last_slice:i, :] = [embedding_obj["embedding"] for embedding_obj in phone_spec_embedding['data']]
             last_slice = i
             current_token_total = current_token_count
 
     # Create an embedding for the last slice
-    phone_spec_embedding = openai.Embedding.create(input=database[last_slice:], model=model)
+    phone_spec_embedding = openai.Embedding.create(input=database[last_slice:], model=MODEL)
     vector_database[last_slice:, :] = [embedding_obj["embedding"] for embedding_obj in phone_spec_embedding['data']]
 
     # Normalize the embeddings to unit length
@@ -84,8 +85,8 @@ def search(phone_spec: str, k=1, cutoff=0.5):
     list[int]
         A list of indices of the closest phone specs to the given phone spec. 
     """
-    phone_spec_vec = openai.Embedding.create(phone_spec)
-    distances, indices = __KNN_TREE.query([phone_spec_vec,], k=k)
+    phone_spec_embedding = openai.Embedding.create(input=str(phone_spec), model=MODEL)
+    distances, indices = __KNN_TREE.query([embedding_obj["embedding"] for embedding_obj in phone_spec_embedding['data']], k=k)
     return [i if d > cutoff else None for i, d in zip(indices, distances)]
          
 def spec_from_idx(phone_id: int):
@@ -99,7 +100,7 @@ if __name__ == '__main__':
 
     kdtree, vector_database = create_embeddings([str(e) for e in __DATABASE[:10]], MODEL)
     
+    # Save the KDTree and vector database
     import pickle
     pickle.dump(kdtree, open("kdtree.pkl", "wb"))
-
     np.save("vector_database.npy", vector_database)
