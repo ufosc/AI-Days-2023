@@ -41,6 +41,56 @@ INITIAL_PROMPT = [
     }
 ]
 
+functions = [ 
+    {
+        "name": "get_available_models",
+        "description": "Get a list of all the available phone models",
+        "parameters": None,
+    },
+    {
+        "name": "search",
+        "description": "Find the closest phone spec in the database to the given phone spec.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "phone_spec": {
+                    "type": "string",
+                    "description": """A JSON string representing a PhoneSpec with the following schema:
+                        {
+                            id: string,
+                            name: string,
+                            color: string,
+                            battery: string | null,
+                            camera: {
+                                general: string | null,
+                                video: string | null,
+                                modes: string | null,
+                                front: string | null,
+                                rear: string | null
+                            },
+                            storage: number | null,
+                            price: number,
+                            brand: string,
+                            used: boolean,
+                            screen_size: number | null,
+                            description: string | null,
+                        }""" 
+                },
+                "k": {
+                    "type": "integer",
+                    "description": "The number of closest phone specs to return.",
+                    "default": 3
+                },
+                "cutoff": {
+                    "type": "number",
+                    "description": "The minimum cosine distance to consider.",
+                    "default": 0.5
+                }
+            },
+            "required": ["phone_spec"]
+        }
+    }
+]
 
 @app.route("/chat", methods=("POST",))
 def repsonse():
@@ -53,6 +103,7 @@ def repsonse():
     response = openai.ChatCompletion.create(
         model="gpt-4",
         messages=messages,
+        functions = functions
         # temperature=0.6,
     )
 

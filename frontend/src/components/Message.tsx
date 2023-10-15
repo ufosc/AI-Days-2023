@@ -1,7 +1,13 @@
 interface Props {
-  text: string
+  text: string;
 }
 
 export default function Message({ text }: Props) {
-  return <p>{text}</p>
+  return(
+      <div style={{
+          borderRadius: 10
+      }}>
+        <p>{text}</p>
+      </div>
+  );
 }

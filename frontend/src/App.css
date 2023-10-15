@@ -1,56 +1,13 @@
-@import 'https://www.verizon.com/etc/designs/vzwcom/gnav20/core.css';
+@import "https://www.verizon.com/etc/designs/vzwcom/gnav20/core.css";
 
-.App {
-  background-color: #000000;
-}
-
-.hard {
-  background: linear-gradient(#ffffff, #000000);
-  margin-bottom: 3rem;
-}
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.footer {
-  background-color: #000000;
-  /* or any desired background color */
-  max-width: 100%;
-}
-
-.header {
-  background-color: #000000;
-  /* or any desired background color */
-  max-width: 100%;
-}
-
-.center-footer {
-  justify-content: center;
-  align-items: center;
-  background-color: #000000;
-  /* or any desired background color */
-  max-width: 100%;
+@font-face {
+  font-family: Medium;
+  src: url("./NeueHaasDisplayMedium.ttf");
 }
 
 @font-face {
-  font-family: verizon;
-  src: url('/NeueHaasDisplayBlackItalic.ttf');
+  font-family: Inter;
+  src: url("./Inter-Regular.ttf");
 }
 
 input:focus {
