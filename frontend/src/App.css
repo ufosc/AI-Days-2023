@@ -1,15 +1,29 @@
-@import "https://www.verizon.com/etc/designs/vzwcom/gnav20/core.css";
+@import 'https://www.verizon.com/etc/designs/vzwcom/gnav20/core.css';
 
 @font-face {
-  font-family: Medium;
-  src: url("./NeueHaasDisplayMedium.ttf");
+    font-family: Medium;
+    src: url('./NeueHaasDisplayMedium.ttf');
 }
 
 @font-face {
-  font-family: Inter;
-  src: url("./Inter-Regular.ttf");
+    font-family: Inter;
+    src: url('./Inter-Regular.ttf');
 }
 
 input:focus {
-  outline: none;
+    outline: none;
+}
+
+.user-message {
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}
+
+.assistant-message {
+    background: black;
+    color: white;
+    box-shadow: 2px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
 }

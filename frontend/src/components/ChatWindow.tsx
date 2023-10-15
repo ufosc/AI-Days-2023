@@ -1,27 +1,28 @@
-import Window from "./Window";
-import ChatLog from "./ChatLog";
-import InputBar from "./InputBar";
+import Window from './Window';
+import ChatLog from './ChatLog';
+import InputBar from './InputBar';
+import { Message } from '../backend/types.ts';
 
 interface Props {
-  messages: string[];
+    messages: Message[];
+    handleQuery: (msg: string) => Promise<void>;
 }
 
-export default function ChatWindow({ messages }: Props) {
-  return (
-    <div style={{ minWidth: "100%" }}>
-      <Window>
-        <div
-          style={{
-            margin: "10px",
-            maxHeight: "50vh",
-            height: "50vh",
-            minWidth: "100%",
-          }}
-        >
-          <ChatLog messages={messages} />
+export default function ChatWindow({ messages, handleQuery }: Props) {
+    return (
+        <div style={{ minWidth: '100%' }}>
+            <Window>
+                <div
+                    style={{
+                        margin: '10px',
+                        maxHeight: '50vh',
+                        height: '50vh',
+                    }}
+                >
+                    <ChatLog messages={messages} />
+                </div>
+                <InputBar handleQuery={handleQuery} />
+            </Window>
         </div>
-        <InputBar />
-      </Window>
-    </div>
-  );
+    );
 }
