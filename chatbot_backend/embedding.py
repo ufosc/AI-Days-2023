@@ -39,19 +39,17 @@ def create_embeddings(database: list[str]) -> tuple[KDTree, np.ndarray]:
     # Build the KDTree
     knn_tree = KDTree(vector_database)
     return knn_tree, vector_database
-         
-def spec_from_idx(phone_id: int):
-    return __DATABASE[phone_id]
 
 if __name__ == '__main__':
-    import os
     openai.api_key = ""
 
-    __DATABASE = json.load(open("static/phones_compressed_data.json"))
-
-    kdtree, vector_database = create_embeddings([str(e) for e in __DATABASE])
+    from globals import COMPRESSED_DATABASE
+    kdtree, vector_database = create_embeddings([str(e) for e in COMPRESSED_DATABASE])
     
     # Save the KDTree and vector database
     import pickle
+
+    import pdb; pdb.set_trace()
+    
     pickle.dump(kdtree, open("kdtree.pkl", "wb"))
     np.save("vector_database.npy", vector_database)
