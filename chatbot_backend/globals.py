@@ -15,4 +15,4 @@ KNN_TREE = pickle.load(open("cache/kdtree.pkl", "rb"))
 
 
 # GPT
-GPT = "gpt-3.5-turbo"
+GPT = "gpt-4"
