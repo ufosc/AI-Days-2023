@@ -28,3 +28,8 @@ input:focus {
     display: none;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: black;
+    border-radius: 20px;
+}

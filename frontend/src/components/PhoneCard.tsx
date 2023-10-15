@@ -71,7 +71,7 @@ export default function PhoneCard(props: Props) {
                     </div>
                     <div style={{display: 'flex', height: '90%'}}>
                         <div style={{backgroundColor: 'white', marginRight: 20, borderRadius: 10, width:"50%", height: 480}}>
-                            <Carousel >
+                            <Carousel>
                                 {props.phone.images.map((i: string , index: number) =>(
                                     <Carousel.Item>
                                         <Image key={index} src={i} onClick={() => window.open(props.phone.url, '_blank')}/>
