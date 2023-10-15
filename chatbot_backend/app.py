@@ -21,7 +21,7 @@ INSTRUCTIONS = [
         Section 1
             The 'history' section will be a compressed summarized version of ALL the relevant information from the above context.
         Section 2
-            The 'message' section will be a string with HTML formatting (links, bold, italics, and underlines) containing the the next message in the conversation.
+            The 'message' section will be HTML text with formatting (links, bold, italics, underlines, and tables) (DO NOT USE MARKDOWN, USE HTML!) containing the the next message in the conversation.
         ---------------------------------
         Example:
         \"""This is a summary of the past conversation.\"""

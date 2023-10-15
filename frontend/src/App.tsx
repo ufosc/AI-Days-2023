@@ -65,7 +65,7 @@ export default class App extends Component<{}, State> {
 
     addFavorite(id: number) {
         console.log(id);
-        if (!this.state.favorites.some((phone) => (phone.id = id))) {
+        if (!this.state.favorites.some((phone) => (phone.id == id))) {
             const phone = this.state.phones[id];
             console.log(phone);
             if (phone)

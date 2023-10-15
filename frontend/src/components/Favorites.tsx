@@ -15,7 +15,7 @@ export default function Favorites({ favorites, removeFavorite }: Props) {
                 border: '1px solid rgb(224, 224, 224)',
                 borderRadius: 5,
                 padding: 10,
-                minHeight: 225,
+                minHeight: 235,
             }}
         >
             <span style={{ display: 'block', paddingBottom: 5 }}>
