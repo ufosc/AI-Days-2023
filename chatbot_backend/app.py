@@ -149,7 +149,7 @@ def chat():
             print("Session Messages:", session['messages'])
 
             session.modified = True
-            return {'role': 'assistant', 'content': message, 'phone_ids': phone_ids}
+            return {'role': 'assistant', 'content': message, 'phone_ids': list(set(phone_ids))}
         except AssertionError as e:
             print("MalformedReturn", response)
         
