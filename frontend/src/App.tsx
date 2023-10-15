@@ -5,7 +5,7 @@ import Favorites from './components/Favorites.tsx';
 import PageFooter from './components/PageFooter';
 import PageHeader from './components/PageHeader';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Row, Col, Container, Modal} from 'react-bootstrap';
+import {Row, Col, Container } from 'react-bootstrap';
 import { Component } from 'react';
 import { Message, Phone } from './backend/types.ts';
 import { getPhones, sendMessage } from './backend/messaging.ts';

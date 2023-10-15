@@ -32,8 +32,6 @@ export default function ChatWindow({
                         phones={phones}
                         addFavorite={addFavorite}
                     />
-                    {/*here we want to add the single view*/}
-
                 </div>
                 <InputBar handleQuery={handleQuery} />
             </Window>
