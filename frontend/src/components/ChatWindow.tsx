@@ -23,7 +23,10 @@ export default function ChatWindow({
                 <div
                     style={{
                         margin: '10px',
-                        height: '100%',                        
+                        height: '100%',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'flex-end',                       
                     }}
                 >
                     <ChatLog
