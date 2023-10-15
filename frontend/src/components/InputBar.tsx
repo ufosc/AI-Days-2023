@@ -1,38 +1,47 @@
+import { FaChevronRight } from "react-icons/fa";
+import React, {FormEvent, useState} from 'react';
+
 export default function InputBar() {
+
+    const handleSubmit = (e: React.SyntheticEvent<HTMLFormElement>) => {
+        e.preventDefault()
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
+        const msg = e.currentTarget.elements[0].value;
+        console.log(msg);
+    }
+
   return (
     <div
       style={{
-        height: '100%',
-        padding: '20px', // Added padding here to prevent the child div from touching the edges
+        borderRadius: 10,
+        border: "solid",
+        padding: "10px 8px 10px 8px",
+        margin: 10,
       }}
     >
-      <div
+      <form
         style={{
-          bottom: '10px',
-          alignContent: 'center',
-          width: 'calc(100% - 40px)', // Adjusted width to account for the new padding
-          backgroundColor: '#363636',
-          padding: '20px',
-          boxSizing: 'border-box',
-          borderRadius: '15px', // Rounded corners
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
         }}
+        onSubmit={handleSubmit}
       >
-        <form>
-          <input
-            type="text"
-            placeholder="Enter text here"
-            style={{
-              width: '100%', // Simplified width calculation
-              padding: '10px',
-              boxSizing: 'border-box',
-              backgroundColor: '#363636',
-              color: '#363636',
-              border: 'none', // Remove default border styles
-              color: 'white',
-            }}
-          />
-        </form>
-      </div>
+        <input
+          type="text"
+          placeholder="Type something here..."
+          style={{
+            width: "100%",
+            boxSizing: "border-box",
+            border: "none", // Remove default border styles
+            color: "black",
+            fontSize: 15,
+          }}
+        />
+
+        <FaChevronRight />
+      </form>
     </div>
-  )
+  );
 }

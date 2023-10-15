@@ -1,15 +1,22 @@
-import Message from './Message'
+import Message from "./Message";
 
 interface Props {
-  messages: string[]
+  messages: string[];
 }
 
 export default function ChatLog({ messages }: Props) {
   return (
-    <div style={{ maxHeight: '43vh', minHeight: '43vh', overflow: 'scroll' }}>
+    <div
+      style={{
+        maxHeight: "50vh",
+        minHeight: "50vh",
+        minWidth: "100%",
+        overflow: "scroll",
+      }}
+    >
       {messages.map((m) => (
         <Message text={m} />
       ))}
     </div>
-  )
+  );
 }

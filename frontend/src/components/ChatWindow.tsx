@@ -1,18 +1,27 @@
-import Window from './Window'
-import ChatLog from './ChatLog'
-import InputBar from './InputBar'
+import Window from "./Window";
+import ChatLog from "./ChatLog";
+import InputBar from "./InputBar";
 
 interface Props {
-  messages: string[]
+  messages: string[];
 }
 
 export default function ChatWindow({ messages }: Props) {
   return (
-    <Window>
-      <div style={{ maxHeight: '58vh', height: '58vh' }}>
-        <ChatLog messages={messages} />
+    <div style={{ minWidth: "100%" }}>
+      <Window>
+        <div
+          style={{
+            margin: "10px",
+            maxHeight: "50vh",
+            height: "50vh",
+            minWidth: "100%",
+          }}
+        >
+          <ChatLog messages={messages} />
+        </div>
         <InputBar />
-      </div>
-    </Window>
-  )
+      </Window>
+    </div>
+  );
 }
