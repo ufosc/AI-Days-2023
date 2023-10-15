@@ -1,13 +1,23 @@
-import { Message } from '../backend/types.ts';
+import { Message, Phone } from '../backend/types.ts';
+import PhoneGallery from './PhoneGallery.tsx';
 
 interface Props {
     message: Message;
+    phones: Phone[];
+    addFavorite: (phone_id: number) => void;
 }
 
-export default function MessageBubble({ message }: Props) {
+export default function MessageBubble({ message, phones, addFavorite }: Props) {
     const { role, phone_ids, content } = message;
 
+    const phonesInGallery = phone_ids.map((id) =>
+        phones.find((p) => p.id == id)
+    ) as Phone[];
     return (
+        <div>
+            <div style={{ display: 'block' }}>
+                <PhoneGallery phones={phonesInGallery} addFavorite={addFavorite} />
+            </div>
         <div
             style={{
                 display: 'flex',
@@ -15,6 +25,7 @@ export default function MessageBubble({ message }: Props) {
                 justifyContent: role == 'assistant' ? 'flex-start' : 'flex-end',
             }}
         >
+
             <div
                 dangerouslySetInnerHTML={{ __html: content }}
                 style={{
@@ -29,6 +40,7 @@ export default function MessageBubble({ message }: Props) {
                     role == 'assistant' ? 'assistant-message' : 'user-message'
                 }
             />
+        </div>
         </div>
     );
 }

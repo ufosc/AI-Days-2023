@@ -20,8 +20,8 @@ function Salesperson() {
                     display: 'block',
                     fontFamily: 'Inter',
                     fontSize: 16,
-                    textAlign: 'left',
-                    padding: '0px 10px 0px 10px',
+                    textAlign: 'justify',
+                    padding: '0px 18px 0px 18px',
                 }}
             >
                 Welcome to Vivian Verizon, an AI who is here to help you pick

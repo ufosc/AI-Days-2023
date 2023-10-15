@@ -1,12 +1,14 @@
 import MessageBubble from './MessageBubble.tsx';
-import { Message } from '../backend/types.ts';
+import { Message, Phone } from '../backend/types.ts'
 import { useEffect, useRef } from 'react';
 
 interface Props {
     messages: Message[];
+    phones: Phone[];
+    addFavorite: (phone_id: number) => void;
 }
 
-export default function ChatLog({ messages }: Props) {
+export default function ChatLog({ messages, phones, addFavorite }: Props) {
     const ref = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -34,7 +36,7 @@ export default function ChatLog({ messages }: Props) {
             className={'hide-scrollbar'}
         >
             {messages.map((m) => (
-                <MessageBubble message={m} />
+                <MessageBubble message={m} phones={phones} addFavorite={addFavorite} />
             ))}
         </div>
     );

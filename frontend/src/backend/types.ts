@@ -1,11 +1,11 @@
 export interface Message {
     role: 'user' | 'assistant';
-    phone_ids?: string[];
+    phone_ids: number[];
     content: string;
 }
 
 export interface Phone {
-    id: string;
+    id: number;
     name: string;
     color: string;
     images: string[];

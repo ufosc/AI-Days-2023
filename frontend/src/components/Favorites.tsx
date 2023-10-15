@@ -3,7 +3,7 @@ import { Phone } from '../backend/types.ts';
 
 interface Props {
     favorites: Phone[];
-    removeFavorite: (phone_id: string) => void;
+    removeFavorite: (phone_id: number) => void;
 }
 
 export default function Favorites({ favorites, removeFavorite }: Props) {

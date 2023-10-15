@@ -16,7 +16,7 @@ const testPhone: Phone = {
     camera: { front: '', general: '', modes: '', rear: '', video: '' },
     color: '',
     description: '',
-    id: 'test',
+    id: 1,
     images: [
         'https://ss7.vzw.com/is/image/VerizonWireless/iphone-11-pro-max-space-gray',
     ],
@@ -39,7 +39,7 @@ export default class App extends Component<{}, State> {
         super(props);
 
         this.state = {
-            messages: [],
+            messages: [{role:'assistant', phone_ids:[testPhone.id, testPhone.id, testPhone.id], content: "test!"}],
             favorites: [],
             phones: [testPhone],
         };
@@ -50,20 +50,20 @@ export default class App extends Component<{}, State> {
             if (phones) this.setState({ phones });
         });
 
-        this.addFavorite('test');
-        this.addFavorite('test');
-        this.addFavorite('test');
+        this.addFavorite(1);
+        this.addFavorite(1);
+        this.addFavorite(1);
     }
 
     appendMessage(msg: Message) {
         this.setState({ messages: [...this.state.messages, msg] });
     }
 
-    getPhone(id: string): Phone | undefined {
+    getPhone(id: number): Phone | undefined {
         return this.state.phones.find((phone) => phone.id == id);
     }
 
-    addFavorite(id: string) {
+    addFavorite(id: number) {
         if (!this.state.favorites.some((phone) => (phone.id = id))) {
             const phone = this.getPhone(id);
             if (phone)
@@ -71,7 +71,7 @@ export default class App extends Component<{}, State> {
         }
     }
 
-    removeFavorite(phone_id: string) {
+    removeFavorite(phone_id: number) {
         this.setState({
             favorites: this.state.favorites.filter(
                 (phone) => phone.id != phone_id
@@ -80,9 +80,11 @@ export default class App extends Component<{}, State> {
     }
 
     async handleQuery(query: string, retries = 3) {
+        console.log("QUERY");
         if (retries == 3)
             this.appendMessage({
                 role: 'user',
+                phone_ids: [],
                 content: query,
             });
 
@@ -94,6 +96,7 @@ export default class App extends Component<{}, State> {
             // Retry if allowed
             this.appendMessage({
                 role: 'assistant',
+                phone_ids: [],
                 content: '<i>Retrying...</i>',
             });
             await this.handleQuery(query, retries - 1);
@@ -101,6 +104,7 @@ export default class App extends Component<{}, State> {
         else
             this.appendMessage({
                 role: 'assistant',
+                phone_ids: [],
                 content: "<i>Sorry, that didn't work. Please try again.</i>",
             });
     }
@@ -135,6 +139,8 @@ export default class App extends Component<{}, State> {
                             <ChatWindow
                                 messages={this.state.messages}
                                 handleQuery={this.handleQuery.bind(this)}
+                                phones={this.state.phones}
+                                addFavorite={this.addFavorite.bind(this)}
                             />
                         </Col>
                     </Row>
