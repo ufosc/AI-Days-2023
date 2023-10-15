@@ -1,5 +1,5 @@
 import os
-
+from message import Message
 import openai
 import random
 import json
@@ -41,11 +41,11 @@ INITIAL_PROMPT = [
     }
 ]
 
-@app.route("/", methods=("POST",))
-def repsonse():
-    prompt = request.form["user-prompt"]
 
-    session['transcript'] = session.get('transcript', []) + [{"role": "user", "content": prompt}]
+@app.route("/chat", methods=("POST",))
+def repsonse():
+    prompt = response.data
+
     messages = session.get('messages', INITIAL_PROMPT)
     messages.append({"role": "user", "content": prompt})
     messages += INSTRUCTIONS
@@ -67,13 +67,19 @@ def repsonse():
             {"role": "assistant", "content": message}
         ]
     except json.JSONDecodeError as e:
-        pass
+        "Invalid Response from OpenAI", 500
 
     session.modified = True
-    return redirect(url_for('index', result=response['choices'][0]['message']['content']))
+
+    return Message(response['choices'][0]['message']['role'], response['choices'][0]['message']['content'], [])
 
 
-@app.route("/", methods=("GET",))
-def index():
-    result = request.args.get("result")
-    return render_template("index.html", result=result)
+@app.route("/chat", methods=("DELETE",))
+def reset():
+    session.pop('messages')
+    session.modified = True
+    return "", 204  # No Content
+
+# @app.route("/phone/<string:phone_id>", methods=("GET",))
+# def get_phone(phone_id: str):
+#     return json.dumps(phone)
