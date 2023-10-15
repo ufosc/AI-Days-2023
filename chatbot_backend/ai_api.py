@@ -6,7 +6,11 @@ AI_API_FUNCTIONS = [
     {
         "name": "get_available_models",
         "description": "Get a list of all the available phone models",
-        "parameters": None,
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": []
+        },
     },
     {
         "name": "search",
@@ -106,8 +110,12 @@ def search(phone_spec: str, k=3, cutoff=0.5):
     list[int]
         A list of indices of the closest phone specs to the given phone spec. 
     """
+    k = min(3, k)
     phone_spec_embedding = openai.Embedding.create(input=str(phone_spec), model=EMBEDDING_MODEL)
     distances, indices = KNN_TREE.query([embedding_obj["embedding"] for embedding_obj in phone_spec_embedding['data']], k=k)
+    if k != 1:
+        distances = distances[0]
+        indices = indices[0]
     return [i if d > cutoff else None for i, d in zip(indices, distances)]
 
 AI_API_AVAILABLE_FUNCTIONS = {"get_available_models": get_available_models, "search": search}

@@ -43,9 +43,10 @@ INITIAL_PROMPT = [
     }
 ]
 
+
 @app.route("/chat", methods=("POST",))
-def repsonse():
-    prompt = response.data
+def chat():
+    prompt = request.json["msg"]
 
     messages = session.get('messages', INITIAL_PROMPT)
     messages.append({"role": "user", "content": prompt})
@@ -67,34 +68,28 @@ def repsonse():
             available_functions = ai_api.AI_API_AVAILABLE_FUNCTIONS
             function_name = response_message["function_call"]["name"]
             function_to_call = available_functions[function_name]
-            function_args = json.loads(response_message["function_call"]["arguments"])
+            function_args = json.loads(
+                response_message["function_call"]["arguments"])
             function_response = function_to_call(**function_args)
+
+            # Handle the search function id lookup
             if function_name == "search":
-                messages = session.get('messages', INITIAL_PROMPT)
-                messages.append({
-                "role": "function",
-                "name": function_name,
-                "content": function_response,
-            })
-                messages.append({"role": "user", "content": prompt})
-                messages += INSTRUCTIONS
-            elif function_name == "get_available_models":
                 phone_jsons = []
                 phone_ids = function_response
                 for idx in function_response:
                     phone_jsons.append(globals.COMPRESSED_DATABASE[idx])
-                messages = session.get('messages', INITIAL_PROMPT)
-                messages.append({
-                    "role": "function",
-                    "name": function_name,
-                    "content": phone_jsons,
-                })
-                messages.append({"role": "user", "content": prompt})
-                messages += INSTRUCTIONS
+                function_response = json.dumps(phone_jsons)
+
+            # Build new messages
+            messages = session.get('messages', INITIAL_PROMPT)
+            messages.append({"role": "function", "name": function_name, "content": str(function_response)})
+            messages.append({"role": "user", "content": prompt})
+            messages += INSTRUCTIONS
             response = openai.ChatCompletion.create(
                 model="gpt-4",
                 messages=messages,
             )
+        
         resp_object = json.loads(response["choices"][0]["message"]["content"])
         message = resp_object['message']
         history = resp_object['history']
@@ -109,7 +104,7 @@ def repsonse():
 
     session.modified = True
 
-    return Message(response['choices'][0]['message']['role'], response['choices'][0]['message']['content'], phone_ids)
+    return {'role': response['choices'][0]['message']['role'], 'content': response['choices'][0]['message']['content'], 'phone_ids': phone_ids}
 
 
 @app.route("/chat", methods=("DELETE",))
@@ -118,7 +113,18 @@ def reset():
     session.modified = True
     return "", 204  # No Content
 
-@app.route("/phone/<string:phone_id>", methods=("GET",))
-def get_phone(phone_id: str):
-    phone = next((phone for phone in globals.EXPANDED_DATABASE if phone.id == phone_id), None)
-    return phone if phone else "Phone not found", 404
+@app.route("/phone/<int:phone_idx>", methods=("GET",))
+def get_phone(phone_idx: int):
+    if phone_idx < 0 or phone_idx >= len(globals.EXPANDED_DATABASE):
+        return "Phone not found", 404
+    phone = globals.EXPANDED_DATABASE[phone_idx]
+    return phone
+
+@app.route("/phones", methods=("GET",))
+def get_phones():
+    return json.dumps(globals.EXPANDED_DATABASE)
+
+# @app.route("/", methods=("GET",))
+# def index():
+#     result = request.args.get('result')
+#     return render_template("index.html", result=result)
