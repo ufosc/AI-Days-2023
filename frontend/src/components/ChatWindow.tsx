@@ -2,6 +2,7 @@ import Window from './Window';
 import ChatLog from './ChatLog';
 import InputBar from './InputBar';
 import { Message, Phone } from '../backend/types.ts';
+import {useState} from "react";
 
 interface Props {
     messages: Message[];
@@ -31,6 +32,8 @@ export default function ChatWindow({
                         phones={phones}
                         addFavorite={addFavorite}
                     />
+                    {/*here we want to add the single view*/}
+
                 </div>
                 <InputBar handleQuery={handleQuery} />
             </Window>
