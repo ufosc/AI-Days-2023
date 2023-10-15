@@ -2,20 +2,12 @@ import numpy as np
 import openai
 import json
 import pickle
-import tiktoken 
+from globals import EMBEDDING_SIZE, EMBEDDING_MAX_TOKENS, EMBEDDING_TOKENIZER, EMBEDDING_MODEL
 from sklearn.neighbors import KDTree
 from sklearn.preprocessing import normalize
 
-# text-embedding-ada-002
-MODEL = "text-embedding-ada-002"
-EMBEDDING_SIZE = 1536
-MAX_TOKENS = 8192
-TOKENIZER = tiktoken.get_encoding("cl100k_base")
 
-# Load the KDTree 
-__KNN_TREE = pickle.load(open("kdtree.pkl", "rb"))
-
-def create_embeddings(database: list[str], model: str) -> tuple[KDTree, np.ndarray]:
+def create_embeddings(database: list[str]) -> tuple[KDTree, np.ndarray]:
     """Create KDTree for all the phone specs in the database.
     """
     # Allocate space for embeddings
@@ -27,18 +19,18 @@ def create_embeddings(database: list[str], model: str) -> tuple[KDTree, np.ndarr
 
     # Create embeddings for each phone spec
     for i, phone_spec in enumerate(database):
-        current_token_count = len(TOKENIZER.encode_ordinary(phone_spec))
+        current_token_count = len(EMBEDDING_TOKENIZER.encode_ordinary(phone_spec))
         current_token_total += current_token_count
         
         # If we've reached the maximum number of tokens, create an embedding for the current slice
-        if current_token_total > MAX_TOKENS:
-            phone_spec_embedding = openai.Embedding.create(input=database[last_slice:i], model=MODEL)
+        if current_token_total > EMBEDDING_MAX_TOKENS:
+            phone_spec_embedding = openai.Embedding.create(input=database[last_slice:i], model=EMBEDDING_MODEL)
             vector_database[last_slice:i, :] = [embedding_obj["embedding"] for embedding_obj in phone_spec_embedding['data']]
             last_slice = i
             current_token_total = current_token_count
 
     # Create an embedding for the last slice
-    phone_spec_embedding = openai.Embedding.create(input=database[last_slice:], model=MODEL)
+    phone_spec_embedding = openai.Embedding.create(input=database[last_slice:], model=EMBEDDING_MODEL)
     vector_database[last_slice:, :] = [embedding_obj["embedding"] for embedding_obj in phone_spec_embedding['data']]
 
     # Normalize the embeddings to unit length
@@ -57,7 +49,7 @@ if __name__ == '__main__':
 
     __DATABASE = json.load(open("static/phones_compressed_data.json"))
 
-    kdtree, vector_database = create_embeddings([str(e) for e in __DATABASE[:10]], MODEL)
+    kdtree, vector_database = create_embeddings([str(e) for e in __DATABASE])
     
     # Save the KDTree and vector database
     import pickle

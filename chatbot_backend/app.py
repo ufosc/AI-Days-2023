@@ -1,9 +1,11 @@
 import os
-from message import Message
 import openai
 import random
 import json
 import embedding
+import ai_api
+import globals
+from message import Message
 from string import ascii_letters, digits
 from flask import Flask, redirect, render_template, request, url_for, session
 
@@ -41,57 +43,6 @@ INITIAL_PROMPT = [
     }
 ]
 
-functions = [ 
-    {
-        "name": "get_available_models",
-        "description": "Get a list of all the available phone models",
-        "parameters": None,
-    },
-    {
-        "name": "search",
-        "description": "Find the closest phone spec in the database to the given phone spec.",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "phone_spec": {
-                    "type": "string",
-                    "description": """A JSON string representing a PhoneSpec with the following schema:
-                        {
-                            id: string,
-                            name: string,
-                            color: string,
-                            battery: string | null,
-                            camera: {
-                                general: string | null,
-                                video: string | null,
-                                modes: string | null,
-                                front: string | null,
-                                rear: string | null
-                            },
-                            storage: number | null,
-                            price: number,
-                            brand: string,
-                            used: boolean,
-                            screen_size: number | null,
-                            description: string | null,
-                        }""" 
-                },
-                "k": {
-                    "type": "integer",
-                    "description": "The number of closest phone specs to return.",
-                    "default": 3
-                },
-                "cutoff": {
-                    "type": "number",
-                    "description": "The minimum cosine distance to consider.",
-                    "default": 0.5
-                }
-            },
-            "required": ["phone_spec"]
-        }
-    }
-]
-
 @app.route("/chat", methods=("POST",))
 def repsonse():
     prompt = response.data
@@ -103,7 +54,7 @@ def repsonse():
     response = openai.ChatCompletion.create(
         model="gpt-4",
         messages=messages,
-        functions = functions
+        functions=ai_api.AI_API_FUNCTIONS,
         # temperature=0.6,
     )
 
@@ -131,6 +82,7 @@ def reset():
     session.modified = True
     return "", 204  # No Content
 
-# @app.route("/phone/<string:phone_id>", methods=("GET",))
-# def get_phone(phone_id: str):
-#     return json.dumps(phone)
+@app.route("/phone/<string:phone_id>", methods=("GET",))
+def get_phone(phone_id: str):
+    phone = next((phone for phone in globals.EXPANDED_DATABASE if phone.id == phone_id), None)
+    return phone if phone else "Phone not found", 404
