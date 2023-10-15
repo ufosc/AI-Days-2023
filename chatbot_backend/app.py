@@ -3,6 +3,7 @@ import os
 import openai
 import random
 import json
+import embedding
 from string import ascii_letters, digits
 from flask import Flask, redirect, render_template, request, url_for, session
 
@@ -15,8 +16,10 @@ INSTRUCTIONS = [
         "role": "system",
         "content": """
         You are Vivian Verizon. Format your response as a JSON object with the following schema { 'history': any, 'message': string }.
-        The 'history' attribute will be a compressed summarized version of ALL the relevant information from the above context.
-        The 'message' attribute will be a string with the the next message in the conversation.
+        Part 1
+            The 'history' attribute will be a compressed summarized version of ALL the relevant information from the above context.
+        Part 2
+            The 'message' attribute will be a string with the the next message in the conversation.
         """
     },
 ]
@@ -38,19 +41,17 @@ INITIAL_PROMPT = [
     }
 ]
 
-
 @app.route("/", methods=("POST",))
 def repsonse():
     prompt = request.form["user-prompt"]
 
-    session['transcript'] = session.get(
-        'transcript', []) + [{"role": "user", "content": prompt}]
+    session['transcript'] = session.get('transcript', []) + [{"role": "user", "content": prompt}]
     messages = session.get('messages', INITIAL_PROMPT)
     messages.append({"role": "user", "content": prompt})
     messages += INSTRUCTIONS
 
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4",
         messages=messages,
         # temperature=0.6,
     )
