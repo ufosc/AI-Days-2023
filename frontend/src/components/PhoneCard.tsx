@@ -31,10 +31,7 @@ export default function PhoneCard(props: Props) {
         icon = <BsFillHeartFill />;
     }
     return (
-        <div
-            style={{ width: width, height: height, position: 'relative' }}
-            // onClick={() => window.open(props.phone.url, '_blank')}
-        >
+        <div style={{ width: width, height: height, position: 'relative' }}>
             <Image
                 src={props.phone.images[0]}
                 width={width}

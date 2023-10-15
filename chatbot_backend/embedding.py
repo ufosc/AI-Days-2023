@@ -1,7 +1,5 @@
 import numpy as np
 import openai
-import json
-import pickle
 from globals import EMBEDDING_SIZE, EMBEDDING_MAX_TOKENS, EMBEDDING_TOKENIZER, EMBEDDING_MODEL
 from sklearn.neighbors import KDTree
 from sklearn.preprocessing import normalize

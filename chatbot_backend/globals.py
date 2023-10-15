@@ -12,3 +12,7 @@ EMBEDDING_TOKENIZER = tiktoken.get_encoding("cl100k_base")
 COMPRESSED_DATABASE = json.load(open("cache/phones_compressed.json"))
 EXPANDED_DATABASE = json.load(open("cache/phones_expanded.json"))
 KNN_TREE = pickle.load(open("cache/kdtree.pkl", "rb"))
+
+
+# GPT
+GPT = "gpt-4"
