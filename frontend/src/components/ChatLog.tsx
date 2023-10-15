@@ -1,5 +1,5 @@
 import MessageBubble from './MessageBubble.tsx';
-import { Message, Phone } from '../backend/types.ts'
+import { Message, Phone } from '../backend/types.ts';
 import { useEffect, useRef } from 'react';
 
 interface Props {
@@ -35,8 +35,13 @@ export default function ChatLog({ messages, phones, addFavorite }: Props) {
             }}
             className={'hide-scrollbar'}
         >
-            {messages.map((m) => (
-                <MessageBubble message={m} phones={phones} addFavorite={addFavorite} />
+            {messages.map((m, index) => (
+                <MessageBubble
+                    key={index}
+                    message={m}
+                    phones={phones}
+                    addFavorite={addFavorite}
+                />
             ))}
         </div>
     );

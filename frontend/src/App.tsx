@@ -39,36 +39,37 @@ export default class App extends Component<{}, State> {
         super(props);
 
         this.state = {
-            messages: [{role:'assistant', phone_ids:[testPhone.id, testPhone.id, testPhone.id], content: "test!"}],
+            messages: [
+                { role: 'assistant', phone_ids: [], content: 'Welcome!' },
+            ],
             favorites: [],
-            phones: [testPhone],
+            phones: [],
         };
     }
 
     componentDidMount() {
-        getPhones().then((phones) => {
-            if (phones) this.setState({ phones });
-        });
-
-        this.addFavorite(1);
-        this.addFavorite(1);
-        this.addFavorite(1);
+        getPhones()
+            .then((phones) => {
+                if (phones) this.setState({ phones });
+            })
+            .then(() => {
+                this.addFavorite(0);
+            });
+        this.addFavorite(60);
     }
 
     appendMessage(msg: Message) {
         this.setState({ messages: [...this.state.messages, msg] });
     }
 
-    getPhone(id: number): Phone | undefined {
-        return this.state.phones.find((phone) => phone.id == id);
-    }
-
     addFavorite(id: number) {
-        if (!this.state.favorites.some((phone) => (phone.id = id))) {
-            const phone = this.getPhone(id);
-            if (phone)
-                this.setState({ favorites: [...this.state.favorites, phone] });
-        }
+        console.log(id);
+        // if (!this.state.favorites.some((phone) => (phone.id = id))) {
+        const phone = this.state.phones[id];
+        console.log(phone);
+        if (phone)
+            this.setState({ favorites: [...this.state.favorites, phone] });
+        // }
     }
 
     removeFavorite(phone_id: number) {
@@ -79,9 +80,11 @@ export default class App extends Component<{}, State> {
         });
     }
 
-    async handleQuery(query: string, retries = 3) {
-        console.log("QUERY");
-        if (retries == 3)
+    static RETRIES = 1;
+
+    async handleQuery(query: string, retries = App.RETRIES) {
+        console.log('QUERY');
+        if (retries == App.RETRIES)
             this.appendMessage({
                 role: 'user',
                 phone_ids: [],

@@ -13,7 +13,14 @@ export default function PhoneGallery({
     addFavorite,
 }: Props) {
     return (
-        <div style={{ display: 'flex', gap: 10, overflow: 'scroll', justifyContent: "center" }}>
+        <div
+            style={{
+                display: 'flex',
+                gap: 10,
+                overflow: 'scroll',
+                justifyContent: 'center',
+            }}
+        >
             {phones.map((phone) => (
                 <PhoneCard
                     width={150}

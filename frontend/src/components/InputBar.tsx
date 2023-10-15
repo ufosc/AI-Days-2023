@@ -1,16 +1,19 @@
 import { FaChevronRight } from 'react-icons/fa';
-import React from 'react';
+import React, { useRef } from 'react';
 
 interface Props {
     handleQuery: (msg: string) => Promise<void>;
 }
+
 export default function InputBar({ handleQuery }: Props) {
+    const inputRef = useRef<HTMLInputElement>(null);
     const handleSubmit = (e: React.SyntheticEvent<HTMLFormElement>) => {
         e.preventDefault();
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore
         const msg = e.currentTarget.elements[0].value;
         handleQuery(msg);
+        if (inputRef.current) inputRef.current.value = '';
     };
 
     return (
@@ -31,6 +34,7 @@ export default function InputBar({ handleQuery }: Props) {
                 onSubmit={handleSubmit}
             >
                 <input
+                    ref={inputRef}
                     type="text"
                     placeholder="Type something here..."
                     style={{
@@ -41,7 +45,6 @@ export default function InputBar({ handleQuery }: Props) {
                         fontSize: 15,
                     }}
                 />
-
                 <FaChevronRight />
             </form>
         </div>

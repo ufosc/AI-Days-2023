@@ -1,6 +1,7 @@
 import { Image } from 'react-bootstrap';
 import { BsFillHeartbreakFill, BsFillHeartFill } from 'react-icons/bs';
 import { Phone } from '../backend/types.ts';
+import { useRef } from 'react';
 
 interface Props {
     phone: Phone;
@@ -13,6 +14,8 @@ interface Props {
 }
 
 export default function PhoneCard(props: Props) {
+    const modalRef = useRef();
+
     const width = props.width,
         height = props.height ?? props.width,
         horizMargin = props.horizMargin ?? 0,
@@ -28,7 +31,10 @@ export default function PhoneCard(props: Props) {
         icon = <BsFillHeartFill />;
     }
     return (
-        <div style={{ width: width, height: height, position: 'relative' }}>
+        <div
+            style={{ width: width, height: height, position: 'relative' }}
+            // onClick={() => window.open(props.phone.url, '_blank')}
+        >
             <Image
                 src={props.phone.images[0]}
                 width={width}
@@ -39,6 +45,7 @@ export default function PhoneCard(props: Props) {
                     borderRadius: borderRadius,
                     objectFit: 'scale-down',
                 }}
+                onClick={() => window.open(props.phone.url, '_blank')}
             />
 
             <div
