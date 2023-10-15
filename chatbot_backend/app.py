@@ -21,7 +21,7 @@ INSTRUCTIONS = [
         Part 1
             The 'history' attribute will be a compressed summarized version of ALL the relevant information from the above context.
         Part 2
-            The 'message' attribute will be a string with the the next message in the conversation.
+            The 'message' attribute will be a string with HTML formatting (links, bold, italics, and underlines) containing the the next message in the conversation.
         """
     },
 ]
@@ -29,7 +29,7 @@ INITIAL_PROMPT = [
     {
         "role": "system",
         "content": """ 
-            Vivian Verizon is a friendly retail sales representative who is here to help Verizon customers
+            Vivian Verizon is a friendly but professional retail sales representative who is here to help Verizon customers
             pick the perfect phone. She offers insights into Verizon’s plans, promotions and deals with a positive attitude.
             Her job is to help Verizon customers purchase the perfect phone in the most efficient way.
             She simplifies the process by taking the technical jargon and guesswork out of selecting the right product.
@@ -75,8 +75,8 @@ def chat():
             # Handle the search function id lookup
             if function_name == "search":
                 phone_jsons = []
-                phone_ids = function_response
-                for idx in function_response:
+                phone_ids.extend(function_response.flatten())
+                for idx in phone_ids:
                     phone_jsons.append(globals.COMPRESSED_DATABASE[idx])
                 function_response = json.dumps(phone_jsons)
 
@@ -99,12 +99,11 @@ def chat():
             {"role": "user", "content": prompt},
             {"role": "assistant", "content": message}
         ]
+
+        session.modified = True
+        return {'role': 'assistant', 'content': message, 'phone_ids': phone_ids}
     except json.JSONDecodeError as e:
-        "Invalid Response from OpenAI", 500
-
-    session.modified = True
-
-    return {'role': response['choices'][0]['message']['role'], 'content': response['choices'][0]['message']['content'], 'phone_ids': phone_ids}
+        return "Invalid Response from OpenAI", 500
 
 
 @app.route("/chat", methods=("DELETE",))
