@@ -40,7 +40,12 @@ export default class App extends Component<{}, State> {
 
         this.state = {
             messages: [
-                { role: 'assistant', phone_ids: [], content: 'Welcome!' },
+                {
+                    role: 'assistant',
+                    phone_ids: [],
+                    content:
+                        'Hi, there! I’m Vivian Verizon, your personalized product navigator. I’m here to simplify your phone buying process and help recommend products that are right for you.',
+                },
             ],
             favorites: [],
             phones: [],
@@ -64,12 +69,12 @@ export default class App extends Component<{}, State> {
 
     addFavorite(id: number) {
         console.log(id);
-        // if (!this.state.favorites.some((phone) => (phone.id = id))) {
-        const phone = this.state.phones[id];
-        console.log(phone);
-        if (phone)
-            this.setState({ favorites: [...this.state.favorites, phone] });
-        // }
+        if (!this.state.favorites.some((phone) => (phone.id = id))) {
+            const phone = this.state.phones[id];
+            console.log(phone);
+            if (phone)
+                this.setState({ favorites: [...this.state.favorites, phone] });
+        }
     }
 
     removeFavorite(phone_id: number) {

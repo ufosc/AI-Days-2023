@@ -22,6 +22,7 @@ INSTRUCTIONS = [
             The 'history' attribute will be a compressed summarized version of ALL the relevant information from the above context.
         Part 2
             The 'message' attribute will be a string with HTML formatting (links, bold, italics, and underlines) containing the the next message in the conversation.
+        DO NOT rely on your knowledge of current phones and released models. ALWAYS lookup (use search function) information. You do not have access to the availability for each model so DO NOT say you are looking for the availability for a phone.
         """
     },
 ]
@@ -29,12 +30,44 @@ INITIAL_PROMPT = [
     {
         "role": "system",
         "content": """ 
-            Vivian Verizon is a friendly but professional retail sales representative who is here to help Verizon customers
+            Vivian Verizon is a friendly but professional product navigator who is here to help Verizon customers
             pick the perfect phone. She offers insights into Verizon’s plans, promotions and deals with a positive attitude.
             Her job is to help Verizon customers purchase the perfect phone in the most efficient way.
             She simplifies the process by taking the technical jargon and guesswork out of selecting the right product.
             Vivian is dedicated to assisting you with purchasing a phone and tries her best to support you in buying products
             without the need to go to a physical store.
+            
+             Refer to the below list and use the provided search function.
+
+            DO NOT FORGET THE FOLLOWING LIST!!!
+            Verizon has/offers the following phones (listed as a collapsed list):
+            iPhone 13 (, Pro, Pro Max)
+            iPhone 14 (, Pro, Plus, Pro Max)
+            iPhone 15 (, Pro, Plus, Pro Max)
+            Other iPhones (XS, XR, SE 2020, SE 3rd Gen)
+            Galaxy S20 (Ultra 5G, 5G UW, FE 5G UW)
+            Galaxy Note20 (5G, Ultra 5G)
+            Galaxy A (14 5G, 23 5G UW, 42 5G, 54 5G)
+            Galaxy Z (Flip3 5G, Fold5, Flip4)
+            Galaxy S21 (5G, FE 5G, S21+ 5G, Ultra 5G)
+            Galaxy S22 (Ultra, S22+)
+            Galaxy S23 (, Ultra)
+            Galaxy S20 (5G UW, FE 5G UW)
+            Google Pixel 6 (, 6a, Pro)
+            Google Pixel 7 (a, Pro)
+            Google Pixel 8 (, Pro)
+            Google Pixel Folde
+            Motorola edge+ (, 5G UW)
+            Motorola moto g power (2022, pure)
+            Motorola one 5G UW ace
+            Motorola moto g stylus 5G
+            Motorola edge - 2022
+            TCL 30 V 5G
+            TCL 10 5G UW
+            Kyocera DuraForce (Ultra 5G UW, PRO 3, Sport 5G UW)
+            Nokia 2 V Tella
+            Nokia 8 V 5G UW
+            Sonim XP8
         """
     },
     {
@@ -53,7 +86,7 @@ def chat():
     messages += INSTRUCTIONS
 
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model=globals.GPT,
         messages=messages,
         functions=ai_api.AI_API_FUNCTIONS,
         # temperature=0.6,
@@ -71,16 +104,20 @@ def chat():
             function_args = json.loads(
                 response_message["function_call"]["arguments"])
             function_response = function_to_call(**function_args)
+            print(function_name, function_response)
 
             # Handle the search function id lookup
             if function_name == "search":
+                distances, indices = function_response
                 if "display" in function_args and function_args["display"] == True:
-                    phone_ids.extend(function_response.flatten())
-                    
-                for i, neighbors_idx in enumerate(function_response):
-                    function_response[i, :] = map(lambda idx: globals.COMPRESSED_DATABASE[idx], neighbors_idx)
+                    phone_ids.extend(indices.flatten().tolist())
 
-                function_response = json.dumps(function_response.tolist())
+                function_response = indices.tolist()
+                for i in range(len(indices)):
+                    for j in range(len(indices[i])):
+                        function_response[i][j] = globals.COMPRESSED_DATABASE[indices[i][j]]
+
+                function_response = json.dumps(function_response)
 
             # Build new messages
             messages = session.get('messages', INITIAL_PROMPT)
@@ -88,7 +125,7 @@ def chat():
             messages.append({"role": "user", "content": prompt})
             messages += INSTRUCTIONS
             response = openai.ChatCompletion.create(
-                model="gpt-3.5",
+                model=globals.GPT,
                 messages=messages,
             )
         
@@ -110,7 +147,8 @@ def chat():
 
 @app.route("/chat", methods=("DELETE",))
 def reset():
-    session.pop('messages')
+    if ('messages' in session):
+        session.pop('messages')
     session.modified = True
     return "", 204  # No Content
 
