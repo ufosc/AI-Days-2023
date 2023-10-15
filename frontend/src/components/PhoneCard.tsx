@@ -39,7 +39,48 @@ export default function PhoneCard(props: Props) {
     // @ts-ignore
     // @ts-ignore
     return (
-        <div style={{ width: width, height: height, position: 'relative' }}>
+        <div
+            style={{
+                height: '100%',
+                position: 'relative',
+            }}
+        >
+            <p
+                style={{
+                    fontSize: '14px',
+                    marginLeft: '10px',
+                    marginRight: '10px',
+                    textAlign: 'center',
+                    fontWeight: 'bold',
+                    marginBottom: '1px',
+                }}
+            >
+                {props.phone.name}
+            </p>
+            <p
+                style={{
+                    fontSize: '12px',
+                    marginLeft: '10px',
+                    marginRight: '10px',
+                    textAlign: 'center',
+                    fontWeight: 'bold',
+                    marginBottom: '1px',
+                }}
+            >
+                {props.phone.color + '-' + props.phone.storage + 'GB'}
+            </p>
+            <p
+                style={{
+                    fontSize: '12px',
+                    marginLeft: '10px',
+                    marginRight: '10px',
+                    textAlign: 'center',
+                    fontWeight: 'bold',
+                    marginBottom: '5px',
+                }}
+            >
+                {'$' + props.phone.price + ''}
+            </p>
             <Image
                 src={props.phone.images[0]}
                 width={width}
