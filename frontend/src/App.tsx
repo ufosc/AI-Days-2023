@@ -57,10 +57,6 @@ export default class App extends Component<{}, State> {
             .then((phones) => {
                 if (phones) this.setState({ phones });
             })
-            .then(() => {
-                this.addFavorite(0);
-            });
-        this.addFavorite(60);
     }
 
     appendMessage(msg: Message) {
@@ -121,16 +117,16 @@ export default class App extends Component<{}, State> {
         return (
             <div>
                 <header>
-                    <PageHeader />
+                    <PageHeader/>
                 </header>
 
-                <Container style={{ width: 1200 }} fluid>
+                <Container style={{ width: '80vw' }} fluid>
                     <Row>
                         <Col
                             md={4}
                             style={{
                                 display: 'flex',
-                                justifyContent: 'left',
+                                justifyContent: 'center',
                                 alignItems: 'center',
                             }}
                         >
@@ -140,7 +136,7 @@ export default class App extends Component<{}, State> {
                             md={8}
                             style={{
                                 display: 'flex',
-                                justifyContent: 'right',
+                                justifyContent: 'center',
                                 alignItems: 'center',
                             }}
                         >

@@ -29,8 +29,10 @@ export default function ChatLog({ messages, phones, addFavorite }: Props) {
             <div
                 ref={ref}
                 style={{
-                    maxHeight: '50vh',
-                    minHeight: '50vh',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'flex-end',
+                    height: '100%',
                     overflow: 'scroll',
                     scrollbarWidth: 'none',
                 }}

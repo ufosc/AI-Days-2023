@@ -20,8 +20,9 @@ export default function InputBar({ handleQuery }: Props) {
         <div
             style={{
                 borderRadius: 10,
-                border: 'solid',
+                border: '1px solid rgb(224, 224, 224)',
                 padding: '10px 8px 10px 8px',
+                backgroundColor: 'white',
                 margin: 10,
             }}
         >

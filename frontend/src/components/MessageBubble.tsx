@@ -14,27 +14,19 @@ export default function MessageBubble({ message, phones, addFavorite }: Props) {
     console.log(phone_ids, phonesInGallery);
     return (
         <div>
-            <div style={{ display: 'block' }}>
-                <PhoneGallery
-                    phones={phonesInGallery}
-                    addFavorite={addFavorite}
-                />
-            </div>
-            <div
-                style={{
+            <div style={{
                     display: 'flex',
-                    margin: '0 5px 4px 5px',
+                    margin: '4px 5px 4px 5px',
                     justifyContent:
                         role == 'assistant' ? 'flex-start' : 'flex-end',
-                }}
-            >
+                }}>
                 <div
                     dangerouslySetInnerHTML={{ __html: content }}
                     style={{
                         display: 'inline-block',
                         borderRadius: 10,
-                        maxWidth: 400,
-                        padding: '5px 7px 5px 7px',
+                        maxWidth: '75%',
+                        padding: '10px 15px 10px 15px',
                         fontFamily: 'Inter',
                         fontSize: 14,
                     }}
@@ -45,6 +37,13 @@ export default function MessageBubble({ message, phones, addFavorite }: Props) {
                     }
                 />
             </div>
+            <div style={{padding: '10px 0px 0px 10px', display: 'block' }}>
+                <PhoneGallery
+                    phones={phonesInGallery}
+                    addFavorite={addFavorite}
+                />
+            </div>
+
         </div>
     );
 }
