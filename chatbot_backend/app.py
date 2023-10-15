@@ -59,6 +59,42 @@ def repsonse():
     )
 
     try:
+        response_message = response["choices"][0]["message"]
+        phone_ids = []
+
+        # If the response contains a function call, call the function
+        if response_message.get("function_call"):
+            available_functions = ai_api.AI_API_AVAILABLE_FUNCTIONS
+            function_name = response_message["function_call"]["name"]
+            function_to_call = available_functions[function_name]
+            function_args = json.loads(response_message["function_call"]["arguments"])
+            function_response = function_to_call(**function_args)
+            if function_name == "search":
+                messages = session.get('messages', INITIAL_PROMPT)
+                messages.append({
+                "role": "function",
+                "name": function_name,
+                "content": function_response,
+            })
+                messages.append({"role": "user", "content": prompt})
+                messages += INSTRUCTIONS
+            elif function_name == "get_available_models":
+                phone_jsons = []
+                phone_ids = function_response
+                for idx in function_response:
+                    phone_jsons.append(globals.COMPRESSED_DATABASE[idx])
+                messages = session.get('messages', INITIAL_PROMPT)
+                messages.append({
+                    "role": "function",
+                    "name": function_name,
+                    "content": phone_jsons,
+                })
+                messages.append({"role": "user", "content": prompt})
+                messages += INSTRUCTIONS
+            response = openai.ChatCompletion.create(
+                model="gpt-4",
+                messages=messages,
+            )
         resp_object = json.loads(response["choices"][0]["message"]["content"])
         message = resp_object['message']
         history = resp_object['history']
@@ -73,7 +109,7 @@ def repsonse():
 
     session.modified = True
 
-    return Message(response['choices'][0]['message']['role'], response['choices'][0]['message']['content'], [])
+    return Message(response['choices'][0]['message']['role'], response['choices'][0]['message']['content'], phone_ids)
 
 
 @app.route("/chat", methods=("DELETE",))

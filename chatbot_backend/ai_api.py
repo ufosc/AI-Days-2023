@@ -2,8 +2,6 @@ import json
 import openai
 from globals import EMBEDDING_MODEL, KNN_TREE, COMPRESSED_DATABASE
 
-__all__ = ["get_available_models", "search"]
-
 AI_API_FUNCTIONS = [ 
     {
         "name": "get_available_models",
@@ -111,3 +109,5 @@ def search(phone_spec: str, k=3, cutoff=0.5):
     phone_spec_embedding = openai.Embedding.create(input=str(phone_spec), model=EMBEDDING_MODEL)
     distances, indices = KNN_TREE.query([embedding_obj["embedding"] for embedding_obj in phone_spec_embedding['data']], k=k)
     return [i if d > cutoff else None for i, d in zip(indices, distances)]
+
+AI_API_AVAILABLE_FUNCTIONS = {"get_available_models": get_available_models, "search": search}
