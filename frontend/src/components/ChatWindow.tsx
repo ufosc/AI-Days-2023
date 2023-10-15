@@ -22,7 +22,7 @@ export default function ChatWindow({
             <Window>
                 <div
                     style={{
-                        margin: '10px',
+                        margin: '0 10px 0 10px',
                         height: '100%',
                         display: 'flex',
                         flexDirection: 'column',

@@ -1,5 +1,5 @@
 import MessageBubble from './MessageBubble.tsx';
-import { Message, Phone } from '../backend/types.ts';
+import {Message, Phone} from '../backend/types.ts';
 import {useEffect, useRef} from 'react';
 
 interface Props {
@@ -8,7 +8,7 @@ interface Props {
     addFavorite: (phone_id: number) => void;
 }
 
-export default function ChatLog({ messages, phones, addFavorite }: Props) {
+export default function ChatLog({messages, phones, addFavorite}: Props) {
     const ref = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -25,32 +25,18 @@ export default function ChatLog({ messages, phones, addFavorite }: Props) {
     };
 
     return (
-        <div>
-            <div
-                ref={ref}
-                style={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'flex-end',
-                    height: '100%',
-                    overflow: 'scroll',
-                    scrollbarWidth: 'none',
-                }}
-                className={'hide-scrollbar'}
-            >
-                {messages.map((m, index) => (
-                    <MessageBubble
-                        key={index}
-                        message={m}
-                        phones={phones}
-                        addFavorite={addFavorite}
-                    />
-                ))}
-
-            </div>
-            <div>
-
-            </div>
+        <div ref={ref}
+            style={{overflow: "scroll", maxHeight: "55vh"}}
+            className={'hide-scrollbar'}
+        >
+            {messages.map((m, index) => (
+                <MessageBubble
+                    key={index}
+                    message={m}
+                    phones={phones}
+                    addFavorite={addFavorite}
+                />
+            ))}
         </div>
     );
 }
