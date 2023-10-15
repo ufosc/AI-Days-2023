@@ -28,4 +28,4 @@ information from a large set of structured data. This enables Vivian to give res
 We collected current data from Verizon's selection of available smartphones keeping track of information such as price, color, storage, camera, battery, images, URLs, etc. Data normalization and semantic embedding was needed to remain robust against the variety of smartphone formats. This allowed us to search our structured data using unstructured queries taken directly from Vivian. This embedding strategy also allowed Vivian to draw graphical elements to the frontend.
 
 ## Screenshots
-<img width="201" alt="vivian" src="https://github.com/RobertConde/AI-Days-2023/assets/72950525/61d99945-6ab6-427f-a208-10d854433452">
+<img width="894" alt="Vivian" src="https://github.com/RobertConde/AI-Days-2023/assets/72950525/39853fa8-7c4d-46c5-be33-e3c72029d6aa">
